@@ -62,6 +62,8 @@
         {% if site.github.is_project_page %}
         <!-- maker owner name and url customisable -->
         <p>This project is maintained by <a href="{{ site.owner_url | default: site.github.owner_url }}">{{ site.owner_name | default: site.github.owner_name}}</a></p>
+        {% else %}
+        <p>This site is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a></p>
         <!-- change end -->
         {% endif %}
       </footer>

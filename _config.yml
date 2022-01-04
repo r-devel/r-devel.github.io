@@ -3,6 +3,8 @@ title: R Contribution Site
 logo: /assets/img/Rlogo.svg
 description:
 show_downloads: false
+github:
+  is_project_page: false
 owner_url: https://github.com/r-devel/rcontribution
 owner_name: the R Contribution Working Group
 navigation:

@@ -2,7 +2,7 @@
 layout: custom
 ---
 
-# R Contribution Site
+# R Contributor Site
 
 This is a site for people interested in contributing to R core - the code and documentation that gets distributed as base R.
 
