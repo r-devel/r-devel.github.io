@@ -36,7 +36,7 @@ To build the site and make it available on a local server, run the following com
 bundle exec jekyll serve
 ```
 
-If you use RStudio, you can open the `rcontribution.Rproj` project, open this `README.md` file and use `Ctrl/Cmd + Alt + Enter` to send the above line to the terminal.
+If you use RStudio, you can open this `README.md` file and use `Ctrl/Cmd + Alt + Enter` to send the above line to the terminal.
 
 Open http://localhost:4000 in your browser to preview the site. The site is repeatedly rebuilt, so if you make changes to the markdown files and save them, you should see the changes straight-away. Use `Ctrl/Cmd + C` to stop locally serving the site.
 
