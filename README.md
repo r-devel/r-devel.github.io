@@ -30,7 +30,7 @@ Any changes pushed to a different branch will not be automatically deployed to p
 
 To preview the site locally, you will need to install Jekyll, see https://jekyllrb.com/docs/ for installation instructions for common operating systems.
 
-To build the site and make it available on a local server, run the following command in a terminal from the top level directory of the locally cloned repository (i.e. in the `rcontribution` folder).
+To build the site and make it available on a local server, run the following command in a terminal from the top level directory of the locally cloned repository.
 
 ```
 bundle exec jekyll serve
