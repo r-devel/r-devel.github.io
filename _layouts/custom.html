@@ -11,8 +11,8 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
-    <!-- add Plausible snippet: see https://plausible.io/forwards.github.io%2Frcontribution for analytics dashboard -->
-    <script defer data-domain="forwards.github.io/rcontribution" src="https://plausible.io/js/plausible.js"></script>
+    <!-- add Plausible snippet: seehttps://plausible.io/contributor.r-project.org for analytics dashboard -->
+    <script defer data-domain="contributor.r-project.org" src="https://plausible.io/js/plausible.js"></script>
     <!-- change end -->
   </head>
   <body>
@@ -60,8 +60,8 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <!-- maker owner name customisable -->
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.owner_name | default: site.github.owner_name}}</a></p>
+        <!-- maker owner name and url customisable -->
+        <p>This project is maintained by <a href="{{ site.owner_url | default: site.github.owner_url }}">{{ site.owner_name | default: site.github.owner_name}}</a></p>
         <!-- change end -->
         {% endif %}
       </footer>

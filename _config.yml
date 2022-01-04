@@ -3,6 +3,7 @@ title: R Contribution Site
 logo: /assets/img/Rlogo.svg
 description:
 show_downloads: false
+owner_url: https://github.com/r-devel/rcontribution
 owner_name: the R Contribution Working Group
 navigation:
   - title: Home
@@ -14,8 +15,12 @@ navigation:
   - title: Tutorials
     url: tutorials
   - title: Guide to R Development
-    url: https://forwards.github.io/rdevguide/
+    url: https://contributor.r-project.org/rdevguide/
   - title: R Contribution Working Group
     url: working-group
   - title: R Developer Page
     url: https://developer.r-project.org/
+  - title: R Developer Blog
+    url: https://developer.r-project.org/Blog/public/
+  - title: R SVN CI Dashboard
+    url: https://contributor.r-project.org/svn-dashboard

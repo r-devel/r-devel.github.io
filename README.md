@@ -1,4 +1,4 @@
-# Source for [R Contribution Site](https://github.com/forwards/rcontribution)
+# Source for [R Contributor Site](https://contributor.r-project.org/)
 
 ## Website structure
 
