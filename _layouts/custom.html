@@ -60,10 +60,16 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <!-- maker owner name and url customisable -->
+        <!-- make owner name and url customisable -->
         <p>This project is maintained by <a href="{{ site.owner_url | default: site.github.owner_url }}">{{ site.owner_name | default: site.github.owner_name}}</a></p>
         {% else %}
-        <p>This site is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a></p>
+        <p>This site is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a>
+        <br>
+         <a href="{{ site.twitter }}" target="_blank">
+	       <img src="{{ '/assets/img/twitterlogo.png' | relative_url }}" height="20" alt="RCWG Twitter profile" style="vertical-align:middle;" border="0"></a>
+	       <a href="{{ site.github }}" target="_blank">
+	       <img src="{{ '/assets/img/githublogo.png' | relative_url }}" height="20" alt="R-devel GitHub organization" style="vertical-align:middle;" border="0"></a>
+        </p>
         <!-- change end -->
         {% endif %}
       </footer>

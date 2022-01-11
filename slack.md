@@ -4,7 +4,7 @@ layout: custom
 
 # R-devel Slack
 
-The R-devel Slack is a supportive space to foster the community of R developers contributing to R core:
+The R-devel Slack is a supportive space to foster the community of contributors to R core development:
 
 - **Potential/novice contributors** wanting support to get started/develop as contributors.
 - **Experienced contributors and members of R Core** willing to provide ad-hoc support.
