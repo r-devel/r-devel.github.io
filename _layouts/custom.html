@@ -4,9 +4,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="icon" type="image/png"  href="assets/img/favicon.png">
+    <link rel="icon" type="image/png"  href="/assets/img/favicon.png">
     <!-- changed title -->
-    <title>{{ site.title | default: site.github.repository_name }}</title>
+    {% if page.url == "/" %}
+       <title>{{ site.title }}</title>
+    {% else %}
+        <title>{{ page.title }} - {{ site.title }}</title>
+    {% endif %}
+    <!-- change end -->
+    <!-- change: added metadata -->
+    {% include metadata.html %}
     <!-- change end -->
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -65,10 +72,10 @@
         {% else %}
         <p>This site is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a>
         <br>
-         <a href="{{ site.twitter }}" target="_blank">
-	       <img src="{{ '/assets/img/twitterlogo.png' | relative_url }}" height="20" alt="RCWG Twitter profile" style="vertical-align:middle;" border="0"></a>
-	       <a href="{{ site.github }}" target="_blank">
-	       <img src="{{ '/assets/img/githublogo.png' | relative_url }}" height="20" alt="R-devel GitHub organization" style="vertical-align:middle;" border="0"></a>
+         <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+	       <img src="{{ '/assets/img/twitterlogo.png' | relative_url }}" height="20" alt="{{ site.twitter_alt }}" style="vertical-align:middle;" border="0"></a>
+	       <a href="https://github.com/{{ site.github }}" target="_blank">
+	       <img src="{{ '/assets/img/githublogo.png' | relative_url }}" height="20" alt="{{ site.github_alt }}" style="vertical-align:middle;" border="0"></a>
         </p>
         <!-- change end -->
         {% endif %}

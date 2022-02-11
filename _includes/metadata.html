@@ -1,0 +1,36 @@
+<!-- will probably need adapting if we add blog pages -->
+
+<!-- Basic metadata -->
+
+<!-- author -->
+<meta name = "description" content="{{ page.description | default:site.description }}">
+<meta name="keywords" content="R, contribution, open source, FOSS, community" />
+
+<!-- Open Graph https://ogp.me/ -->
+<!-- https://developers.facebook.com/tools/debug/ -->
+
+<!-- required -->
+<meta property="og:title" content="{{ page.title | default:site.title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="{{ site.url }}{{ page.image | default:site.logo }}" />
+<!-- do we want image structured properties here? e.g. image:alt -->
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+
+<!-- optional -->
+<meta property="og:description" content="{{ page.description | default:site.description }}" />
+
+<!-- Twitter cards -->
+<!-- https://cards-dev.twitter.com/validator -->
+
+<meta name="twitter:site"    content="@{{ site.twitter }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.summary | default:site.description }}">
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.logo }}">
+{% endif %}
+

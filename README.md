@@ -22,7 +22,7 @@ You can edit the markdown files on the `gh-pages` branch and the changes will be
 
 ## Substantial editing
 
-If you are making substantial changes, e.g. adding a new page, or making changes that require collaborating editing/review before being pushed, create a branch from the gh-pages branch and make the changes there.
+If you are making substantial changes, e.g. adding a new page, or making changes that require collaborating editing/review before being pushed, create a branch and make the changes there.
 
 Any changes pushed to a different branch will not be automatically deployed to preview. so if the GitHub editor preview is not sufficient (i.e. you are doing more than editing a single page) it is best to clone the repo and make your changes locally.
 
@@ -63,3 +63,7 @@ Use the full URL for external pages, e.g.
 ## Website theme
 
 This is a GitHub pages site, using the [modified minimal Jekyll theme](https://github.com/kbsezginel/gh-pages-template) by [kbsezginel](https://github.com/kbsezginel). The [theme documentation](https://kbsezginel.github.io/gh-pages-template/setup) provides instructions for initial setup and customization, which are probably not required for day-to-day editing.
+
+## Icons
+
+Some icons obtained from https://uxwing.com.

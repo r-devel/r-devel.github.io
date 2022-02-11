@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 title: R Contributor Site
+description: A site for people interested in contributing to R core -
+  the code and documentation that gets distributed as base R.
 logo: /assets/img/Rlogo.svg
 description:
 show_downloads: false
@@ -7,8 +9,10 @@ github:
   is_project_page: false
 owner_url: working-group
 owner_name: the R Contribution Working Group
-twitter: https://twitter.com/R_Contributors
-github: https://github.com/r-devel/
+twitter: R_Contributors
+twitter_alt: RCWG Twitter profile
+github: r-devel
+github_alt: R-devel GitHub organization
 navigation:
   - title: Home
     url: /
