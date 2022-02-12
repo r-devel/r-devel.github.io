@@ -11,6 +11,7 @@ owner_url: working-group
 owner_name: the R Contribution Working Group
 twitter: R_Contributors
 twitter_alt: RCWG Twitter profile
+twitter_image: assets/img/Rlogo-white.png
 github: r-devel
 github_alt: R-devel GitHub organization
 navigation:
