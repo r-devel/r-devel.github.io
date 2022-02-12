@@ -47,18 +47,16 @@ You will need to restart the server if you add/remove items from the menu.
 Please use the following YAML fields when creating new pages:
 
     ---
-    title: Title in Title Case
     description: Short description, less than 160 characters.
-    image: image-file.jpg
     layout: custom
     ---
-    
-These are used to create cards when sharing links on social media. 
+
+The layout should always be `custom`.   
+The description is used to create cards when sharing links on social media. 
+The title and image (including alternative text) are automatically taken from the page content, using the first `<h1>` header and image respectively.
 The image file should be in the same directory as the markdown file.
-JPG, PNG, WEBP and GIF formats are supported. 
-Only the first frame of an animated GIF will be used.
-The layout should always be `custom`. 
-The title will be added to the post as a level 1 header.
+JPG, PNG, WEBP and GIF formats are supported (only the first frame of an animated GIF will be used).
+
 You can check how the card will look using the following validators:
 
  - https://cards-dev.twitter.com/validator
@@ -69,7 +67,6 @@ The Facebook debugger requires log in; you can ignore the following warning
     The following required properties are missing: fb:app_id
     
 as that property is not required.
-
 
 ### Editing the menu
 
