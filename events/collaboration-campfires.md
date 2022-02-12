@@ -1,8 +1,9 @@
 ---
+title: Collaboration Campfires
+description: Collaborative sessions for newcomers to learn more about contributing to R.
+image: collaboration-campfires.jpg
 layout: custom
 ---
-
-# Collaboration Campfires
 
 *Learn how to contribute to R!*
 

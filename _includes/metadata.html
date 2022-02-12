@@ -12,7 +12,7 @@
 <!-- required -->
 <meta property="og:title" content="{{ page.title | default:site.title }}" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="{{ page.image | default:site.logo | absolute_url }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.dir }}{{ page.image | default:site.logo }}" />
 <!-- do we want image structured properties here? e.g. image:alt -->
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 
@@ -24,11 +24,11 @@
 
 <meta name="twitter:site"    content="@{{ site.twitter }}">
 <meta name="twitter:title"   content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.summary | default:site.description }}">
+<meta name="twitter:description" content="{{ page.description | default:site.description }}">
 
 {% if page.image %}
 <meta name="twitter:card"  content="summary_large_image">
-<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+<meta name="twitter:image" content="{{ site.url }}{{ page.dir }}{{ page.image }}">
 {% else %}
 <meta name="twitter:card"  content="summary">
 <meta name="twitter:image" content="{{ site.logo | absolute_url }}">

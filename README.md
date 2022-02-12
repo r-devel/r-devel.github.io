@@ -64,6 +64,11 @@ Use the full URL for external pages, e.g.
 
 This is a GitHub pages site, using the [modified minimal Jekyll theme](https://github.com/kbsezginel/gh-pages-template) by [kbsezginel](https://github.com/kbsezginel). The [theme documentation](https://kbsezginel.github.io/gh-pages-template/setup) provides instructions for initial setup and customization, which are probably not required for day-to-day editing.
 
+### Jekyll/Liquid notes
+
+* `| relative.url` filter will make path relative (add `/` at beginning if necessary)
+* `| absolute.url` filter will add the site domain at the start
+
 ## Icons
 
 Some icons obtained from https://uxwing.com.

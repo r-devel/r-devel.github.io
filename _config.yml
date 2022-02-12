@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 title: R Contributor Site
 description: A site for people interested in contributing to R core -
   the code and documentation that gets distributed as base R.
-logo: /assets/img/Rlogo.svg
+logo: assets/img/Rlogo.png
 description:
 show_downloads: false
 github:

@@ -62,6 +62,9 @@
       </header>
       <section>
 
+      {% if page.title %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
       {{ content }}
 
       </section>
@@ -73,9 +76,9 @@
         <p>This site is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a>
         <br>
          <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
-	       <img src="{{ '/assets/img/twitterlogo.png' | relative_url }}" height="20" alt="{{ site.twitter_alt }}" style="vertical-align:middle;" border="0"></a>
+	       <img src="{{ '/assets/img/twitterlogo.png' }}" height="20" alt="{{ site.twitter_alt }}" style="vertical-align:middle;" border="0"></a>
 	       <a href="https://github.com/{{ site.github }}" target="_blank">
-	       <img src="{{ '/assets/img/githublogo.png' | relative_url }}" height="20" alt="{{ site.github_alt }}" style="vertical-align:middle;" border="0"></a>
+	       <img src="{{ '/assets/img/githublogo.png' }}" height="20" alt="{{ site.github_alt }}" style="vertical-align:middle;" border="0"></a>
         </p>
         <!-- change end -->
         {% endif %}
