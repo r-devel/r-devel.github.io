@@ -42,6 +42,35 @@ Open http://localhost:4000 in your browser to preview the site. The site is repe
 
 You will need to restart the server if you add/remove items from the menu.
 
+### Creating pages
+
+Please use the following YAML fields when creating new pages:
+
+    ---
+    title: Title in Title Case
+    description: Short description, less than 160 characters.
+    image: image-file.jpg
+    layout: custom
+    ---
+    
+These are used to create cards when sharing links on social media. 
+The image file should be in the same directory as the markdown file.
+JPG, PNG, WEBP and GIF formats are supported. 
+Only the first frame of an animated GIF will be used.
+The layout should always be `custom`. 
+The title will be added to the post as a level 1 header.
+You can check how the card will look using the following validators:
+
+ - https://cards-dev.twitter.com/validator
+ - https://developers.facebook.com/tools/debug/ 
+ 
+The Facebook debugger requires log in; you can ignore the following warning
+
+    The following required properties are missing: fb:app_id
+    
+as that property is not required.
+
+
 ### Editing the menu
 
 To edit the menu you need to edit the `navigation` field of `_config.yml`.
@@ -59,6 +88,9 @@ Use the full URL for external pages, e.g.
   - title: R Developer Page
     url: https://developer.r-project.org/
 ```  
+
+Like any change to `config.yml`, you will need to restart the Jekyll server for 
+the change to take effect (when previewing locally).
 
 ## Website theme
 
