@@ -46,8 +46,8 @@ If you have a friend or colleague who might be interested in attending the Colla
   <div class="column-3">
     <img src="heather-turner.jpg" alt="Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt." style="width:100%">
     <big><b>Heather Turner</b></big> <br>
-    <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner" target="_blank"><img src="/assets/img/twitterlogo.png" height="20" style="vertical-align:middle;" border="0"></a>
-    <a href="https://saranjeetkaur.github.io/About-Me/" target="_blank"><img src="/assets/img/link.png" height="20" style="margin:10px; vertical-align:middle;" border="0"></a>
+    <a href="https://twitter.com/heathrturnr" target="_blank"><img src="/assets/img/twitterlogo.png" height="20" style="vertical-align:middle;" border="0"></a>
+    <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner" target="_blank"><img src="/assets/img/link.png" height="20" style="margin:10px; vertical-align:middle;" border="0"></a>
   </div>
 </div>
 
