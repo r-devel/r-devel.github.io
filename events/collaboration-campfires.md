@@ -57,6 +57,10 @@ If you have any questions about the events, please contact [heather@r-project.or
 
 The Collaboration Campfires are part of the project [Building Community around the R Development Guide](https://incubator.codeforscience.org/cohort), supported by the Digital Infrastructure Incubator at [Code for Science & Society (CS&S)](https://codeforscience.org/). The project is led by Saranjeet Kaur Bhogal and Heather Turner, and mentored by [Rayya El Zein](https://www.rayyasunayma.com/). Members of partner communities and the R Contribution Working Group have contributed to the organisation, and will provide expert and peer support during the sessions.
 
+## Code of Conduct
+
+As CS&S events, their [code of conduct](Guidelines for community participation & Code of Conduct: (https://eventfund.codeforscience.org/code-of-conduct/) will apply to these sessions.
+
 <center>
 <a href = "https://codeforscience.org/">
 <img src="code-for-science-and-society.png" alt="Code for Science and Society logo" style="width:200px">
