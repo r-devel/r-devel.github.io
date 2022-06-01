@@ -8,14 +8,14 @@ layout: custom
 
 *Help squash bugs in R!*
 
-The Bug Barbecue (Bug BBQ) is a global, online event spread over 24 hours, in which new and experienced contributors can help to address open bugs in R's bug tracker.
+The Bug Barbecue (Bug BBQ) is a global, online event spread over 24 hours, in which new and experienced contributors can help to address open bugs in R.
 
 <center>
 <img src="bug-catching.jpg" alt="People catching different insects in different ways - representing bugs in the R project." style="height:400px"><br>
 <small>This image was created by <a href = "http://www.scriberia.co.uk/"> Scriberia</a> for The Turing Way community and is used under a CC-BY licence.<br><br></small>
 </center>
 
-It is a satellite event to [useR! 2022](https://user2022.r-project.org/), however you do not need to register for useR! to attend the Bug BBQ, it is open to all.
+It is a satellite event to [useR! 2022](https://user2022.r-project.org/), however you do not need to register for useR! to attend the Bug BBQ.
 
 ## Schedule
 
