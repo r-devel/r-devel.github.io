@@ -22,11 +22,11 @@ It is a satellite event to [useR! 2022](https://user2022.r-project.org/), howeve
 There will be three organized sessions during the event and people are welcome to attend one or more session.
 The three sessions are suited to different regions of the globe, as detailed below.
 
- - Session 1 (APAC), Friday, June 24, 01:00  - 05:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+1&iso=20220624T01&p1=%3A&ah=4), note this starts on Thursday evening, June 23 in AMER region).
- - Session 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+2&iso=20220624T09&p1=%3A&ah=4))
- - Session 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+3&iso=20220624T16&p1=%3A&ah=4))
+ - Session 1 (APAC), Friday, June 24, 01:00  - 05:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+1&iso=20220624T01&p1=%3A&ah=4), note this starts on Thursday evening, June 23 in AMER region). [[Register for Session 1]](https://rstudio.zoom.us/meeting/register/tJEkdOmrrTopHtSNgAoZ3EnYHxH51-29AGkD)
+ - Session 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+2&iso=20220624T09&p1=%3A&ah=4)). [[Register for Session 2]](https://rstudio.zoom.us/meeting/register/tJYsd-GgqD0vHtPwh-Ni67h7ArW0B0c9342L)
+ - Session 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+3&iso=20220624T16&p1=%3A&ah=4)). [[Register for Session 2]](https://rstudio.zoom.us/meeting/register/tJ0vd-6tqzovG9dSASxdZ93mbxOJs8MI2HX_)
 
-There is no cost to attend - details of how to join the Zoom sessions will be added in due course. 
+There is no cost to attend. 
 
 ## Session format
 
