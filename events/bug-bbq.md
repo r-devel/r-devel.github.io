@@ -26,7 +26,7 @@ Session 1 (APAC), Friday, June 24, 01:00  - 05:00 UTC ([your local time](https:/
 
 Session 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+2&iso=20220624T09&p1=%3A&ah=4)). [[Register for Session 2]](https://rstudio.zoom.us/meeting/register/tJYsd-GgqD0vHtPwh-Ni67h7ArW0B0c9342L)
 
-Session 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+3&iso=20220624T16&p1=%3A&ah=4)). [[Register for Session 2]](https://rstudio.zoom.us/meeting/register/tJ0vd-6tqzovG9dSASxdZ93mbxOJs8MI2HX_)
+Session 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC ([your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Bug+BBQ+Session+3&iso=20220624T16&p1=%3A&ah=4)). [[Register for Session 3]](https://rstudio.zoom.us/meeting/register/tJ0vd-6tqzovG9dSASxdZ93mbxOJs8MI2HX_)
 
 There is no cost to attend. Registration can be done any time up to the end of each session and allows you to join the Zoom meeting to chat with facilitators and other participants.
 
