@@ -36,7 +36,7 @@ Each session is self-guided, to allow people to get started whenever they can jo
 
 When you join: (links to videos to be added)
 
-1. [Optional, for new contributors] Watch the Contributing to R tutorial video from useR! 2021 (1.5 hours). 
+1. [Optional, for new contributors] Watch the abridged version of the [Contributing to R tutorial](https://youtu.be/tsymQiL2BY0) from useR! 2021 (~1.5 hours). 
 At least one of the tutors, Gabriel Becker and Martin Mächler, will be available for questions in each of the sessions.
 2. Watch the Welcome to Bug BBQ video to get orientated.
 3. Use the remaining time to work independently or in small groups on open bugs.
