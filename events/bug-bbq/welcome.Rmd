@@ -90,7 +90,7 @@ In this Diff viewer, the original source code is on the left and the proposed up
 
 ???
 
-For the Bug BBQ, we will be treating R's Bugzilla as ready only. We have set up a GitHub repo for this event, to allow informal discussion of bugs and to track any contributions. This screenshot shows the homepage for that repo, which you can find at github.com/r-devel/bug-bbq. Scroll down to see the README which contains instructions on how to participate. The rest of this presentation will give an overview of these instructions.
+For the Bug BBQ, we will be treating R's Bugzilla as read only. We have set up a GitHub repo for this event, to allow informal discussion of bugs and to track any contributions. This screenshot shows the homepage for that repo, which you can find at github.com/r-devel/bug-bbq. Scroll down to see the README which contains instructions on how to participate. The rest of this presentation will give an overview of these instructions.
 
 ---
 
@@ -172,7 +172,7 @@ Once the cause of the bug is known, there should be a discussion about how to fi
 
 ???
 
-Bugs labelled "discuss fix", we need help deciding how to fix the bug. 
+For bugs labelled "discuss fix", we need help deciding how to fix the bug. 
 
 You can share your opinions about any proposed approach or propose your own approach in a comment on the GitHub issue.
 
@@ -253,26 +253,33 @@ There are 3 Zoom sessions of 4 hours
  
 ???
 
-You can work on bugs anytime during the 24 hour event (or beyond!)
+You can work on bugs anytime during the 24 hour event 
 
-The #bug-bbq channel on the R-Devel Slack is available all the time for you to 
- - Discuss bugs in threads, or to
- - Get help in main channel
+The #bug-bbq channel on the R-Devel Slack is available all the time for you to discuss bugs in threads, or get help in main channel.
  
-In the scheduled Zoom sessions you can
- - Join a breakout room to discuss bugs on a video call and work together, or you can hang out in the main room to
- - Get help from the facilitators or chat with experienced R contributors
+In the scheduled Zoom sessions you can join a breakout room to work with others, or you can join the main room to get help from facilitators or chat with experienced contributors.
  
 ---
 
 # Further help
 
-The bug-bbq README contains further help on:
+The bug-bbq README contains help on:
  - Accessing different versions of R, including R-devel
  - Getting a copy of the R sources
  - Modifying an R function
  - Making and testing a patch
- - Applying a patch to you copy of the R sources
+ - Applying a patch to your copy of the R sources
+ 
+For further help, please ask on Zoom or in the Slack!
+
+???
+
+The bug-bbq README contains help on:
+ - Accessing different versions of R, including R-devel
+ - Getting a copy of the R sources
+ - Modifying an R function
+ - Making and testing a patch
+ - Applying a patch to your copy of the R sources
  
 For further help, please ask on Zoom or in the Slack!
 
@@ -282,5 +289,8 @@ For further help, please ask on Zoom or in the Slack!
 ```{r, fig.alt = "Cartoon of a rocket launching", out.width = "40%", echo = FALSE}
 knitr::include_graphics("reshot-icon-rocket-ZQTKM9NG32.svg")
 ```
-
 ]
+
+???
+
+So, let's go! We look forward to meeting you during the organized sessions and hope that together we are able to make progress on open bugs in R.
