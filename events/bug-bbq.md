@@ -41,7 +41,7 @@ At least one of the tutors, Gabriel Becker and Martin Mächler, will be availabl
 2. Watch the [Welcome to the Bug BBQ](https://youtu.be/sJpOxViQdm8) video to get orientated. [Corresponding HTML slides](/welcome) - press P to see the transcript.
 3. Use the remaining time to work independently or in small groups on open bugs.
  - Zoom breakout rooms will be available for people that want to work together.
- - The #bug-bbq channel on the [R-Devel Slack](../slack) will be used for people that want to chat (this channel is not yet open).
+ - The #bug-bbq channel on the [R-Devel Slack](../slack) will be used for people that want to chat.
  - The [bug-bbq GitHub repo](https://github.com/r-devel/bug-bbq) will be used to track progress.
  
 Note: we will be treating the R Bugzilla as **read only** during the event. Please do not post there, but rather use the Zoom, Slack or GitHub repo mentioned above.
