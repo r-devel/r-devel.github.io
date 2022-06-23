@@ -13,6 +13,7 @@ always_allow_html: yes
 ```{r xaringan-themer, include = FALSE}
 library(xaringanthemer)
 style_mono_light(base_color = "#23395b",
+                 code_inline_color = "#ba2121",
                  text_font_size = "1.75rem")
 ```
 
@@ -147,7 +148,7 @@ Once the bug is reproducible in the development version of R, the cause of the b
 * Categorise as `not a bug`, `wishlist`, or `confirmed bug`
 * Report back on the GitHub issue:
  - Where and why the bug happens
- - The bug category (`not a bug`/`wishlist`/`confirmed bug`)
+ - The bug category (`not a bug`, `wishlist`, or `confirmed`)
  - Tag `@r-devel/triagers`
 
 ???
@@ -167,7 +168,7 @@ Report back your findings on the GitHub issue tagging @r-devel/triagers.
 Once the cause of the bug is known, there should be a discussion about how to fix it.
 
 * Add a comment to the GitHub issue corresponding to the bug.
-* Follow the repo to be notified of any responses and respond if you have further comment, or show your reaction by adding emoji.
+* Follow the repo to be notified of any responses and respond if you have further comment, or react with emoji.
 
 ???
 
