@@ -24,13 +24,13 @@ navigation:
     url: events
   - title: Tutorials
     url: tutorials
-  - title: Guide to R Development
+  - title: R Development Guide
     url: https://contributor.r-project.org/rdevguide/
   - title: R Contribution Working Group
     url: working-group
-  - title: R Developer Page
+  - title: R Core Developer Page
     url: https://developer.r-project.org/
-  - title: R Developer Blog
-    url: https://developer.r-project.org/Blog/public/
+  - title: R Project Blog
+    url: https://blog.r-project.org/
   - title: R SVN CI Dashboard
     url: https://contributor.r-project.org/svn-dashboard
