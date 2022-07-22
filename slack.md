@@ -2,9 +2,9 @@
 layout: custom
 ---
 
-# R-devel Slack
+# R Contributors Slack
 
-The R-devel Slack is a supportive space to foster the community of contributors to R core development:
+The R Contributors Slack is a supportive space to foster the community of contributors to R core development:
 
 - **Potential/novice contributors** wanting support to get started/develop as contributors.
 - **Experienced contributors and members of R Core** willing to provide ad-hoc support.
@@ -30,11 +30,11 @@ The administrators will remind people of the posting guide if necessary and rese
 
 By joining the Slack, members also agree to the general code of conduct below. The administrators will enforce this code of conduct and expect cooperation in ensuring a safe environment for all. 
 
-[[Join/Go to R-devel Slack]](https://join.slack.com/t/r-devel/shared_invite/zt-197n5c27b-cBehFo7M1TwwbOSpN9MzlA)
+[[Join/Go to R Contributors Slack]](https://join.slack.com/t/r-contributors/shared_invite/zt-1csp5ged3-Y105vPKevWb7JNGpeg8JTA)
 
 ## Code of Conduct
 
-The administrators of R-devel Slack are dedicated to providing a harassment-free workspace for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof). 
+The administrators of R Contributors Slack are dedicated to providing a harassment-free workspace for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof). 
 
 ### Expected Behaviour
 
@@ -71,7 +71,7 @@ The administrators reserves the right to determine the appropriate response for 
 
 Take screenshots of offending posts (deleted posts cannot be seen even by admins).
 
-View the [Admins & Owners](https://r-devel.slack.com/account/workspace-settings#admins) in the workspace settings (only available to members). Email or message one or more administrators listed to report the behaviour.
+View the [Admins & Owners](https://r-contributors.slack.com/account/workspace-settings#admins) in the workspace settings (only available to members). Email or message one or more administrators listed to report the behaviour.
 
 If the admins are unable to respond in a timely manner, you may flag the issue by responding to the offending post with a brief comment, e.g.
 

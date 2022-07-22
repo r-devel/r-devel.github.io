@@ -51,7 +51,7 @@ If you have a friend or colleague who might be interested in attending the Colla
   </div>
 </div>
 
-If you have any questions about the events, please contact [heather@r-project.org](mailto:heather@r-project.org) or find us on the R-devel Slack.
+If you have any questions about the events, please contact [heather@r-project.org](mailto:heather@r-project.org) or find us on the R Contributors Slack.
 
 ## Organizers and partners
 
