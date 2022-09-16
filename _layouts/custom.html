@@ -27,7 +27,7 @@
       <header>
         <!-- replace header in nav bar with R logo -->
         {% if site.logo %}
-          <img width = "50%" src="{{site.logo | relative_url}}" alt="R logo" class = "center"/>
+          <a href="/"><img width = "50%" src="{{site.logo | relative_url}}" alt="R logo" class = "center"/></a>
           <br>
         {% else %}
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
