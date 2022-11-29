@@ -18,7 +18,7 @@ You can create sub-pages by creating a folder with an `index.md` file. Any furth
   
 ## Basic editing
 
-You can edit the markdown files on the `gh-pages` branch and the changes will be automatically deployed to the live site once the changes are committed. If you edit the files directly on GitHub using the browser editor, then you can use the Preview tab to check the formatting before committing.
+You can edit the markdown files on the `main` branch and the changes will be automatically deployed to the live site once the changes are committed. If you edit the files directly on GitHub using the browser editor, then you can use the Preview tab to check the formatting before committing.
 
 ## Substantial editing
 
