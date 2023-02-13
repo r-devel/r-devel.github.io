@@ -34,3 +34,5 @@ navigation:
     url: https://blog.r-project.org/
   - title: R SVN CI Dashboard
     url: https://contributor.r-project.org/svn-dashboard
+  - title: R Universe
+    url: https://r-universe.dev
