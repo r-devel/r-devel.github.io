@@ -72,6 +72,8 @@
         {% else %}
         <p>This site is maintained by <a href="{{ site.owner_url }}">{{ site.owner_name }}</a>
         <br>
+        <a rel="me" href="{{ site.mastodon }}" target="_blank">
+	       <img src="{{ '/assets/img/mastodonlogo.svg' }}" height="20" alt="{{ site.mastodon_alt }}" style="vertical-align:middle;" border="0"></a>
          <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
 	       <img src="{{ '/assets/img/twitterlogo.png' }}" height="20" alt="{{ site.twitter_alt }}" style="vertical-align:middle;" border="0"></a>
 	       <a href="https://github.com/{{ site.github }}" target="_blank">
