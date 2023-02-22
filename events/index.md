@@ -11,5 +11,7 @@ Meetings and events for existing/aspiring R contributors.
 * [Bug BBQ](bug-bbq): a global, online event over 24 hours for both new and experienced contributors to address open bugs on R's bug tracker. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=0m51s33qv9b030ip742675lki8@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/0m51s33qv9b030ip742675lki8%40group.calendar.google.com/public/basic.ics)
 * Sprints: one-off events such as the [R Project Sprint 2023](https://contributor.r-project.org/r-project-sprint-2023){:target="_blank"} and translatathons.  [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=096ece8c4dd2994219c1e504a6d474f7964e16fe18eced1dbdb8d5323ee6297b@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/096ece8c4dd2994219c1e504a6d474f7964e16fe18eced1dbdb8d5323ee6297b%40group.calendar.google.com/public/basic.ics) 
 
+Join the [R Contributors Meetup group](https://www.meetup.com/r-contributors) to stay up-to-date with events.
+
 <iframe src="https://teamup.com/kskqth1ysymh61tiyv?view=a&showProfileAndInfo=0&showSidepanel=1&showAgendaDateRange=year&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" style="width: 100%; height: 500px; border: 1px solid #cccccc" loading="lazy" frameborder="0"></iframe>
 
