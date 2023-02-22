@@ -8,10 +8,14 @@ The R Contribution Working Group is a collaboration between R Core, R community 
 
 ## Current Work
 
-The group maintains a [GitHub repo](https://github.com/r-devel/rcontribution), with issues relating to current initiatives and related documents, such as minutes of meetings. Dates of upcoming meetings are posted there, as well as on the [Events](events) page here.
+The group maintains a [GitHub repo](https://github.com/r-devel/rcontribution), with issues relating to current initiatives and related documents, such as minutes of meetings.
 
 ## Get Involved
 
-Anyone from the R community that supports the group's objectives and would like to contribute is welcome to get involved. This can range from commenting on GitHub issues to actively working on initiatives. The [GitHub repo](https://github.com/r-devel/rcontribution) has more details, including how to join the mailing list to be invited to group meetings.
+Anyone from the R community that supports the group's objectives and would like to contribute is welcome to get involved. This can range from commenting on GitHub issues to actively working on initiatives.
+
+Stay up-to-date with RCWG meeting announcements in one of the following ways:
+ - Go to the [Events](events) page and add the event series to your calendar
+ - Email [rowforwards@gmail.com](mailto:rowforwards@gmail.com) to be added to/removed from the mailing list to receive meeting invitations.
 
 Several members of the working group are also on the [R Contributors Slack](slack) and discuss issues relevant to outreach on the `#core-outreach` channel.
