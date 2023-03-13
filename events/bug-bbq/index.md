@@ -38,7 +38,7 @@ When you join:
 
 1. [Optional, for new contributors] Watch the abridged version of the [Contributing to R tutorial](https://youtu.be/tsymQiL2BY0) from useR! 2021 (~1.5 hours). 
 At least one of the tutors, Gabriel Becker and Martin Mächler, will be available for questions in each of the sessions.
-2. Watch the [Welcome to the Bug BBQ](https://youtu.be/sJpOxViQdm8) video to get orientated. [Corresponding HTML slides](./bug-bbq/welcome) - press P to see the transcript.
+2. Watch the [Welcome to the Bug BBQ](https://youtu.be/sJpOxViQdm8) video to get orientated. [Corresponding HTML slides](welcome) - press P to see the transcript.
 3. Use the remaining time to work independently or in small groups on open bugs.
  - Zoom breakout rooms will be available for people that want to work together.
  - The #bug-bbq channel on the [R Contributors Slack](../slack) will be used for people that want to chat.
