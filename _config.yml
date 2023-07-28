@@ -23,7 +23,7 @@ navigation:
     url: slack
   - title: Events
     url: events
-  - title: Tutorials
+  - title: Tutorials & demos
     url: tutorials
   - title: R Development Guide
     url: https://contributor.r-project.org/rdevguide/
