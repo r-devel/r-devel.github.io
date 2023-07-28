@@ -48,4 +48,12 @@ Short videos to give people a quick start on the basics.
 Making a contribution to a large open source software project like the R project can seem very daunting. This walkthrough aims to demonstrate how R users can contribute simple fixes to the code or documentation in base R, helping to maintain this fundamental software for data science. We will briefly look at: 1) How to find a good bug to work on, 2) Getting to the the root of the issue, and 3) How to propose a fix.
 </details>
 </li>
+<li>
+<a href= "/demos/latinr-hackathon">R translatón / Hackaton de tradução do R</a>, 
+<i>Beatriz Milz, Ángela Sanzo, and Macarena Quiroga, LatinR 2022.</i> 
+40 min video (mainly in Spanish)
+<details><summary>Abstract</summary>
+This is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R's messages, warnings and errors, followed by a demonstration of using the R Project Weblate server.
+</details>
+</li>
 </ul>
