@@ -18,7 +18,7 @@ layout: custom
 
 ## What happens at an office hour?
 
-The Office Hours are facilitated by members of the R Contribution Working Group who will tailor the hour according to the interests of attendees. The hour might include brief overviews or mini demonstrations, live debugging or discussion of different topics. Participants may be asked to add to a collaborative document or share their screen. All participation is optional - it is fine to come along and observe. You can check out the [office hour minutes](https://github.com/r-devel/rcontribution/tree/main/office_hours) to see what we've been up to recently.
+The Office Hours are facilitated by members of the R Contribution Working Group who will tailor the hour according to the interests of attendees. The hour might include brief overviews or mini demonstrations, live debugging or discussion of different topics. Participants may be asked to add to a collaborative document or share their screen. All participation is optional - it is fine to come along and observe. You can check out the [office hour minutes](https://github.com/r-devel/rcwg/tree/main/office_hours) to see what we've been up to recently.
 
 ## Who should come to office hours?
 
