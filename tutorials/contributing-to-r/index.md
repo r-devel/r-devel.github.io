@@ -18,4 +18,4 @@ If you are short on time, the abridged video (1h30) focuses on the starting poin
 <br>
 The [tutorial presentation slides](https://github.com/gmbecker/contributing_to_r_lesson/blob/master/outline.pdf) are available in PDF format (the abridged version skips slides 12-45).
 
-The [contributing to R GitHub repository](https://github.com/gmbecker/contributing_to_r_lesson) provides links to background reading and exercises based on real bugs in R 3.3.2. A docker image is provided, alternatively on Windows you can install the [R 3.3.2 binary](https://cran-archive.r-project.org/bin/windows/base/old/3.3.2/).
+The [Contributing to R GitHub repository](https://github.com/gmbecker/contributing_to_r_lesson) provides links to background reading and exercises based on real bugs in R 3.3.2. A docker image is provided, alternatively on Windows you can install the [R 3.3.2 binary](https://cran-archive.r-project.org/bin/windows/base/old/3.3.2/).
