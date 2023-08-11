@@ -12,6 +12,8 @@ The R Contributors Slack is a supportive space to foster the community of contri
 
 By "R core" we refer to the [base packages](https://cran.r-project.org/doc/FAQ/R-FAQ.html#Which-add_002don-packages-exist-for-R_003f), which R users outside of the [R Core Team](https://www.r-project.org/contributors.html) may contribute to through discussion of bugs/new features, [reviewing bug reports](https://blog.r-project.org/2019/10/09/r-can-use-your-help-reviewing-bug-reports/index.html) and proposing patches. The Slack is a space to discuss related coding issues, the wider development process and outreach initiatives. 
 
+For questions that are **off-topic**, e.g. general Q&A about using R or R packages, installation issues, or package development, please post on an [alternative forum for help](r-help).
+
 ## Posting Guide
 
 To create a welcoming and supportive workspace, we ask members to:
