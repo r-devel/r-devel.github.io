@@ -21,4 +21,4 @@ To communicate with the group:
  
 The RCWG meet (on Zoom) every 1-2 months, usually alternating between the third Friday of the month, 15:00 UTC and the third Tuesday of the month, 19:30 UTC (-1hr during Daylight Savings Time in Europe). Stay up-to-date with meeting announcements in one of the following ways:
  - Go to the [Events](events) page and add the event series to your calendar.
- - Email [rowforwards@gmail.com](mailto:rowforwards@gmail.com) to be added to/removed from the mailing list to receive meeting invitations.
+ - Join the [R Contribution Working Group mailing list](https://stat.ethz.ch/mailman/listinfo/r-contribution-wg) to stay up-to-date with working group activities.
