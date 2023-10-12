@@ -27,6 +27,8 @@ navigation:
     url: tutorials
   - title: R Development Guide
     url: https://contributor.r-project.org/rdevguide/
+  - title: Translations Community Page
+    url: https://contributor.r-project.org/translations/
   - title: R Contribution Working Group
     url: working-group
   - title: R Core Developer Page
