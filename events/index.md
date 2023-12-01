@@ -20,7 +20,7 @@ Join the [R Contribution Working Group mailing list](https://stat.ethz.ch/mailma
 <br>
 ## Past events
 
-* [C Book Club](book-club): book club designed for R contributors to develop skills in C programming.
+* [C Book Club](c-book-club-2023): book club designed for R contributors to develop skills in C programming.
 <!-- [Google Calendar](https://calendar.google.com/calendar/u/1?cid=ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc%40group.calendar.google.com/public/basic.ics) -->
 * [Collaboration Campfires](collaboration-campfires): sessions for newcomers to learn more about contributing to R and to work collaboratively on activities to build knowledge and skills in this area. 
 <!-- [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=4gvpmaj0coinh0kuvc9lbissbo@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/4gvpmaj0coinh0kuvc9lbissbo%40group.calendar.google.com/public/basic.ics) -->
