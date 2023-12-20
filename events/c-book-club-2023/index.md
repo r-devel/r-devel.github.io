@@ -1,5 +1,5 @@
 ---
-description: Book club designed for R contributors to develop skills in C programming.
+description: Book club in May to August 2023 designed for R contributors to develop skills in C programming.
 image: woman_studying.jpg
 layout: custom
 ---

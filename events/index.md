@@ -9,11 +9,14 @@ Meetings and events for existing/aspiring R contributors.
 ## Current events
  
 * [R Contributor Office Hours](office-hours): monthly drop-in sessions to help people get started with contributing to R. Discuss work in progress or work together on open bugs/missing translations. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=c7b298f30426b575f888ee963ec38a6da1ad6d2dbc27f34d501a72f2d8abb1cf@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/c7b298f30426b575f888ee963ec38a6da1ad6d2dbc27f34d501a72f2d8abb1cf%40group.calendar.google.com/public/basic.ics)  
+* [C Study Group](c-study-group-2024): study groupb designed for R contributors to develop skills in C programming.[Google Calendar](https://calendar.google.com/calendar/u/1?cid=ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc%40group.calendar.google.com/public/basic.ics)
 * [R Contribution Working Group](/working-group): meetings to organize events and work on other infrastructure supporting contributors. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=nc4tg39nam44itn9uhnf751hbk@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/nc4tg39nam44itn9uhnf751hbk%40group.calendar.google.com/public/basic.ics) 
 
 Join the [R Contributors Meetup group](https://www.meetup.com/r-contributors) to stay up-to-date with contributor events.
 
 Join the [R Contribution Working Group mailing list](https://stat.ethz.ch/mailman/listinfo/r-contribution-wg) to stay up-to-date with working group activities.
+
+Note: you can set the calendar below to show your time zone by clicking the time zone link (showing UTC by default) in the footer of the calendar window and selecting your time zone from the dialog.
 
 <iframe src="https://teamup.com/kskqth1ysymh61tiyv?view=a&showProfileAndInfo=0&showSidepanel=1&showAgendaDateRange=year&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" style="width: 100%; height: 500px; border: 1px solid #cccccc" loading="lazy" frameborder="0"></iframe>
 
