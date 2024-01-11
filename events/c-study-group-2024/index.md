@@ -34,11 +34,14 @@ Participants should study the material and attempt the corresponding exercise be
 A suggested weekly schedule for the CS50 material is
 
 -   Week 1: Watch "Lecture" video (2.5 hr).
--   Week 2: Watch "Shorts"" (\~6 x 10-15 min videos that expand on topics in the lecture) and do one or more "Practice Problems".
--   Week 3: Do the "Lab".
--   Week 4: Meet to share solutions to the Practice Problems/Lab. Optional: Do "Problem Set" and submit if doing course for credit.
+-   Week 2: Watch "Shorts" (\~6 x 10-15 min videos that expand on topics in the lecture). Do the "Lab" from the corresponding session in [CS50 2023](https://cs50.harvard.edu/x/2023).
+-   Week 3: Watch "Section" (~1hr video going beyond the lecture). Try one or more "Additional Practice" Practice Problems.
+-   Week 4: Meet to share solutions to the Lab/Practice Problems. Optional: Do "Problem Set" and submit if doing course for credit, or if you want to receive an automatic grade to check your progress.
 
-[Note: This schedule is based on the [2023 version of CS50](https://cs50.harvard.edu/x/2023/). If Practice Problems or Labs are not provided for 2024, we will use the ones from 2023].
+The labs from CS50 2023 are designed as learning problems and include hints. 
+The additional practice problems are often harder than the problem set, 
+however we suggest leaving the problem set till after the meetup and attempting 
+this independently (this is expected if you are doing the course for credit).
 
 There is the option to do further study towards a free [certificate](https://cs50.harvard.edu/x/2024/certificate/) from Harvard or a verified certificate from edX (~200 USD, financial assistance program available on edX). See the CS50 website for details.
 
