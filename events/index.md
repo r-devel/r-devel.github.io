@@ -8,6 +8,7 @@ Meetings and events for existing/aspiring R contributors.
 
 ## Current events
  
+* [R Dev Day @ PLUS](https://contributor.r-project.org/r-dev-day-plus-2024) (Salzburg, Austria, July 12)
 * [R Contributor Office Hours](office-hours): monthly drop-in sessions to help people get started with contributing to R. Discuss work in progress or work together on open bugs/missing translations. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=c7b298f30426b575f888ee963ec38a6da1ad6d2dbc27f34d501a72f2d8abb1cf@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/c7b298f30426b575f888ee963ec38a6da1ad6d2dbc27f34d501a72f2d8abb1cf%40group.calendar.google.com/public/basic.ics)  
 * [C Study Group](c-study-group-2024): study group designed for R contributors to develop skills in C programming.[Google Calendar](https://calendar.google.com/calendar/u/1?cid=ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc%40group.calendar.google.com/public/basic.ics)
 * [R Contribution Working Group](/working-group): meetings to organize events and work on other infrastructure supporting contributors. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=nc4tg39nam44itn9uhnf751hbk@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/nc4tg39nam44itn9uhnf751hbk%40group.calendar.google.com/public/basic.ics) 
