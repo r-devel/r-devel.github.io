@@ -22,6 +22,7 @@ For help on topics that are not related to contributing to R, please post on one
 Posts about R can be found with the #RStats tag on social media such as Mastodon, X, etc. Sometimes posting about an issue can be an effective way to find help.
 
  * [The R Project for Statistical Computing LinkedIn Group](https://www.linkedin.com/groups/77616/) - a community-run private discussion group for R users
+ * [grrr](https://github.com/frrrenchies/frrrenchies?tab=readme-ov-file#cat-chat-et-discussions-instantan%C3%A9es-cat) - French-speaking R Users Slack.
  
 ## R communities for members of underrepresented groups
 
