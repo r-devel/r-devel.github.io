@@ -4,6 +4,8 @@ layout: custom
 
 # Resources for General Help with R
 
+## Dedicated channels for R help
+
 For help on topics that are not related to contributing to R, please post on one of the following:
 
  * [R-help](https://stat.ethz.ch/mailman/listinfo/r-help) - general Q&A about using R
@@ -14,7 +16,19 @@ For help on topics that are not related to contributing to R, please post on one
  * [rOpenSci forum](https://discuss.ropensci.org/) - Q&A related to rOpenSci packages and projects (e.g. r-universe).
  * [R for Data Science (R4DS) Slack](https://www.rfordatasci.com/) - help with topics from the R4DS book, but also using R/programming in R more generally.
  * [Stackoverflow](https://stackoverflow.com/) - help with very specific queries, use the [r] tag.
+ 
+## General R communities
 
-<!--
- * [R-Ladies community Slack] - general help with R on #r-help channel, Slack group is for women and gender minorities only
--->
+Posts about R can be found with the #RStats tag on social media such as Mastodon, X, etc. Sometimes posting about an issue can be an effective way to find help.
+
+ * [The R Project for Statistical Computing LinkedIn Group](https://www.linkedin.com/groups/77616/) - a community-run private discussion group for R users
+ 
+## R communities for members of underrepresented groups
+
+There are several communities for members of groups that are underrepresented in the R community. Many have Slack groups, sometimes with specific channels to ask for help with R.
+
+ * [R-Ladies community Slack](https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form) - general help with R on #r-help channel, Slack group is for women and gender minorities only.
+ * [RainbowR community Slack](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/viewform?edit_requested=true) - supporting LGBTQ+ people who code in the R language.
+ * [Minorities in R community Slack](https://mircommunity.com/about/) - supporting R users from marginalized races, genders, and the disabled community.
+ 
+
