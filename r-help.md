@@ -27,11 +27,12 @@ Posts about R can be found with the #RStats tag on social media such as Mastodon
  
 ## R communities for members of underrepresented groups
 
-There are several communities for members of groups that are underrepresented in the R community. Many have Slack groups, sometimes with specific channels to ask for help with R.
+There are several communities for members of groups that are underrepresented in the global R community. Many have Slack groups, sometimes with specific channels to ask for help with R.
 
  * [R-Ladies community Slack](https://airtable.com/appJZFYABfCIdPYMR/pagw7FJB5tm2UQ55o/form) - general help with R on #r-help channel, Slack group is for women and gender minorities only.
  * [RainbowR community Slack](https://docs.google.com/forms/d/1y7SOWE3IW-fpR_5Cd4mK-CMUpFZ-hvhY4cTj34JqTVE/viewform?edit_requested=true) - supporting LGBTQ+ people who code in the R language.
  * [Minorities in R community Slack](https://mircommunity.com/about/) - supporting R users from marginalized races, genders, and the disabled community.
+ * [AsiaR Discord](https://discord.gg/rdd8Wrj6) - supporting R users from or living in Asia.
  * [LatinR Slack](https://latin-r.slack.com/join/shared_invite/enQtNDA3MjM3MTQwOTM1LTg3ZWMyNWU3MGI2MGM5YzU0MGU4NWE5NjYwMjBhMGZmYTQzYTA0ODZlOTE1NDc0YzIwM2NhYTJiNDQyZjMzZjc#/shared-invite/email) - supporting R users from or living in Latin America. Use the #r-ajuda-r-ayuda channel to get help in Spanish, (Brazilian) Portuguese or English.
  
 
