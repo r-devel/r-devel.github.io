@@ -7,11 +7,13 @@ layout: custom
 Meetings and events for existing/aspiring R contributors.
 
 ## Current events
- 
+
 * R Dev Days/Sprints: Collaborative events to work on contributions to R or infrastructure that supports such contribution. Upcoming event(s) [@ SIP](https://pretix.eu/r-contributors/r-dev-day-sip-2024/) (Newcastle, UK, October 8-9). [Google Calendar](https://calendar.google.com/calendar/embed?src=096ece8c4dd2994219c1e504a6d474f7964e16fe18eced1dbdb8d5323ee6297b%40group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/096ece8c4dd2994219c1e504a6d474f7964e16fe18eced1dbdb8d5323ee6297b%40group.calendar.google.com/public/basic.ics)  
 * [R Contributor Office Hours](office-hours): monthly drop-in sessions to help people get started with contributing to R. Discuss work in progress or work together on open bugs/missing translations. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=c7b298f30426b575f888ee963ec38a6da1ad6d2dbc27f34d501a72f2d8abb1cf@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/c7b298f30426b575f888ee963ec38a6da1ad6d2dbc27f34d501a72f2d8abb1cf%40group.calendar.google.com/public/basic.ics)  
 * [C Study Group](c-study-group-2024): study group designed for R contributors to develop skills in C programming. [Google Calendar](https://calendar.google.com/calendar/u/1?cid=ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/ab59b5988cef70d576d045f33a7b4ec633d665afb070aaf696b4b353254c74dc%40group.calendar.google.com/public/basic.ics)
 * [R Contribution Working Group](/working-group): meetings to organize events and work on other infrastructure supporting contributors. [Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=nc4tg39nam44itn9uhnf751hbk@group.calendar.google.com) / [iCal](https://calendar.google.com/calendar/ical/nc4tg39nam44itn9uhnf751hbk%40group.calendar.google.com/public/basic.ics) 
+
+Note that the iCalendar format is supported by most calendar software, including Outlook, Thunderbird.
 
 Join the [R Contributors Meetup group](https://www.meetup.com/r-contributors) to stay up-to-date with contributor events.
 
