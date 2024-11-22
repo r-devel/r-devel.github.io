@@ -32,7 +32,7 @@ The administrators will remind people of the posting guide if necessary and rese
 
 By joining the Slack, members also agree to the general code of conduct below. The administrators will enforce this code of conduct and expect cooperation in ensuring a safe environment for all. 
 
-[[Join/Go to R Contributors Slack]](https://join.slack.com/t/r-contributors/shared_invite/zt-2mm8f5laf-Ukad~R~LR09hmXbBIYWolQ)
+[[Join/Go to R Contributors Slack]](https://join.slack.com/t/r-contributors/shared_invite/zt-2tv7qltv5-hhQb69aWVHOKnAF_G7tMIQ)
 
 ## Code of Conduct
 
