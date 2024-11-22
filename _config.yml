@@ -12,8 +12,8 @@ owner_name: the R Contribution Working Group
 image: assets/img/Rlogo-white.png
 mastodon: https://hachyderm.io/@R_Contributors
 mastodon_alt: R Contributors Mastodon profile
-twitter: R_Contributors
-twitter_alt: R Contributors Twitter profile
+bluesky: https://bsky.app/profile/R-Contributors.hachyderm.io.ap.brid.gy
+bluesky_alt: R Contributors Bluesky profile
 github: r-devel
 github_alt: R-devel GitHub organization
 navigation:
