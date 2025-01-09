@@ -63,10 +63,10 @@ Each event will have a ticket site or web page with more information - see the
 
 2024
 
-[Imperial 2024](https://pretix.eu/r-contributors/r-dev-day-imperial-2024/) (satellite to London satRday) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-04_imperial2024.md))
-[PLUS 2024](https://contributor.r-project.org/r-dev-day-plus-2024/) (satellite to useR! 2024) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-07_plus2024/plus2024.md))
-[Hutch 2024](https://pretix.eu/r-contributors/r-dev-day-hutch-2024/) (satllite to posit::conf(2024)) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-08_hutch2024.md))
-[SIP 2024](https://pretix.eu/r-contributors/r-dev-day-sip-2024/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-10_sip2024/sip2024.md))
-[RSECon 2024](https://virtual.oxfordabstracts.com/event/49081/submission/168) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-09_RSECon24.md))
+[Imperial 2024](https://pretix.eu/r-contributors/r-dev-day-imperial-2024/) (satellite to London satRday) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-04_imperial2024.md))  
+[PLUS 2024](https://contributor.r-project.org/r-dev-day-plus-2024/) (satellite to useR! 2024) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-07_plus2024/plus2024.md))  
+[Hutch 2024](https://pretix.eu/r-contributors/r-dev-day-hutch-2024/) (satllite to posit::conf(2024)) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-08_hutch2024.md))  
+[SIP 2024](https://pretix.eu/r-contributors/r-dev-day-sip-2024/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-10_sip2024/sip2024.md))  
+[RSECon 2024](https://virtual.oxfordabstracts.com/event/49081/submission/168) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-09_RSECon24.md))  
 [LatinR 2024](https://pretix.eu/r-contributors/r-dev-day-latinr2024/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-11-18_LatinR2025.md))
 
