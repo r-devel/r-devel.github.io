@@ -12,7 +12,7 @@ consecutive days - for novice and experienced contributors to work
 collaboratively on contributions to base R. These events have the support of 
 the R Core Team and some will have R Core Developers participating directly.
 
-<center><img src="dev_day1.jpg" alt="R Core developer Martin Maechler working with Ella Kaye and Kelly Bodwin at an R Dev Day" width="50%"/></center>
+<center><img src="dev_day1.png" alt="R Core developer Martin Maechler working with Ella Kaye and Kelly Bodwin at an R Dev Day" width="50%"/></center>
 
 ## Upcoming events
 
