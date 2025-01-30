@@ -54,11 +54,11 @@ At study group meetings, participants should be prepared to share and discuss th
 The study group will meet once a month. 
 To accommodate participants in a wide range of time-zones, the C Study Group will run in three cohorts. 
 
-- Cohort 1: 20:00-21:00 (London) / 12:00-13:00 (San Fransisco), last **Tuesday** of the month (Feb 25th, Mar 25th, Apr 29th, May 27th, Jun 24th, Jul 29th)
+- Cohort 1: 20:00-21:00 (London) / 12:00-13:00 (San Francisco), last **Tuesday** of the month (Feb 25th, Mar 25th, Apr 29th, May 27th, Jun 24th, Jul 29th)
 
 - Cohort 2: 00:00-01:00 (London) / 11:00-12:00 (Sydney), last **Thursday** of the month (Feb 27th, Mar 27th, Apr 24th, May 29th, Jun 26th, Jul 31st)
 
-- Cohort 3: 15:00-16:00 (London) / 12:00-13:00 (New York), last **Friday** for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th)
+- Cohort 3: 15:00-16:00 (London) / 10:00-11:00 (New York), last **Friday** for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th)
 
 Note that the London times are GMT/UTC in winter and BST in summer, so please take care if/when the clocks change in your time zone. The [events](/events) page shows actual times in your time zone, along with Google calendar and iCalendar links (the time zone on the calendar can be selected in its bottom-right corner).
 
