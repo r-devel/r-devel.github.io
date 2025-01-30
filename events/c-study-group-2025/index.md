@@ -1,12 +1,12 @@
 ---
-description: Study group in January to June 2025 designed for R contributors to develop skills in C programming.
+description: Study group from February to July 2025 designed for R contributors to develop skills in C programming.
 image: woman_studying.jpg
 layout: custom
 ---
 
 # C Study Group for R Contributors 2025
 
-This is a study group meeting once a month for existing/aspiring R contributors that want to gain/refresh basic skills in C programming.
+This is a study group meeting once a month for existing/aspiring R contributors who want to gain/refresh basic skills in C programming.
 
 It will run from **February to July 2025**.
 
@@ -18,7 +18,7 @@ The main study materials are from the C sessions of [CS50](https://cs50.harvard.
 
 ## Schedule
 
-**Note: this schedule will be updated with the exact dates once they have been decided (see 'Timing' section below). Links will also be updated to the 2025 material once released.**
+The study group will typically meet in the last week of the month.
 
 | Session  | Month   | Resource | Material                                                                                   |
 |------------|------------|------------|-------------------------------------|
@@ -48,19 +48,24 @@ There is the option to do further study towards a free [certificate](https://cs5
 
 At study group meetings, participants should be prepared to share and discuss their work on the exercises.
 
-## Timing
 
-The book club will typically meet in the 4th week of the month, from February to July 2025.
+## Sessions
 
-**In order to determine the best time (or two) to hold the meetings, if you are interested in attending, please fill out [this whenisgood poll](https://whenisgood.net/jqfrg3j) with your availability by MONDAY JANUARY 20TH 2025, 11PM UTC.** 
+The study group will meet once a month. 
+To accommodate participants in a wide range of time-zones, the C Study Group will run in three cohorts. 
 
-**This page will be updated later that week with the chosen day/time(s).**
+- Cohort 1: 20:00-21:00 (London) / 12:00-13:00 (San Fransisco), last **Tuesday** of the month (Feb 25th, Mar 25th, Apr 29th, May 27th, Jun 24th, Jul 29th)
 
-In due course, the [events](/events) page will be updated with actual times in your time zone, along with Google calendar and iCalendar links.
+- Cohort 2: 00:00-01:00 (London) / 11:00-12:00 (Sydney), last **Thursday** of the month (Feb 27th, Mar 27th, Apr 24th, May 29th, Jun 26th, Jul 31st)
+
+- Cohort 3: 15:00-16:00 (London) / 12:00-13:00 (New York), last **Friday** for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th)
+
+Note that the London times are GMT/UTC in winter and BST in summer, so please take care if/when the clocks change in your time zone. The [events](/events) page shows actual times in your time zone, along with Google calendar and iCalendar links (the time zone on the calendar can be selected in its bottom-right corner).
 
 Sign up to attend the sessions on the [R Contributors Meetup](https://www.meetup.com/r-contributors/events/).
 
-Sessions will be recorded and shared on on the [R Contributors Slack](/slack) for people that can't make the meetings.
+Sessions will be recorded and shared on on the [R Contributors Slack](/slack) for people that can't make the meetings. 
+
 
 ## Further help
 
