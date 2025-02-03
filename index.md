@@ -19,7 +19,7 @@ Watch the following demo for a 10-minute introduction making a contribution:
 <br>
 The [presentation slides](https://hturner.github.io/contributing-demo/) are available in HTML format - press `S` to view with speaker notes (the video text). 
 
-The demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. The R Development Guide provides more information on [building R from source](https://contributor.r-project.org/rdevguide/GetStart.html) and [the lifecycle of a patch](https://contributor.r-project.org/rdevguide/FixBug.html).
+The demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. The R Development Guide provides more information on [building R from source](https://contributor.r-project.org/rdevguide/chapters/getting_started.html) and [the lifecycle of a patch](https://contributor.r-project.org/rdevguide/chapters/lifecycle_of_a_patch.html).
 
 ## About 
 
