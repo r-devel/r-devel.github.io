@@ -23,4 +23,4 @@ The demo introduces a basic workflow for simple fixes. For more complex work on 
 
 ## About 
 
-This site is maintained by the [R Contribution Working Group](working-group), which is working on initiatives to encourage wider contribution to R core. The working group is open to new members ([more information](working-group)). 
+This site is maintained by the [R Contribution Working Group](working-group), which is working on initiatives to encourage wider contribution to R core. The working group is open to new members ([more information](working-group)). You can report issues about this website on the [r-devel.github.io](https://github.com/r-devel/r-devel.github.io) repository.
