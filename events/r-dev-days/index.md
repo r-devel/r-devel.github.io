@@ -22,8 +22,8 @@ details will be linked here as they become available.
 |          Satellite to         |       Where      | Proposed date |   Status  |
 |:-----------------------------:|:----------------:|:-------------:|:---------:|
 | [Rencontres R 2025 (19-21 May)](https://pretix.eu/r-contributors/r-dev-day-rr2025/) | Mons, Belgium    | Thu 22 May  | Confirmed |
-| useR! 2025 (8-10 Aug)         | Durham, NC, USA  | Mon 11 Aug    | Tentative |
-| RSECon25 (9-11 Sep)           | Warwick, UK      | Fri 12 Sep    | Tentative |
+| useR! 2025 (8-10 Aug)         | Durham, NC, USA  | Mon 11 Aug    | Confirmed |
+| RSECon25 (9-11 Sep)           | Warwick, UK      | Fri 12 Sep    | Confirmed |
 | posit::conf (16-18 Sep)       | Atlanta, GA, USA | Fri 19 Sep    | Tentative |
 | [Shiny in Production (8-9 Oct)](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) | Newcastle, UK    | 7-8 Oct       | Confirmed |
 
