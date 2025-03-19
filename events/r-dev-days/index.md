@@ -19,13 +19,13 @@ the R Core Team and some will have R Core Developers participating directly.
 These are the planned events for 2025. Note that some are still tentative - full 
 details will be linked here as they become available.
 
-|          Satellite to         |       Where      | Proposed date |   Status  |
+|          Satellite to         |       Where      | Proposed date |   Deadline  |
 |:-----------------------------:|:----------------:|:-------------:|:---------:|
-| [Rencontres R 2025 (19-21 May)](https://pretix.eu/r-contributors/r-dev-day-rr2025/) | Mons, Belgium    | Thu 22 May  | Confirmed |
-| useR! 2025 (8-10 Aug)         | Durham, NC, USA  | Mon 11 Aug    | Confirmed |
-| RSECon25 (9-11 Sep)           | Warwick, UK      | Fri 12 Sep    | Confirmed |
-| posit::conf (16-18 Sep)       | Atlanta, GA, USA | Fri 19 Sep    | Tentative |
-| [Shiny in Production (8-9 Oct)](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) | Newcastle, UK    | 7-8 Oct       | Confirmed |
+| [Rencontres R 2025 (19-21 May)](https://pretix.eu/r-contributors/r-dev-day-rr2025/) | Mons, Belgium    | Thu 22 May  | Fri 18 Apr |
+| [useR! 2025 (8-10 Aug)](https://user2025.r-project.org/additional/r-dev-day)         | Durham, NC, USA  | Mon 11 Aug    | Tue 15 Apr |
+| RSECon25 (9-11 Sep)           | Warwick, UK      | Fri 12 Sep    | TBA |
+| posit::conf (16-18 Sep)       | Atlanta, GA, USA | Fri 19 Sep    | TBA |
+| [Shiny in Production (8-9 Oct)](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) | Newcastle, UK    | 7-8 Oct       | Wed 24 Sep |
 
 ## What happens at an R Dev Day?
 
