@@ -56,7 +56,7 @@ To accommodate participants in a wide range of time-zones, the C Study Group wil
 
 - Cohort 1: 20:00-21:00 (London) / 12:00-13:00 (San Francisco), last **Tuesday** of the month (Feb 25th, Mar 25th, Apr 29th, May 27th, Jun 24th, Jul 29th)
 
-- Cohort 2: 00:00-01:00 (London) / 11:00-12:00 (Sydney), last **Thursday** of the month (Feb 27th, Mar 27th, Apr 24th, May 29th, Jun 26th, Jul 31st)
+- Cohort 2: At a time designed to be convenient for Australia. Exact time and dates TBC. This cohort will likely start May or June.
 
 - Cohort 3: 15:00-16:00 (London) / 10:00-11:00 (New York), last **Friday** for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th)
 
