@@ -58,14 +58,14 @@ To accommodate participants in a wide range of time-zones, the C Study Group wil
 
 - Cohort 2: 11:00-12:00 AEST (Sydney), last **Thursday** of the month (May 29th, Jun 26th, Jul 31st, Aug 28th, Sep 25th, Oct 30th)
 
-- Cohort 3: 15:00-16:00 (London) / 10:00-11:00 (New York), last **Friday** for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th)
+- Cohort 3: 15:00-16:00 (London) / 10:00-11:00 (New York), last **Friday** for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th). 
+  **UPDATE: Cohort 3 dispanded after May meet-up, with participants joining either Cohort 1 or 2.**
 
 Note that the London times are GMT/UTC in winter and BST in summer, so please take care if/when the clocks change in your time zone. The [events](/events) page shows actual times in your time zone, along with Google calendar and iCalendar links (the time zone on the calendar can be selected in its bottom-right corner).
 
 Sign up to attend the sessions on the [R Contributors Meetup](https://www.meetup.com/r-contributors/events/).
 
-Sessions will be recorded and shared on on the [R Contributors Slack](/slack) for people that can't make the meetings. 
-
+See also the #c-study-group channel in the [R Contributors Slack](/slack) for up-to-date information, and to communicate with other participants. 
 
 ## Further help
 
