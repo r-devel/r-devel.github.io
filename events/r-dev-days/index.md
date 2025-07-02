@@ -16,14 +16,29 @@ the R Core Team and some will have R Core Developers participating directly.
 
 ## Upcoming events
 
-<!-- These are the planned events for 2025 - events that are tentative are shown in italics
-Links to the registration/application page and the corresponding deadline will be added as soon as these details are available. -->
+These are the planned events for 2025
+<!-- - events that are tentative are shown in italics -->
+Links to the registration/application page and the corresponding deadline will be added as soon as these details are available.
+
+### Satellite events
 
 |          Satellite to         |       Where      | Date |   Deadline  |
 |:-----------------------------:|:----------------:|:-------------:|:---------:|
 | [useR! 2025 (8-10 Aug)](https://user2025.r-project.org/additional/r-dev-day)         | Durham, NC, USA  | Mon 11 Aug    | Tue 15 Apr |
 | [RSECon25 (9-11 Sep)](https://warwick.ac.uk/fac/sci/statistics/news/r-dev-day-rsecon25) | Warwick, UK      | Fri 12 Sep    | Wed 23 Apr |
 | [Shiny in Production (8-9 Oct)](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) | Newcastle, UK    | 7-8 Oct       | Wed 24 Sep |
+
+### Standalone events
+
+| Where                | Date     |   Deadline  |
+|:--------------------:|:--------:|:-----------:|
+| Melbourne, Australia | Fri 21 Nov   | TBC |
+
+Note that [OceaniaR Hackathon 2025](https://statsocaus.github.io/oceaniar-hack-2025/)
+is on Sunday 23 November prior to 
+[Biometrics in the Bush Capital](https://biometricsociety.org.au/conference2025/) 
+on 24-28th November 2025, both in Canberra - people may wish to combine one or 
+both of these events with the R Dev Day in Melbourne!
 
 ## What happens at an R Dev Day?
 
