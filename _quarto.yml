@@ -1,0 +1,62 @@
+project:
+  type: website
+  
+execute:
+  freeze: auto
+
+website:
+  title: "R Contributor"
+  site-url: https://contributor.r-project.org
+  favicon: /assets/img/favicon.png
+  open-graph:
+    image: /assets/img/Rlogo.png
+  page-navigation: true
+  reader-mode: true
+  page-footer: |
+      © 2025 R Contributor, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
+      
+  navbar:
+    logo:  /assets/img/Rlogo.png
+    logo-href: index.html
+    left: 
+      # - menu: 
+      - text: "Slack Group"
+        file: slack.md
+      - text: "Events"
+        file: events.md
+      - text: "Tutorials & demos"
+        file: tutorials.md
+
+    right: 
+      - icon: mastodon
+        aria-label: mastodon
+        href: https://hachyderm.io/@R_Contributors
+        rel: me
+      - text: "{{< iconify simple-icons:bluesky >}}"
+        aria-label: bluesky
+        href: https://bsky.app/profile/R-Forwards.hachyderm.io.ap.brid.gy
+      - text: "{{< iconify cib:meetup >}}"
+        aria-label: meetup
+        href: https://www.meetup.com/r-contributors/
+      - icon: rss
+        href: blog/index.xml
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/r-devel/r-devel.github.io
+          - text: Report a Bug
+            url: https://github.com/r-devel/r-devel.github.io/issues
+    search: true
+
+format:
+  html:
+    theme: cosmo
+      #light: forwards-light.scss
+      #dark: forwards-dark.scss
+    #highlight-style: forwards.theme
+    #css: styles.css
+    toc: true  
+    email-obfuscation: references
+    #include-in-header: analytics.html
+    description: "A site for people interested in contributing to R core - the code and documentation that gets distributed as base R."

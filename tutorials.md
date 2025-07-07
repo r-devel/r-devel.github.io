@@ -12,7 +12,7 @@ Video tutorials with integrated/additional exercises.
 
 <ul>
 <li>
-<a href= "contributing-to-r">Contributing to R</a>,
+<a href= "/tutorials/contributing-to-r">Contributing to R</a>,
 <i>Gabriel Becker and Martin Maechler, useR! 2021.</i>  
 2h15 video (or 1h30 abridged version), with accompanying slides and exercises.
 <details><summary>Abstract</summary>
@@ -24,7 +24,7 @@ A selection of past bug reports are provided for you to practice debugging. For 
 </details>
 </li>
 <li>
-<a href= "translating-r-to-your-language">Translating R to your Language</a>,
+<a href= "/tutorials/translating-r-to-your-language">Translating R to your Language</a>,
 <i>Michael Chirico and Michael Lawrence, useR! 2021.</i>  
 1h30 video with accompanying slides.
 <details><summary>Abstract</summary>
