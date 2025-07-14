@@ -72,8 +72,8 @@ website:
     search: true
 
 brand:
-  light: light-brand.yml
-  dark: dark-brand.yml
+  light: brand-light.yml
+  dark: brand-dark.yml
 
 format:
   html:
