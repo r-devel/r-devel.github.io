@@ -26,6 +26,28 @@ website:
         file: events.md
       - text: "Tutorials & demos"
         file: tutorials.md
+      - text: Resources
+        menu:
+          - text: R Development Guide
+            href: https://contributor.r-project.org/rdevguide/
+            target: _blank
+          - text: Translations Community Page
+            href: https://contributor.r-project.org/translations/
+            target: _blank
+          - text: R Contribution Working Group
+            file: working-group.md
+          - text: R Core Developer Page
+            href: https://developer.r-project.org/
+            target: _blank
+          - text: R Project Blog
+            href: https://blog.r-project.org/
+            target: _blank
+          - text: R SVN CI Dashboard
+            href: https://contributor.r-project.org/svn-dashboard
+            target: _blank
+          - text: R Universe
+            href: https://r-universe.dev
+            target: _blank
 
     right: 
       - icon: mastodon
@@ -60,6 +82,7 @@ format:
       #dark: forwards-dark.scss
     #highlight-style: forwards.theme
     #css: styles.css
+    link-external-newwindow: true
     toc: true  
     email-obfuscation: references
     #include-in-header: analytics.html
