@@ -4,7 +4,8 @@ meta:
     home: https://contributor.r-project.org
     github: https://github.com/r-devel
 
-#logo: assets/img/Rlogo.png
+logo: 
+  medium: assets/img/Rlogo-white-square.png
 
 color:
   palette:
