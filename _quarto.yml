@@ -49,9 +49,13 @@ website:
             url: https://github.com/r-devel/r-devel.github.io/issues
     search: true
 
+brand:
+  light: light-brand.yml
+  dark: dark-brand.yml
+
 format:
   html:
-    theme: cosmo
+    # theme: cosmo
       #light: forwards-light.scss
       #dark: forwards-dark.scss
     #highlight-style: forwards.theme

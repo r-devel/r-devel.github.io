@@ -1,0 +1,35 @@
+meta:
+  name: R Contributor
+  links:
+    home: https://contributor.r-project.org
+    github: https://github.com/r-devel
+
+# logo: assets/img/Rlogo.svg
+
+color:
+  palette:
+    blue: "#246BC0"
+    pink: "#C024B9"
+    green: "#24C02B"
+    orange: "#C07924"
+  primary: blue
+
+
+typography:
+  fonts:
+    - family: Inter
+      source: google
+    - family: Fira Mono
+      source: google
+    - family: Outfit
+      source: google
+  base:
+    family: Inter
+  headings:
+    family: Outfit
+    weight: normal
+  link:
+    color: blue
+  monospace:
+    family: Fira Mono
+    size: 1em
