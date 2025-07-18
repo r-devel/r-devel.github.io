@@ -33,6 +33,7 @@ Links to the registration/application page and the corresponding deadline will b
 | Where                | Date     |   Deadline  |
 |:--------------------:|:--------:|:-----------:|
 | Melbourne, Australia | Fri 21 Nov   | TBC |
+| Auckland, New Zealand | Tue 16 Dec - Wed 17 Dec | TBC |
 
 Note that [OceaniaR Hackathon 2025](https://statsocaus.github.io/oceaniar-hack-2025/)
 is on Sunday 23 November prior to 
