@@ -4,7 +4,7 @@ layout: custom
 
 # R Contributor Site
 
-This is a site for people interested in contributing to R core - the code and documentation that gets distributed as base R.
+This is a community-maintained site for people interested in contributing to core R codebase - the code and documentation that gets [distributed as base R](https://cloud.r-project.org).
 
 Join our [Slack Group](slack.md) to chat with current and aspiring R contributors. Everyone interested is welcome!
 

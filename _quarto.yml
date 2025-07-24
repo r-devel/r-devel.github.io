@@ -26,6 +26,8 @@ website:
         file: events.md
       - text: "Tutorials & demos"
         file: tutorials.md
+      - text: Working Group
+        file: working-group.md
       - text: Resources
         menu:
           - text: R Development Guide
@@ -34,8 +36,6 @@ website:
           - text: Translations Community Page
             href: https://contributor.r-project.org/translations/
             target: _blank
-          - text: R Contribution Working Group
-            file: working-group.md
           - text: R Core Developer Page
             href: https://developer.r-project.org/
             target: _blank
