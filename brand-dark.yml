@@ -15,6 +15,7 @@ color:
     orange: "#C07924"
     dark: "#030911"
     light-blue: "#96B8E1"
+    dark-blue: "#08182A"
   primary: blue
   background: dark
   foreground: white
@@ -38,3 +39,12 @@ typography:
   monospace:
     family: Fira Mono
     size: 1em
+
+defaults:
+  bootstrap:
+    rules: |
+      .navbar-nav .dropdown-menu .dropdown-item:hover,
+      .dropdown-item.quarto-navbar-tools-item:hover 
+      {
+          background-color: $brand-dark-blue;
+      }
