@@ -16,8 +16,6 @@ website:
       © 2025 R Contributor, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
       
   navbar:
-    logo:  /assets/img/Rlogo-hex.png
-    logo-href: index.html
     left: 
       # - menu: 
       - text: "Slack Group"

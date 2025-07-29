@@ -34,3 +34,10 @@ typography:
   monospace:
     family: Fira Mono
     size: 1em
+
+defaults:
+  bootstrap:
+    rules: |
+      .navbar-logo {
+        max-height: 50px;
+      } 

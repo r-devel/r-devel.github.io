@@ -48,3 +48,7 @@ defaults:
       {
           background-color: $brand-dark-blue;
       }
+
+      .navbar-logo {
+        max-height: 50px;
+      } 
