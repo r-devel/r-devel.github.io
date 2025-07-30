@@ -19,13 +19,13 @@ website:
     left: 
       # - menu: 
       - text: "Slack Group"
-        file: slack.md
+        file: slack.qmd
       - text: "Events"
-        file: events.md
+        file: events.qmd
       - text: "Tutorials & demos"
-        file: tutorials.md
+        file: tutorials.qmd
       - text: Working Group
-        file: working-group.md
+        file: working-group.qmd
       - text: Resources
         menu:
           - text: R Development Guide

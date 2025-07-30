@@ -6,9 +6,9 @@ layout: custom
 
 This is a community-maintained site for people interested in contributing to core R codebase - the code and documentation that gets [distributed as base R](https://cloud.r-project.org).
 
-Join our [Slack Group](slack.md) to chat with current and aspiring R contributors. Everyone interested is welcome!
+Join our [Slack Group](slack.qmd) to chat with current and aspiring R contributors. Everyone interested is welcome!
 
-Read the [R Development Guide](https://contributor.r-project.org/rdevguide){target="_blank"}, follow a [Tutorial](tutorials.md), or attend an [Event](events.md) to learn more about contributing to R.
+Read the [R Development Guide](https://contributor.r-project.org/rdevguide){target="_blank"}, follow a [Tutorial](tutorials.qmd), or attend an [Event](events.qmd) to learn more about contributing to R.
 
 ## Quick Start
 
@@ -23,4 +23,4 @@ The demo introduces a basic workflow for simple fixes. For more complex work on 
 
 ## About 
 
-This site is maintained by the [R Contribution Working Group](working-group.md), which is working on initiatives to encourage wider contribution to R core. The working group is open to new members ([more information](working-group.md)). You can report issues about this website on the [r-devel.github.io](https://github.com/r-devel/r-devel.github.io) repository.
+This site is maintained by the [R Contribution Working Group](working-group.qmd), which is working on initiatives to encourage wider contribution to R core. The working group is open to new members ([more information](working-group.qmd)). You can report issues about this website on the [r-devel.github.io](https://github.com/r-devel/r-devel.github.io) repository.
