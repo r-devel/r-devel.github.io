@@ -1,10 +1,8 @@
 ---
+title: "C Study Group for R Contributors 2025"
 description: Study group from February to July 2025 designed for R contributors to develop skills in C programming.
 image: woman_studying.jpg
-layout: custom
 ---
-
-# C Study Group for R Contributors 2025
 
 This is a study group meeting once a month for existing/aspiring R contributors who want to gain/refresh basic skills in C programming.
 

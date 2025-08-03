@@ -1,10 +1,8 @@
 ---
+title: C Study Group for R Contributors 2024
 description: Study group in January to June 2024 designed for R contributors to develop skills in C programming.
 image: woman_studying.jpg
-layout: custom
 ---
-
-# C Study Group for R Contributors 2024
 
 This is a study group meeting once a month for existing/aspiring R contributors that want to gain/refresh basic skills in C programming.
 

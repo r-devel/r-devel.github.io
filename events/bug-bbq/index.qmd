@@ -1,10 +1,8 @@
 ---
+title: Bug BBQ
 description: Global, online event over 24 hours to address bugs in R.
 image: bug-catching.jpg
-layout: custom
 ---
-
-# Bug BBQ
 
 *Help squash bugs in R!*
 

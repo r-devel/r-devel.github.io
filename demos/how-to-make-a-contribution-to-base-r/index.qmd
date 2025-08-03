@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: "How to Make a Contribution to Base R"
 ---
-
-# How to Make a Contribution to Base R
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/VOlF8fPf9v8" title="How to Make a Contribution to Base R - CW23 Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 

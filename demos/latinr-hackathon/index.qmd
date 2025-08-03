@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: R translatón / Hackaton de tradução do R
 ---
-
-# R translatón / Hackaton de tradução do R
 
 This is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R's messages, warnings and errors, followed by a demonstration of using the R Project Weblate server.
 

@@ -1,10 +1,8 @@
 ---
+title: "C book club for R contributors"
 description: Book club in May to August 2023 designed for R contributors to develop skills in C programming.
 image: woman_studying.jpg
-layout: custom
 ---
-
-# C book club for R contributors
 
 This is a book club meeting every two weeks for existing/aspiring R contributors that want to learn/refresh their C programming skills.
 
