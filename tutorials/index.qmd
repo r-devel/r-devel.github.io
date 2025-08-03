@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: "Tutorials & Demos"
 ---
-
-# Tutorials & Demos
 
 These tutorials and demos are designed to help new contributors get started.
 

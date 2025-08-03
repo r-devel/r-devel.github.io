@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: "Translating R to your language"
 ---
-
-# Translating R to your language
 
 In this video tutorial recorded at useR! 2021, Michael Chirico and Michael Lawrence aim to get package developers and other R community members started implementing foreign-language translations of R's messages (errors, warnings, verbose output, etc.) into a language of their choosing.
 

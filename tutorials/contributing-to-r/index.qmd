@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: "Contributing to R"
 ---
-
-# Contributing to R
 
 In this video tutorial recorded at useR! 2021, Gabriel Becker and Martin Maechler explain how members of the R community can contribute to R.
 

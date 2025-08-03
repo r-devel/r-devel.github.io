@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: "R Contribution Working Group"
 ---
-
-# R Contribution Working Group
 
 The R Contribution Working Group is a collaboration between R Core, R community groups (including [Forwards](https://forwards.github.io/), the [R Community Diversity and Inclusion Working Group](https://github.com/RConsortium/RCDI-WG/tree/master), [R-Ladies](https://rladies.org/), [MiR](https://mircommunity.com/)) and members of the wider R community. Its aim is to encourage new contributors to R core, with a focus on diversity and inclusion.
 

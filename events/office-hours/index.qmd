@@ -1,12 +1,8 @@
 ---
+title: "R Contributor Office Hours"
 description: Monthly online drop-in sessions for R contributors
 image: brooke-cagle-g1Kr4Ozfoac-unsplash.jpg
-layout: custom
 ---
-
-# R Contributor Office Hours
-
-*Online drop-in sessions to support people that want to contribute to R.*
 
 <center><img src="brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="Three people laughing together as they sit around a table with laptops, notebooks and drinks." width="450"/></center>
 

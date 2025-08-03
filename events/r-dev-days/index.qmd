@@ -1,11 +1,9 @@
 ---
+title: R Dev Days
 description: Day-length events for new and experienced contributors to work collaboratively on contributions to base R
 image: dev_day1.jpg
 image-alt: R Core developer Martin Maechler working with Ella Kaye and Kelly Bodwin at an R Dev Day
-layout: custom
 ---
-
-# R Dev Days
 
 R Dev Days are short events - usually over one day, or linked sessions over 
 consecutive days - for novice and experienced contributors to work 

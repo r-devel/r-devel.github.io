@@ -1,8 +1,6 @@
 ---
-layout: custom
+title: "R Contributors Slack"
 ---
-
-# R Contributors Slack
 
 The R Contributors Slack is a supportive space to foster the community of contributors to R core development:
 
