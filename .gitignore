@@ -6,3 +6,5 @@ Gemfile.lock
 .Rhistory
 *.Rproj
 **.DS_Store
+
+/.quarto/
