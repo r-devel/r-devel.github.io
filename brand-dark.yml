@@ -15,7 +15,7 @@ color:
     orange: "#C07924"
     dark: "#030911"
     light-blue: "#96B8E1"
-    dark-blue: "#08182A"
+    dark-blue: "#103054"
   primary: blue
   background: dark
   foreground: white
@@ -42,13 +42,13 @@ typography:
 
 defaults:
   bootstrap:
+    defaults:
+      dropdown-link-hover-bg: $brand-blue
     rules: |
-      .navbar-nav .dropdown-menu .dropdown-item:hover,
-      .dropdown-item.quarto-navbar-tools-item:hover 
-      {
-          background-color: $brand-dark-blue;
-      }
-
       .navbar-logo {
         max-height: 50px;
       } 
+
+      .description {
+        display: none;
+      }

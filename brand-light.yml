@@ -13,6 +13,7 @@ color:
     pink: "#C024B9"
     green: "#24C02B"
     orange: "#C07924"
+    light-blue: "#96B8E1"
   primary: blue
 
 
@@ -37,7 +38,13 @@ typography:
 
 defaults:
   bootstrap:
+    defaults:
+      dropdown-link-hover-bg: $brand-light-blue
     rules: |
       .navbar-logo {
         max-height: 50px;
       } 
+
+      .description {
+        display: none;
+      }
