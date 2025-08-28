@@ -32,7 +32,7 @@ Links to the registration/application page and the corresponding deadline will b
 
 | Where                | Date     |   Deadline  |
 |:--------------------:|:--------:|:-----------:|
-| [Melbourne, Australia / Virtual](https://pretix.eu/control/event/r-contributors/r-dev-day-oz-25/) | Fri 21 Nov   | Sun 16 Nov |
+| [Melbourne, Australia / Virtual](https://pretix.eu/r-contributors/r-dev-day-oz-25/) | Fri 21 Nov   | Sun 16 Nov |
 | Auckland, New Zealand | Tue 16 Dec - Wed 17 Dec | TBC |
 
 Note that [OceaniaR Hackathon 2025](https://statsocaus.github.io/oceaniar-hack-2025/)
