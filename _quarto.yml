@@ -1,0 +1,84 @@
+project:
+  type: website
+  
+execute:
+  freeze: auto
+
+website:
+  title: "R Contributor"
+  description: "A site for people interested in contributing to R core - the code and documentation that gets distributed as base R."
+  site-url: https://contributor.r-project.org
+  favicon: /assets/img/favicon.png
+  open-graph:
+    image: /assets/img/Rlogo.png
+  page-navigation: true
+  reader-mode: true
+  page-footer: |
+      © 2025 R Contributor, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
+      
+  navbar:
+    left: 
+      # - menu: 
+      - text: "Slack Group"
+        file: slack.qmd
+      - text: "Events"
+        file: events/index.qmd
+      - text: "Tutorials & demos"
+        file: tutorials/index.qmd
+      - text: Working Group
+        file: working-group.qmd
+      - text: Resources
+        menu:
+          - text: R Development Guide
+            href: https://contributor.r-project.org/rdevguide/
+            target: _blank
+          - text: Translations Community Page
+            href: https://contributor.r-project.org/translations/
+            target: _blank
+          - text: R Core Developer Page
+            href: https://developer.r-project.org/
+            target: _blank
+          - text: R Project Blog
+            href: https://blog.r-project.org/
+            target: _blank
+          - text: R SVN CI Dashboard
+            href: https://contributor.r-project.org/svn-dashboard
+            target: _blank
+          - text: R Universe
+            href: https://r-universe.dev
+            target: _blank
+
+    right: 
+      - icon: mastodon
+        aria-label: mastodon
+        href: https://hachyderm.io/@R_Contributors
+        rel: me
+      - text: "{{< iconify simple-icons:bluesky >}}"
+        aria-label: bluesky
+        href: https://bsky.app/profile/R-Forwards.hachyderm.io.ap.brid.gy
+      - text: "{{< iconify cib:meetup >}}"
+        aria-label: meetup
+        href: https://www.meetup.com/r-contributors/
+      - icon: rss
+        href: blog/index.xml
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/r-devel/r-devel.github.io
+          - text: Report a Bug
+            url: https://github.com/r-devel/r-devel.github.io/issues
+    search: true
+
+brand:
+  light: brand-light.yml
+  dark: brand-dark.yml
+
+format:
+  html:
+    #css: styles.css
+    link-external-newwindow: true
+    toc: true  
+    email-obfuscation: references
+    #include-in-header: analytics.html
+    
