@@ -63,6 +63,7 @@ website:
         aria-label: meetup
         href: https://www.meetup.com/r-contributors/
       - icon: rss
+        aria-label: rss
         href: blog/index.xml
     tools:
       - icon: github
