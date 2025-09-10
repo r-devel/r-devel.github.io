@@ -5,7 +5,11 @@ meta:
     github: https://github.com/r-devel
 
 logo: 
-  medium: assets/img/Rlogo-hex.png
+  images:
+    icon:
+      path: assets/img/Rlogo-hex.png
+      alt: "Hex with R Project logo"
+  medium: icon
 
 color:
   palette:
