@@ -35,6 +35,9 @@ website:
           - text: Translations Community Page
             href: https://contributor.r-project.org/translations/
             target: _blank
+          - text: The CRAN Cookbook
+            href: https://contributor.r-project.org/cran-cookbook/
+            target: _blank
           - text: R Core Developer Page
             href: https://developer.r-project.org/
             target: _blank
