@@ -15,6 +15,7 @@ For questions that are **off-topic**, e.g. general Q&A about using R or R packag
 ## Posting Guide
 
 To create a welcoming and supportive workspace, we ask members to:
+
 - Be welcoming, friendly and patient.
 - Avoid sarcasm or belittling language.
 - Respect people's technology choices.
