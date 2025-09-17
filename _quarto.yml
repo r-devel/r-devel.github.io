@@ -64,7 +64,7 @@ website:
         href: https://www.meetup.com/r-contributors/
       - icon: rss
         aria-label: rss
-        href: blog/index.xml
+        href: https://blog.r-project.org/index.xml
     tools:
       - icon: github
         menu:
