@@ -1,10 +1,59 @@
 [
   {
-    "objectID": "demos/latinr-hackathon/index.html",
-    "href": "demos/latinr-hackathon/index.html",
-    "title": "R translatón / Hackaton de tradução do R",
+    "objectID": "demos/how-to-make-a-contribution-to-base-r/index.html",
+    "href": "demos/how-to-make-a-contribution-to-base-r/index.html",
+    "title": "How to Make a Contribution to Base R",
     "section": "",
-    "text": "This is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server.\n\n\nThe presentation slides are available in PDF format."
+    "text": "The presentation slides are available in HTML format - press S to view with speaker notes (the video text).\nNote: This demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. Refer to the R Development Guide for more information on building R from source and the lifecycle of a patch."
+  },
+  {
+    "objectID": "tutorials/translating-r-to-your-language/index.html",
+    "href": "tutorials/translating-r-to-your-language/index.html",
+    "title": "Translating R to your language",
+    "section": "",
+    "text": "In this video tutorial recorded at useR! 2021, Michael Chirico and Michael Lawrence aim to get package developers and other R community members started implementing foreign-language translations of R’s messages (errors, warnings, verbose output, etc.) into a language of their choosing.\nOur real-time participants were focused on Spanish, Bahasa Indonesia, and Hungarian.\n\n\n The tutorial presentation slides are publicly available in Google Slides format.\nNote: This video describes the gettext infrastructure that R uses to internationalize messages. This background information and the tips for translation (first 1h15 of video) are still relevant, but we now recommend translations are added/updated via the R Project Weblate server."
+  },
+  {
+    "objectID": "tutorials/contributing-to-r/index.html",
+    "href": "tutorials/contributing-to-r/index.html",
+    "title": "Contributing to R",
+    "section": "",
+    "text": "In this video tutorial recorded at useR! 2021, Gabriel Becker and Martin Maechler explain how members of the R community can contribute to R.\nThe full video (2h15) includes Gabriel discussing his experiences as an external contributor: some of the projects he has worked on and lessons learned. This is recommended for all aspiring contributors as a window into the social dynamics of contribution.\n\n\n If you are short on time, the abridged video (1h30) focuses on the starting point for most contributors: helping address bugs in R.\n\n\n The tutorial presentation slides are available in PDF format (the abridged version skips slides 12-45).\nThe Contributing to R GitHub repository provides links to background reading and exercises based on real bugs in R 3.3.2. A docker image is provided, alternatively on Windows you can install the R 3.3.2 binary."
+  },
+  {
+    "objectID": "r-help.html",
+    "href": "r-help.html",
+    "title": "Resources for General Help with R",
+    "section": "",
+    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nR for Data Science (R4DS) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
+  },
+  {
+    "objectID": "r-help.html#dedicated-channels-for-r-help",
+    "href": "r-help.html#dedicated-channels-for-r-help",
+    "title": "Resources for General Help with R",
+    "section": "",
+    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nR for Data Science (R4DS) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
+  },
+  {
+    "objectID": "r-help.html#general-r-communities",
+    "href": "r-help.html#general-r-communities",
+    "title": "Resources for General Help with R",
+    "section": "General R communities",
+    "text": "General R communities\nPosts about R can be found with the #RStats tag on social media such as Mastodon, X, etc. Sometimes posting about an issue can be an effective way to find help.\n\nThe R Project for Statistical Computing LinkedIn Group - a community-run private discussion group for R users\ndiscoRd - a Discord server for text or voice chat with other R users. Many specialized channels (e.g. finance, R markdown, machine learning) as well as general R and non-R chat.\ngrrr - French-speaking R Users Slack."
+  },
+  {
+    "objectID": "r-help.html#r-communities-for-members-of-underrepresented-groups",
+    "href": "r-help.html#r-communities-for-members-of-underrepresented-groups",
+    "title": "Resources for General Help with R",
+    "section": "R communities for members of underrepresented groups",
+    "text": "R communities for members of underrepresented groups\nThere are several communities for members of groups that are underrepresented in the global R community. Many have Slack groups, sometimes with specific channels to ask for help with R.\n\nR-Ladies community Slack - general help with R on #r-help channel, Slack group is for women and gender minorities only.\nRainbowR community Slack - supporting LGBTQ+ people who code in the R language.\nMinorities in R community Slack - supporting R users from marginalized races, genders, and the disabled community."
+  },
+  {
+    "objectID": "r-help.html#regional-r-communities",
+    "href": "r-help.html#regional-r-communities",
+    "title": "Resources for General Help with R",
+    "section": "Regional R communities",
+    "text": "Regional R communities\n\nAsiaR Discord - supporting R users from or living in Asia.\n\nKorea R User Group Discord - supporting R users from or living in Korea.\n\nLatinR Slack - supporting R users from or living in Latin America. Use the #r-ajuda-r-ayuda channel to get help in Spanish, (Brazilian) Portuguese or English."
   },
   {
     "objectID": "index.html",
@@ -26,6 +75,111 @@
     "title": "R Contributor Site",
     "section": "About",
     "text": "About\nThis site is maintained by the R Contribution Working Group, which is working on initiatives to encourage wider contribution to R core. The working group is open to new members (more information). You can report issues about this website on the r-devel.github.io repository."
+  },
+  {
+    "objectID": "events/r-dev-days/index.html",
+    "href": "events/r-dev-days/index.html",
+    "title": "R Dev Days",
+    "section": "",
+    "text": "R Dev Days are short events - usually over one day, or linked sessions over consecutive days - for novice and experienced contributors to work collaboratively on contributions to base R. These events have the support of the R Core Team and some will have R Core Developers participating directly."
+  },
+  {
+    "objectID": "events/r-dev-days/index.html#upcoming-events",
+    "href": "events/r-dev-days/index.html#upcoming-events",
+    "title": "R Dev Days",
+    "section": "Upcoming events",
+    "text": "Upcoming events\nThese are the planned events for 2025  Links to the registration/application page and the corresponding deadline will be added as soon as these details are available.\n\nSatellite events\n\n\n\nSatellite to\nWhere\nDate\nDeadline\n\n\n\n\nShiny in Production (8-9 Oct)\nNewcastle, UK\n7-8 Oct\nWed 24 Sep\n\n\n\n\n\nStandalone events\n\n\n\nWhere\nDate\nDeadline\n\n\n\n\nMelbourne, Australia / Virtual\nFri 21 Nov\nSun 16 Nov\n\n\nAuckland, New Zealand / Virtual\nTue 16 Dec - Wed 17 Dec\nSun 7 Dec\n\n\n\nNote that OceaniaR Hackathon 2025 is on Sunday 23 November prior to Biometrics in the Bush Capital on 24-28th November 2025, both in Canberra - people may wish to combine one or both of these events with the R Dev Day in Melbourne!"
+  },
+  {
+    "objectID": "events/r-dev-days/index.html#what-happens-at-an-r-dev-day",
+    "href": "events/r-dev-days/index.html#what-happens-at-an-r-dev-day",
+    "title": "R Dev Days",
+    "section": "What happens at an R Dev Day?",
+    "text": "What happens at an R Dev Day?\nTasks are prepared in the run-up to the event, but commonly include:\n\nReviewing, analysing and fixing code or documentation bugs reported on R’s Bugzilla.\nContributing to message translations via Weblate.\n\nTasks may also relate to contributor infrastructure, such as the R Dev Guide and the R Dev Container."
+  },
+  {
+    "objectID": "events/r-dev-days/index.html#who-can-take-part",
+    "href": "events/r-dev-days/index.html#who-can-take-part",
+    "title": "R Dev Days",
+    "section": "Who can take part?",
+    "text": "Who can take part?\nSome events have open registration, whilst others have an application process to ensure a balance of experience levels over limited places.\nR Dev Days are usually run as satellite events to a conference, with registration/application open to people outside the conference.\nThe main criteria for participation is a good knowledge of R programming and a keen interest in contributing, as we hope participants continue to contribute after the event."
+  },
+  {
+    "objectID": "events/r-dev-days/index.html#how-much-does-it-cost",
+    "href": "events/r-dev-days/index.html#how-much-does-it-cost",
+    "title": "R Dev Days",
+    "section": "How much does it cost?",
+    "text": "How much does it cost?\nR Dev Days are free to attend and we are usually able to provide lunch and refreshments to particpants. We will advertise when additional support is available (e.g. through scholarships to the associated conference).\nEach event will have a ticket site or web page with more information - see the Upcoming events section or the R Contributor Events Page."
+  },
+  {
+    "objectID": "events/r-dev-days/index.html#past-r-dev-days",
+    "href": "events/r-dev-days/index.html#past-r-dev-days",
+    "title": "R Dev Days",
+    "section": "Past R Dev Days",
+    "text": "Past R Dev Days\n2024\nImperial 2024 (satellite to London satRday) (report)\nPLUS 2024 (satellite to useR! 2024) (report)\nHutch 2024 (satllite to posit::conf(2024)) (report)\nSIP 2024 (report)\nRSECon 2024 (report)\nLatinR 2024 (report)"
+  },
+  {
+    "objectID": "events/office-hours/index.html",
+    "href": "events/office-hours/index.html",
+    "title": "R Contributor Office Hours",
+    "section": "",
+    "text": "Join an Office Hour to"
+  },
+  {
+    "objectID": "events/office-hours/index.html#what-happens-at-an-office-hour",
+    "href": "events/office-hours/index.html#what-happens-at-an-office-hour",
+    "title": "R Contributor Office Hours",
+    "section": "What happens at an office hour?",
+    "text": "What happens at an office hour?\nThe Office Hours are facilitated by members of the R Contribution Working Group who will tailor the hour according to the interests of attendees. The hour might include brief overviews or mini demonstrations, live debugging or discussion of different topics. Participants may be asked to add to a collaborative document or share their screen. All participation is optional - it is fine to come along and observe. You can check out the office hour minutes to see what we’ve been up to recently."
+  },
+  {
+    "objectID": "events/office-hours/index.html#who-should-come-to-office-hours",
+    "href": "events/office-hours/index.html#who-should-come-to-office-hours",
+    "title": "R Contributor Office Hours",
+    "section": "Who should come to office hours?",
+    "text": "Who should come to office hours?\nWe welcome people that are entirely new to contributing as well as seasoned contributors."
+  },
+  {
+    "objectID": "events/office-hours/index.html#when-are-the-office-hours",
+    "href": "events/office-hours/index.html#when-are-the-office-hours",
+    "title": "R Contributor Office Hours",
+    "section": "When are the office hours?",
+    "text": "When are the office hours?\nThe Office Hours are typically held on the 2nd Thursday of the month, at two times to cater for different world regions (click to find the corresponding time in your local time zone):\n\n\n\nRegion\nNovember - March\nApril - October\n\n\n\n\nEurope, Middle East, Asia, Asia-Pacific (EMEA/APAC)\n10:00 UTC\n09:00 UTC\n\n\nAmericas (AMER)\n09:30 PST / 12:30 EST\n09:30 PDT / 12:30 EDT\n\n\n\nYou can attend either or both office hour, wherever you are based - the country groupings just indicate the world regions that are in working/waking hours at that time."
+  },
+  {
+    "objectID": "events/office-hours/index.html#how-to-join-an-office-hour",
+    "href": "events/office-hours/index.html#how-to-join-an-office-hour",
+    "title": "R Contributor Office Hours",
+    "section": "How to join an office hour",
+    "text": "How to join an office hour\nTo join, sign up on the R Contributors Meetup - you can do this any time until the office hour is over!\nOther ways to find out about upcoming Office Hours:\n\nThe Events Calendar, where you can add the Office Hour series to your calendar\nThe R Contributors Slack - the Zoom link will typically be shared just before the office hour.\n\nThe office hours are also advertised on our social media channels and various community Slack groups."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html",
+    "href": "events/bug-bbq/index.html",
+    "title": "Bug BBQ",
+    "section": "",
+    "text": "Help squash bugs in R!\nThe Bug Barbecue (Bug BBQ) is a global, online event spread over 24 hours, in which new and experienced contributors can help to address open bugs in R. It will take place Thursday, June 23 - Friday, June 24.\nIt is a satellite event to useR! 2022, however you do not need to register for useR! to attend the Bug BBQ."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html#schedule",
+    "href": "events/bug-bbq/index.html#schedule",
+    "title": "Bug BBQ",
+    "section": "Schedule",
+    "text": "Schedule\nThere will be three organized sessions during the event and people are welcome to attend one or more session. The three sessions are suited to different regions of the globe, as detailed below.\nSession 1 (APAC), Friday, June 24, 01:00 - 05:00 UTC (your local time, note this starts on Thursday evening, June 23 in AMER region). [Register for Session 1]\nSession 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC (your local time). [Register for Session 2]\nSession 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC (your local time). [Register for Session 3]\nThere is no cost to attend. Registration can be done any time up to the end of each session and allows you to join the Zoom meeting to chat with facilitators and other participants."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html#session-format",
+    "href": "events/bug-bbq/index.html#session-format",
+    "title": "Bug BBQ",
+    "section": "Session format",
+    "text": "Session format\nEach session is self-guided, to allow people to get started whenever they can join.\nWhen you join:\n\n[Optional, for new contributors] Watch the abridged version of the Contributing to R tutorial from useR! 2021 (~1.5 hours). At least one of the tutors, Gabriel Becker and Martin Mächler, will be available for questions in each of the sessions.\nWatch the Welcome to the Bug BBQ video to get orientated. Corresponding HTML slides - press P to see the transcript.\nUse the remaining time to work independently or in small groups on open bugs.\n\n\nZoom breakout rooms will be available for people that want to work together.\nThe #bug-bbq channel on the R Contributors Slack will be used for people that want to chat.\nThe bug-bbq GitHub repo will be used to track progress.\n\nNote: we will be treating the R Bugzilla as read only during the event. Please do not post there, but rather use the Zoom, Slack or GitHub repo mentioned above."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html#code-of-conduct",
+    "href": "events/bug-bbq/index.html#code-of-conduct",
+    "title": "Bug BBQ",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nAs a satellite event, the Bug BBQ will follow the useR! code of conduct."
   },
   {
     "objectID": "events/c-book-club-2023/index.html",
@@ -84,244 +238,6 @@
     "text": "Past events\n\nC Study Group 2024: study group designed for R contributors to develop skills in C programming.\nC Book Club 2023: book club designed for R contributors to develop skills in C programming. \nCollaboration Campfires: sessions for newcomers to learn more about contributing to R and to work collaboratively on activities to build knowledge and skills in this area. \nBug BBQ: a global, online event over 24 hours for both new and experienced contributors to address open bugs on R’s bug tracker. \nR Project Sprint 2023 and translatathons."
   },
   {
-    "objectID": "events/c-study-group-2025/index.html",
-    "href": "events/c-study-group-2025/index.html",
-    "title": "C Study Group for R Contributors 2025",
-    "section": "",
-    "text": "This is a study group meeting once a month for existing/aspiring R contributors who want to gain/refresh basic skills in C programming.\nIt will run from February to July 2025."
-  },
-  {
-    "objectID": "events/c-study-group-2025/index.html#study-materials",
-    "href": "events/c-study-group-2025/index.html#study-materials",
-    "title": "C Study Group for R Contributors 2025",
-    "section": "Study materials",
-    "text": "Study materials\nThe main study materials are from the C sessions of CS50, Harvard’s Introduction to Computer Science. This will be supplemented with a chapter from Deep R Programming on R’s C API."
-  },
-  {
-    "objectID": "events/c-study-group-2025/index.html#schedule",
-    "href": "events/c-study-group-2025/index.html#schedule",
-    "title": "C Study Group for R Contributors 2025",
-    "section": "Schedule",
-    "text": "Schedule\nThe study group will typically meet in the last week of the month.\n\n\n\nSession\nMonth\nResource\nMaterial\n\n\n\n\n1\nFeb\nCS50\nC\n\n\n2\nMar\nCS50\nArrays\n\n\n3\nApr\nCS50\nAlgorithms\n\n\n4\nMay\nCS50\nMemory\n\n\n5\nJun\nCS50\nData Structures\n\n\n6\nJul\nDeep R\nInterfacing compiled code [in R]"
-  },
-  {
-    "objectID": "events/c-study-group-2025/index.html#commitment",
-    "href": "events/c-study-group-2025/index.html#commitment",
-    "title": "C Study Group for R Contributors 2025",
-    "section": "Commitment",
-    "text": "Commitment\nParticipants should study the material and attempt the corresponding exercises before each study group meeting.\nA suggested weekly schedule for each month for the CS50 material is:\n\nWeek 1: Watch “Lecture” video (2.5 hr)\nWeek 2: Watch “Shorts” (~6 x 10-15 min videos that expand on topics in the lecture) and do one or more of the additional practice problems for the corresponding week\nWeek 3: Watch “Section” (~1hr video going beyond the lecture) and do one or more of the remaining additional practice problems\nWeek 4: Meet to share solutions to the practice problems. Optional: Do “Problem Set” and submit if doing course for credit, or if you want to receive an automatic grade to check your progress\n\nThe additional practice problems are often harder than the problem set, however we suggest leaving the problem set till after the meetup and attempting this independently (this is expected if you are doing the course for credit).\nThere is the option to do further study towards a free certificate from Harvard or a verified certificate from edX (~200 USD, financial assistance program available on edX). See the CS50 website for details.\nAt study group meetings, participants should be prepared to share and discuss their work on the exercises."
-  },
-  {
-    "objectID": "events/c-study-group-2025/index.html#sessions",
-    "href": "events/c-study-group-2025/index.html#sessions",
-    "title": "C Study Group for R Contributors 2025",
-    "section": "Sessions",
-    "text": "Sessions\nThe study group will meet once a month. To accommodate participants in a wide range of time-zones, the C Study Group will run in three cohorts.\n\nCohort 1: 20:00-21:00 (London) / 12:00-13:00 (San Francisco), last Tuesday of the month (Feb 25th, Mar 25th, Apr 29th, May 27th, Jun 24th, Jul 29th)\nCohort 2: 11:00-12:00 AEST (Sydney), last Thursday of the month (May 29th, Jun 26th, Jul 31st, Aug 28th, Sep 25th, Oct 30th)\nCohort 3: 15:00-16:00 (London) / 10:00-11:00 (New York), last Friday for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th). UPDATE: Cohort 3 dispanded after May meet-up, with participants joining either Cohort 1 or 2.\n\nNote that the London times are GMT/UTC in winter and BST in summer, so please take care if/when the clocks change in your time zone. The events page shows actual times in your time zone, along with Google calendar and iCalendar links (the time zone on the calendar can be selected in its bottom-right corner).\nSign up to attend the sessions on the R Contributors Meetup.\nSee also the #c-study-group channel in the R Contributors Slack for up-to-date information, and to communicate with other participants."
-  },
-  {
-    "objectID": "events/c-study-group-2025/index.html#further-help",
-    "href": "events/c-study-group-2025/index.html#further-help",
-    "title": "C Study Group for R Contributors 2025",
-    "section": "Further help",
-    "text": "Further help\nParticipants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has communities on multiple platforms that you can connect to."
-  },
-  {
-    "objectID": "events/bug-bbq/welcome.html",
-    "href": "events/bug-bbq/welcome.html",
-    "title": "Welcome to the Bug BBQ",
-    "section": "",
-    "text": "Overview\nAim: 24 hours for the community to help with R bugs\n\nLearn more about R’s development process\nChat with experienced contributors including R Core members\nTake a look at some bugs\nSee if you can contribute!\n\n???\nThe Bug BBQ is an opportunity for the community to get together and help out with bugs in R.\nFor new contributors, it will be a chance to learn more about R’s development process.\nFor all participants, it will be a chance to chat with experienced contributors, including R Core developers, and to take a look at some R bugs and see if you can contribute\n\n\n\nbugs.r-project.org\n\n\n\nScreenshot of R’s Bugzilla showing an HTML table with the results of a search for open bugs, in order of the most recent change, with the newest at the top.\n\n\n???\nBugs in R are tracked in R’s Bugzilla, which can be found at bugs.r-project.org. This screen shot shows the results of a search for open bugs, in order of the most recent change, with the newest at the top.\n\n\n\nBug report\n ???\nHere is an example bug report on Bugzilla. We just see the start of the report here, with the metadata. In this case the bug was reported by Martin Maechler.\n\n\n\nBug report comments\n ???\nIf we scroll down, we can see the comments. The first comment is the bug report itself. There maybe be further comments in reply, discussing the bug and potentially how to fix it.\n\n\n\nProposed patch\n ???\nSometimes there will be a proposed patch attached to the bug report. This can be found in the attachments section under the metadata.\nThe patch is a diff between the proposed changes and the current source code. Click on the Diff link next to the attached patch to view the diff in the browser.\n\n\n\nPatch contents\n ???\nIn this Diff viewer, the original source code is on the left and the proposed update is on the right. The lines of code that have been modified are highlighted.\n\n\n\ngithub.com/r-devel/bug-bbq\n\n\n\nScreenshot of the r-devel/bug-bbq GitHub repository. The repository contains a few code files and a README.md\n\n\n???\nFor the Bug BBQ, we will be treating R’s Bugzilla as read only. We have set up a GitHub repo for this event, to allow informal discussion of bugs and to track any contributions. This screenshot shows the homepage for that repo, which you can find at github.com/r-devel/bug-bbq. Scroll down to see the README which contains instructions on how to participate. The rest of this presentation will give an overview of these instructions.\n\n\n\nWork on issues\n ???\nOn the issues page of the bug-bbq repo, issues have been created that correspond to one or more bugs on Bugzilla. The issues have been labelled to help you find bugs to work on. The labels that start with capital letters, e.g. Models or Documentation, describe the general topic of the bug. The labels in lower case describe required actions. We’ll go through these action labels in more detail.\n\n\n\nneeds reprex\nThese bug reports require a minimal reproducible example that demonstrates the bug, using only core R packages.\n\nYou may need a specific version of R to reproduce the bug\nPost your reprex on the GitHub issue, adding @r-devel/triagers\n\n???\nBugs labelled “needs reprex” require a minimal reproducible example to reproduce the bug, using only core R packages.\nYou may need a specific version of R to reproduce the bug. We’ll come back to accessing different versions of R later.\nIf you create a reprex, post it as a comment on the GitHub issue corresponding to the bug and add @r-devel/triagers to notify the Triage team of the update.\n\n\n\ncheck in r-devel\nFor these bugs, we need to check if they are still an issue in the current R development version.\n\nRun the reproducible example in R-devel\nOn the corresponding GitHub issue:\n\nReport if the bug is still an issue in R-devel\nNote the exact version of R-devel that you checked\nTag @r-devel/triagers\n\n\n???\nBugs labelled “check in r-devel”, need checking if the bug is still an issue in R-devel, the development version of R.\nUsing R-Devel, run the reproducible example that you can find in the original bug report, or on the GitHub issue.\nReport back on the GitHub issue, stating if the bug is still present or not. Add the exact version of R-devel that you used and tag @r-devel/triagers.\n\n\n\nneeds diagnosis\nOnce the bug is reproducible in the development version of R, the cause of the bug should be diagnosed.\n\nExplore the reprex interactively\nCategorise as not a bug, wishlist, or confirmed bug\nReport back on the GitHub issue:\nWhere and why the bug happens\nThe bug category (not a bug, wishlist, or confirmed)\nTag @r-devel/triagers\n\n???\nFor bugs labelled “needs diagnosis” we need to diagnose where and why the buggy behaviour occurs.\nExplore the reprex interactively in a version of R where the bug can be reproduced.\nYou may discover the reported bug reflects a misunderstanding or a wish about how R should work and is not a real bug.\nReport back your findings on the GitHub issue tagging @r-devel/triagers.\n\n\n\ndiscuss fix\nOnce the cause of the bug is known, there should be a discussion about how to fix it.\n\nAdd a comment to the GitHub issue corresponding to the bug.\nFollow the repo to be notified of any responses and respond if you have further comment, or react with emoji.\n\n???\nFor bugs labelled “discuss fix”, we need help deciding how to fix the bug.\nYou can share your opinions about any proposed approach or propose your own approach in a comment on the GitHub issue.\nFollow the repo to be notified of any responses and respond if you have further comment, or react with emoji.\n\n\n\nneeds patch\nOnce there is agreement from a member of R Core on how to fix a bug, you can implement the fix.\n\nCheck out the latest version of the source code for R\nMake changes to the code to implement your fix\nPrepare a patch\nTest your patch\nAdd a comment to the GitHub issue with your patch\nTag @r-devel/triagers\n\n???\nFor bugs labelled “needs patch” an R Core member has agreed how the bug should be fixed and you can implement the fix.\nThere are some tips on the bug-bbq repo README of how to go about the process of making changes to a copy of the source code and preparing a patch.\nOnce you have a patch you may add it as a comment on the GitHub issue, tagging @r-devel/triagers.\n\n\n\nneeds review\nOnce a patch is proposed, it can be helpful for others to review the patch.\n\nReview the bug report and any comments\nReview the proposed patch\nReport back on the GitHub issue:\n\nDoes the patch resolve the bug?\nDo you have any feedback that could improve the patch?\n\n\n???\nBugs labelled “needs review” have a code or documentation patch that is ready for review.\nStart by reviewing the bug report and any comments, before looking at the proposed patch.\nReport back on the GitHub issue, stating if the patch resolves the bug, and adding any feedback you have from your review.\n\n\n\nAdd new issues\nYou are welcome to review the open bugs on Bugzilla and add corresponding issues on the bug-bbq GitHub repo.\n\nFollow the standard format for the title\nAsk a member of the Triage team to add labels\n\n???\nYou are welcome to review the open bugs on Bugzilla and add corresponding issues on the bug-bbq GitHub repo for bugs that you would like to work on.\nFollow the standard format for the title.\nOnly members of the triage team can add labels. If you want to help out by labelling bugs ask to be added to the team!\n\n\n\nChoose how to work\nYou can work on bugs anytime during the 24 hour event\nThe #bug-bbq channel on the R-Devel Slack is available to - Discuss bugs in threads - Get help in main channel\nThere are 3 Zoom sessions of 4 hours - Join a breakout room & work together - Get help in the main room\n???\nYou can work on bugs anytime during the 24 hour event\nThe #bug-bbq channel on the R-Devel Slack is available all the time for you to discuss bugs in threads, or get help in main channel.\nIn the scheduled Zoom sessions you can join a breakout room to work with others, or you can join the main room to get help from facilitators or chat with experienced contributors.\n\n\n\nFurther help\nThe bug-bbq README contains help on: - Accessing different versions of R, including R-devel - Getting a copy of the R sources - Modifying an R function - Making and testing a patch - Applying a patch to your copy of the R sources\nFor further help, please ask on Zoom or in the Slack!\n???\nThe bug-bbq README contains help on: - Accessing different versions of R, including R-devel - Getting a copy of the R sources - Modifying an R function - Making and testing a patch - Applying a patch to your copy of the R sources\nFor further help, please ask on Zoom or in the Slack!\n\n.center[# Let’s go!\n\n\n\n\n\n\n\n\n\n]\n???\nSo, let’s go! We look forward to meeting you during the organized sessions and hope that together we are able to make progress on open bugs in R."
-  },
-  {
-    "objectID": "events/office-hours/index.html",
-    "href": "events/office-hours/index.html",
-    "title": "R Contributor Office Hours",
-    "section": "",
-    "text": "Join an Office Hour to"
-  },
-  {
-    "objectID": "events/office-hours/index.html#what-happens-at-an-office-hour",
-    "href": "events/office-hours/index.html#what-happens-at-an-office-hour",
-    "title": "R Contributor Office Hours",
-    "section": "What happens at an office hour?",
-    "text": "What happens at an office hour?\nThe Office Hours are facilitated by members of the R Contribution Working Group who will tailor the hour according to the interests of attendees. The hour might include brief overviews or mini demonstrations, live debugging or discussion of different topics. Participants may be asked to add to a collaborative document or share their screen. All participation is optional - it is fine to come along and observe. You can check out the office hour minutes to see what we’ve been up to recently."
-  },
-  {
-    "objectID": "events/office-hours/index.html#who-should-come-to-office-hours",
-    "href": "events/office-hours/index.html#who-should-come-to-office-hours",
-    "title": "R Contributor Office Hours",
-    "section": "Who should come to office hours?",
-    "text": "Who should come to office hours?\nWe welcome people that are entirely new to contributing as well as seasoned contributors."
-  },
-  {
-    "objectID": "events/office-hours/index.html#when-are-the-office-hours",
-    "href": "events/office-hours/index.html#when-are-the-office-hours",
-    "title": "R Contributor Office Hours",
-    "section": "When are the office hours?",
-    "text": "When are the office hours?\nThe Office Hours are typically held on the 2nd Thursday of the month, at two times to cater for different world regions (click to find the corresponding time in your local time zone):\n\n\n\nRegion\nNovember - March\nApril - October\n\n\n\n\nEurope, Middle East, Asia, Asia-Pacific (EMEA/APAC)\n10:00 UTC\n09:00 UTC\n\n\nAmericas (AMER)\n09:30 PST / 12:30 EST\n09:30 PDT / 12:30 EDT\n\n\n\nYou can attend either or both office hour, wherever you are based - the country groupings just indicate the world regions that are in working/waking hours at that time."
-  },
-  {
-    "objectID": "events/office-hours/index.html#how-to-join-an-office-hour",
-    "href": "events/office-hours/index.html#how-to-join-an-office-hour",
-    "title": "R Contributor Office Hours",
-    "section": "How to join an office hour",
-    "text": "How to join an office hour\nTo join, sign up on the R Contributors Meetup - you can do this any time until the office hour is over!\nOther ways to find out about upcoming Office Hours:\n\nThe Events Calendar, where you can add the Office Hour series to your calendar\nThe R Contributors Slack - the Zoom link will typically be shared just before the office hour.\n\nThe office hours are also advertised on our social media channels and various community Slack groups."
-  },
-  {
-    "objectID": "tutorials/translating-r-to-your-language/index.html",
-    "href": "tutorials/translating-r-to-your-language/index.html",
-    "title": "Translating R to your language",
-    "section": "",
-    "text": "In this video tutorial recorded at useR! 2021, Michael Chirico and Michael Lawrence aim to get package developers and other R community members started implementing foreign-language translations of R’s messages (errors, warnings, verbose output, etc.) into a language of their choosing.\nOur real-time participants were focused on Spanish, Bahasa Indonesia, and Hungarian.\n\n\n The tutorial presentation slides are publicly available in Google Slides format.\nNote: This video describes the gettext infrastructure that R uses to internationalize messages. This background information and the tips for translation (first 1h15 of video) are still relevant, but we now recommend translations are added/updated via the R Project Weblate server."
-  },
-  {
-    "objectID": "r-help.html",
-    "href": "r-help.html",
-    "title": "Resources for General Help with R",
-    "section": "",
-    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nR for Data Science (R4DS) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
-  },
-  {
-    "objectID": "r-help.html#dedicated-channels-for-r-help",
-    "href": "r-help.html#dedicated-channels-for-r-help",
-    "title": "Resources for General Help with R",
-    "section": "",
-    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nR for Data Science (R4DS) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
-  },
-  {
-    "objectID": "r-help.html#general-r-communities",
-    "href": "r-help.html#general-r-communities",
-    "title": "Resources for General Help with R",
-    "section": "General R communities",
-    "text": "General R communities\nPosts about R can be found with the #RStats tag on social media such as Mastodon, X, etc. Sometimes posting about an issue can be an effective way to find help.\n\nThe R Project for Statistical Computing LinkedIn Group - a community-run private discussion group for R users\ndiscoRd - a Discord server for text or voice chat with other R users. Many specialized channels (e.g. finance, R markdown, machine learning) as well as general R and non-R chat.\ngrrr - French-speaking R Users Slack."
-  },
-  {
-    "objectID": "r-help.html#r-communities-for-members-of-underrepresented-groups",
-    "href": "r-help.html#r-communities-for-members-of-underrepresented-groups",
-    "title": "Resources for General Help with R",
-    "section": "R communities for members of underrepresented groups",
-    "text": "R communities for members of underrepresented groups\nThere are several communities for members of groups that are underrepresented in the global R community. Many have Slack groups, sometimes with specific channels to ask for help with R.\n\nR-Ladies community Slack - general help with R on #r-help channel, Slack group is for women and gender minorities only.\nRainbowR community Slack - supporting LGBTQ+ people who code in the R language.\nMinorities in R community Slack - supporting R users from marginalized races, genders, and the disabled community."
-  },
-  {
-    "objectID": "r-help.html#regional-r-communities",
-    "href": "r-help.html#regional-r-communities",
-    "title": "Resources for General Help with R",
-    "section": "Regional R communities",
-    "text": "Regional R communities\n\nAsiaR Discord - supporting R users from or living in Asia.\n\nKorea R User Group Discord - supporting R users from or living in Korea.\n\nLatinR Slack - supporting R users from or living in Latin America. Use the #r-ajuda-r-ayuda channel to get help in Spanish, (Brazilian) Portuguese or English."
-  },
-  {
-    "objectID": "slack.html",
-    "href": "slack.html",
-    "title": "R Contributors Slack",
-    "section": "",
-    "text": "The R Contributors Slack is a supportive space to foster the community of contributors to R core development:\nBy “R core” we refer to the base packages, which R users outside of the R Core Team may contribute to through discussion of bugs/new features, reviewing bug reports and proposing patches. The Slack is a space to discuss related coding issues, the wider development process and outreach initiatives.\nFor questions that are off-topic, e.g. general Q&A about using R or R packages, installation issues, or package development, please post on an alternative forum for help."
-  },
-  {
-    "objectID": "slack.html#posting-guide",
-    "href": "slack.html#posting-guide",
-    "title": "R Contributors Slack",
-    "section": "Posting Guide",
-    "text": "Posting Guide\nTo create a welcoming and supportive workspace, we ask members to:\n\nBe welcoming, friendly and patient.\nAvoid sarcasm or belittling language.\nRespect people’s technology choices.\nProvide direct links vs “RTFM”/“Just Google it” responses.\nUse gender inclusive language (see e.g. this factsheet on gender inclusive language). In particular,\n\nuse “they” when talking about a hypothetical person\navoid using “guys”\navoid using terms such as “manpower”\n\n\nThe administrators will remind people of the posting guide if necessary and reserve the right to deactivate the membership of anyone persistently acting against the ethos of the workspace.\nMessages on public channels of the Slack may be put in a public archive or shared outside the Slack. Use DMs/private channels for private messages, which should not be shared without consent.\nBy joining the Slack, members also agree to the general code of conduct below. The administrators will enforce this code of conduct and expect cooperation in ensuring a safe environment for all.\nJoin/Go to R Contributors Slack"
-  },
-  {
-    "objectID": "slack.html#code-of-conduct",
-    "href": "slack.html#code-of-conduct",
-    "title": "R Contributors Slack",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nThe administrators of R Contributors Slack are dedicated to providing a harassment-free workspace for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof).\n\nExpected Behaviour\nAll members agree to:\n\nBe considerate in language and actions, and respect the boundaries of fellow members.\nRefrain from demeaning, discriminatory, or harassing behaviour and language. Please refer to Unacceptable Behaviour for more details.\nAlert one of the administrators if you observe violations of this code of conduct, even if they seem inconsequential.\n\n\n\nUnacceptable Behaviour\nBehaviour that is unacceptable includes, but is not limited to:\n\nStalking, e.g. persistent unwanted DMs, logging online activity for harassment purposes.\nDeliberate intimidation.\nSustained or willful disruption of discussion.\nUse of sexual or discriminatory imagery, comments, or jokes.\nOffensive comments related to age, gender, sexual orientation, disability, race or religion.\nInappropriate simulated physical contact, e.g. textual descriptions like “hug” or “backrub” or custom emoji representing such contact, used without consent.\nUnwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favours or repeatedly asking for dates or contact information.\n\nIf you are asked to stop harassing behaviour you should stop immediately, even if your behaviour was meant to be friendly or a joke, it was clearly not taken that way and for the comfort of all members you should stop.\nMembers who behave in a manner deemed inappropriate are subject to actions listed under Procedure for Code of Conduct Violations.\n\n\nProcedure for Code of Conduct Violations\nThe administrators reserves the right to determine the appropriate response for all code of conduct violations. Potential responses include:\n\na formal warning to stop harassing behaviour\ntemporarily/permanently deactivating membership of the workspace\n\n\n\nWhat To Do If You Witness or Are Subject To Unacceptable Behaviour\nTake screenshots of offending posts (deleted posts cannot be seen even by admins).\nView the Admins & Owners in the workspace settings (only available to members). Email or message one or more administrators listed to report the behaviour.\nIf the admins are unable to respond in a timely manner, you may flag the issue by responding to the offending post with a brief comment, e.g.\n\nThis comment is inappropriate, please delete it.\nThis goes against the code of conduct, I have reported it.\n\nThere is no obligation to respond if you don’t feel comfortable. Don’t get drawn into an argument or pile on an offender, a brief comment is enough to signal the issue and give the offender a chance to make it right.\n\n\nAcknowledgements\nThe CoC is adapted from the useR! Code of Conduct.\nParts of the above text are licensed CC BY-SA 4.0. Credit to SRCCON. This code of conduct was based on that developed for useR! 2018 which was a revision of the code of conduct used at previous useR!s and also drew from rOpenSci’s code of conduct."
-  },
-  {
-    "objectID": "tutorials/contributing-to-r/index.html",
-    "href": "tutorials/contributing-to-r/index.html",
-    "title": "Contributing to R",
-    "section": "",
-    "text": "In this video tutorial recorded at useR! 2021, Gabriel Becker and Martin Maechler explain how members of the R community can contribute to R.\nThe full video (2h15) includes Gabriel discussing his experiences as an external contributor: some of the projects he has worked on and lessons learned. This is recommended for all aspiring contributors as a window into the social dynamics of contribution.\n\n\n If you are short on time, the abridged video (1h30) focuses on the starting point for most contributors: helping address bugs in R.\n\n\n The tutorial presentation slides are available in PDF format (the abridged version skips slides 12-45).\nThe Contributing to R GitHub repository provides links to background reading and exercises based on real bugs in R 3.3.2. A docker image is provided, alternatively on Windows you can install the R 3.3.2 binary."
-  },
-  {
-    "objectID": "tutorials/index.html",
-    "href": "tutorials/index.html",
-    "title": "Tutorials & Demos",
-    "section": "",
-    "text": "These tutorials and demos are designed to help new contributors get started."
-  },
-  {
-    "objectID": "tutorials/index.html#tutorials",
-    "href": "tutorials/index.html#tutorials",
-    "title": "Tutorials & Demos",
-    "section": "Tutorials",
-    "text": "Tutorials\nVideo tutorials with integrated/additional exercises.\n\n\nContributing to R, Gabriel Becker and Martin Maechler, useR! 2021.\n2h15 video (or 1h30 abridged version), with accompanying slides and exercises.\n\n\nAbstract\n\nDid you always want to contribute to (base) R but don’t know how?\nThis tutorial shows cases where and how users have contributed actively to (base) R, by submitting bug reports with minimal reproducible examples, how testing, reading source code, and providing patches to the R source code has helped making R better.\nA selection of past bug reports are provided for you to practice debugging. For bugs that have been resolved you can check what happened after the bug was reported.\n\n\n\nTranslating R to your Language, Michael Chirico and Michael Lawrence, useR! 2021.\n1h30 video with accompanying slides.\n\n\nAbstract\n\nR users are a global bunch. Providing error messages in languages besides English can greatly improve the user experience (and debugging experience) of those using R who may not be English natives.\nThe standard tools for providing translations can be somewhat esoteric; this tutorial goes over some of the challenges presented by translations, the process for providing and/or updating translations to R itself, and finally introduces a package (potools) that will remove some of the frictions potential translators may face."
-  },
-  {
-    "objectID": "tutorials/index.html#demos",
-    "href": "tutorials/index.html#demos",
-    "title": "Tutorials & Demos",
-    "section": "Demos",
-    "text": "Demos\nShort videos to give people a quick start on the basics.\n\n\nHow to Make a Contribution to Base R, Heather Turner and Ella Kaye, Collaborations Workshop 2023. 10 min video.\n\n\nAbstract\n\nMaking a contribution to a large open source software project like the R project can seem very daunting. This walkthrough aims to demonstrate how R users can contribute simple fixes to the code or documentation in base R, helping to maintain this fundamental software for data science. We will briefly look at: 1) How to find a good bug to work on, 2) Getting to the the root of the issue, and 3) How to propose a fix.\n\n\n\nR translatón / Hackaton de tradução do R, Beatriz Milz, Ángela Sanzo, and Macarena Quiroga, LatinR 2022. 40 min video (mainly in Spanish)\n\n\nAbstract\n\nThis is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server."
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html",
-    "href": "events/collaboration-campfires/index.html",
-    "title": "Collaboration Campfires",
-    "section": "",
-    "text": "Learn how to contribute to R!\nThe Collaboration Campfires are online collaborative events to open pathways for members of groups currently underrepresented in the R project. The goal is to demystify the R development process and highlight ways that R programmers can contribute, with a focus on low-level contributions in terms of time commitment and prerequisite knowledge.\nThe current series is planned in the run-up to the useR! 2022 online conference, where we plan to hold a satellite global contribution event: the Bug Barbecue!"
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#schedule",
-    "href": "events/collaboration-campfires/index.html#schedule",
-    "title": "Collaboration Campfires",
-    "section": "Schedule",
-    "text": "Schedule\nThe Collaboration Campfires will be on the 4th Tuesday of every month from February to May 2022. The 90 minute Zoom sessions will start at 15:30 UTC. Note: many countries switch to daylight savings time either before the March meeting or before the April meeting.\n\nFebruary 22: Explore R’s Bug-tracking Process [local time]\nMarch 22: How to Help Review R Bug Reports [local time]\nApril 26: Explore R’s Process for Localization (Translation) [local time]\nMay 24: How to Contribute to a Translation Team [local time]\n\nIf you are a member of the R-Ladies, MiR, ArabR, AfricaR, AsiaR, or LatinR communities, or otherwise identify as part of an underrepresented group among R contributors, then we especially encourage you to participate! Anyone from the general R community that respects and supports the aims of these events is also welcome to attend.\nRegistration is free. Click the button to register for individual or multiple events and receive a calendar invite.\n[Zoom Registration Form]\nIf you have a friend or colleague who might be interested in attending the Collaboration Campfires, then why not invite them along!"
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#campfire-hosts",
-    "href": "events/collaboration-campfires/index.html#campfire-hosts",
-    "title": "Collaboration Campfires",
-    "section": "Campfire Hosts",
-    "text": "Campfire Hosts\n\n\n&lt;img src=\"saranjeet-kaur.jpg\" alt=\"Saranjeet Kaur Bhogal\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Saranjeet Kaur &lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/qwertyquesting\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://saranjeetkaur.github.io/About-Me/\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\n&lt;img src=\"heather-turner.jpg\" alt=\"Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt.\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Heather Turner&lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/heathrturnr\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\nIf you have any questions about the events, please contact heather@r-project.org or find us on the R Contributors Slack."
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#organizers-and-partners",
-    "href": "events/collaboration-campfires/index.html#organizers-and-partners",
-    "title": "Collaboration Campfires",
-    "section": "Organizers and partners",
-    "text": "Organizers and partners\nThe Collaboration Campfires are part of the project Building Community around the R Development Guide, supported by the Digital Infrastructure Incubator at Code for Science & Society (CS&S). The project is led by Saranjeet Kaur Bhogal and Heather Turner, and mentored by Rayya El Zein. Members of partner communities and the R Contribution Working Group have contributed to the organisation, and will provide expert and peer support during the sessions."
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#code-of-conduct",
-    "href": "events/collaboration-campfires/index.html#code-of-conduct",
-    "title": "Collaboration Campfires",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nAs CS&S events, their code of conduct(Guidelines for community participation & Code of Conduct: (https://eventfund.codeforscience.org/code-of-conduct/) will apply to these sessions."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html",
-    "href": "events/bug-bbq/index.html",
-    "title": "Bug BBQ",
-    "section": "",
-    "text": "Help squash bugs in R!\nThe Bug Barbecue (Bug BBQ) is a global, online event spread over 24 hours, in which new and experienced contributors can help to address open bugs in R. It will take place Thursday, June 23 - Friday, June 24.\nIt is a satellite event to useR! 2022, however you do not need to register for useR! to attend the Bug BBQ."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html#schedule",
-    "href": "events/bug-bbq/index.html#schedule",
-    "title": "Bug BBQ",
-    "section": "Schedule",
-    "text": "Schedule\nThere will be three organized sessions during the event and people are welcome to attend one or more session. The three sessions are suited to different regions of the globe, as detailed below.\nSession 1 (APAC), Friday, June 24, 01:00 - 05:00 UTC (your local time, note this starts on Thursday evening, June 23 in AMER region). [Register for Session 1]\nSession 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC (your local time). [Register for Session 2]\nSession 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC (your local time). [Register for Session 3]\nThere is no cost to attend. Registration can be done any time up to the end of each session and allows you to join the Zoom meeting to chat with facilitators and other participants."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html#session-format",
-    "href": "events/bug-bbq/index.html#session-format",
-    "title": "Bug BBQ",
-    "section": "Session format",
-    "text": "Session format\nEach session is self-guided, to allow people to get started whenever they can join.\nWhen you join:\n\n[Optional, for new contributors] Watch the abridged version of the Contributing to R tutorial from useR! 2021 (~1.5 hours). At least one of the tutors, Gabriel Becker and Martin Mächler, will be available for questions in each of the sessions.\nWatch the Welcome to the Bug BBQ video to get orientated. Corresponding HTML slides - press P to see the transcript.\nUse the remaining time to work independently or in small groups on open bugs.\n\n\nZoom breakout rooms will be available for people that want to work together.\nThe #bug-bbq channel on the R Contributors Slack will be used for people that want to chat.\nThe bug-bbq GitHub repo will be used to track progress.\n\nNote: we will be treating the R Bugzilla as read only during the event. Please do not post there, but rather use the Zoom, Slack or GitHub repo mentioned above."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html#code-of-conduct",
-    "href": "events/bug-bbq/index.html#code-of-conduct",
-    "title": "Bug BBQ",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nAs a satellite event, the Bug BBQ will follow the useR! code of conduct."
-  },
-  {
     "objectID": "events/c-study-group-2024/index.html",
     "href": "events/c-study-group-2024/index.html",
     "title": "C Study Group for R Contributors 2024",
@@ -364,46 +280,109 @@
     "text": "Further help\nParticipants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has communities on multiple platforms that you can connect to."
   },
   {
-    "objectID": "events/r-dev-days/index.html",
-    "href": "events/r-dev-days/index.html",
-    "title": "R Dev Days",
+    "objectID": "events/bug-bbq/welcome.html",
+    "href": "events/bug-bbq/welcome.html",
+    "title": "Welcome to the Bug BBQ",
     "section": "",
-    "text": "R Dev Days are short events - usually over one day, or linked sessions over consecutive days - for novice and experienced contributors to work collaboratively on contributions to base R. These events have the support of the R Core Team and some will have R Core Developers participating directly."
+    "text": "Overview\nAim: 24 hours for the community to help with R bugs\n\nLearn more about R’s development process\nChat with experienced contributors including R Core members\nTake a look at some bugs\nSee if you can contribute!\n\n???\nThe Bug BBQ is an opportunity for the community to get together and help out with bugs in R.\nFor new contributors, it will be a chance to learn more about R’s development process.\nFor all participants, it will be a chance to chat with experienced contributors, including R Core developers, and to take a look at some R bugs and see if you can contribute\n\n\n\nbugs.r-project.org\n\n\n\nScreenshot of R’s Bugzilla showing an HTML table with the results of a search for open bugs, in order of the most recent change, with the newest at the top.\n\n\n???\nBugs in R are tracked in R’s Bugzilla, which can be found at bugs.r-project.org. This screen shot shows the results of a search for open bugs, in order of the most recent change, with the newest at the top.\n\n\n\nBug report\n ???\nHere is an example bug report on Bugzilla. We just see the start of the report here, with the metadata. In this case the bug was reported by Martin Maechler.\n\n\n\nBug report comments\n ???\nIf we scroll down, we can see the comments. The first comment is the bug report itself. There maybe be further comments in reply, discussing the bug and potentially how to fix it.\n\n\n\nProposed patch\n ???\nSometimes there will be a proposed patch attached to the bug report. This can be found in the attachments section under the metadata.\nThe patch is a diff between the proposed changes and the current source code. Click on the Diff link next to the attached patch to view the diff in the browser.\n\n\n\nPatch contents\n ???\nIn this Diff viewer, the original source code is on the left and the proposed update is on the right. The lines of code that have been modified are highlighted.\n\n\n\ngithub.com/r-devel/bug-bbq\n\n\n\nScreenshot of the r-devel/bug-bbq GitHub repository. The repository contains a few code files and a README.md\n\n\n???\nFor the Bug BBQ, we will be treating R’s Bugzilla as read only. We have set up a GitHub repo for this event, to allow informal discussion of bugs and to track any contributions. This screenshot shows the homepage for that repo, which you can find at github.com/r-devel/bug-bbq. Scroll down to see the README which contains instructions on how to participate. The rest of this presentation will give an overview of these instructions.\n\n\n\nWork on issues\n ???\nOn the issues page of the bug-bbq repo, issues have been created that correspond to one or more bugs on Bugzilla. The issues have been labelled to help you find bugs to work on. The labels that start with capital letters, e.g. Models or Documentation, describe the general topic of the bug. The labels in lower case describe required actions. We’ll go through these action labels in more detail.\n\n\n\nneeds reprex\nThese bug reports require a minimal reproducible example that demonstrates the bug, using only core R packages.\n\nYou may need a specific version of R to reproduce the bug\nPost your reprex on the GitHub issue, adding @r-devel/triagers\n\n???\nBugs labelled “needs reprex” require a minimal reproducible example to reproduce the bug, using only core R packages.\nYou may need a specific version of R to reproduce the bug. We’ll come back to accessing different versions of R later.\nIf you create a reprex, post it as a comment on the GitHub issue corresponding to the bug and add @r-devel/triagers to notify the Triage team of the update.\n\n\n\ncheck in r-devel\nFor these bugs, we need to check if they are still an issue in the current R development version.\n\nRun the reproducible example in R-devel\nOn the corresponding GitHub issue:\n\nReport if the bug is still an issue in R-devel\nNote the exact version of R-devel that you checked\nTag @r-devel/triagers\n\n\n???\nBugs labelled “check in r-devel”, need checking if the bug is still an issue in R-devel, the development version of R.\nUsing R-Devel, run the reproducible example that you can find in the original bug report, or on the GitHub issue.\nReport back on the GitHub issue, stating if the bug is still present or not. Add the exact version of R-devel that you used and tag @r-devel/triagers.\n\n\n\nneeds diagnosis\nOnce the bug is reproducible in the development version of R, the cause of the bug should be diagnosed.\n\nExplore the reprex interactively\nCategorise as not a bug, wishlist, or confirmed bug\nReport back on the GitHub issue:\nWhere and why the bug happens\nThe bug category (not a bug, wishlist, or confirmed)\nTag @r-devel/triagers\n\n???\nFor bugs labelled “needs diagnosis” we need to diagnose where and why the buggy behaviour occurs.\nExplore the reprex interactively in a version of R where the bug can be reproduced.\nYou may discover the reported bug reflects a misunderstanding or a wish about how R should work and is not a real bug.\nReport back your findings on the GitHub issue tagging @r-devel/triagers.\n\n\n\ndiscuss fix\nOnce the cause of the bug is known, there should be a discussion about how to fix it.\n\nAdd a comment to the GitHub issue corresponding to the bug.\nFollow the repo to be notified of any responses and respond if you have further comment, or react with emoji.\n\n???\nFor bugs labelled “discuss fix”, we need help deciding how to fix the bug.\nYou can share your opinions about any proposed approach or propose your own approach in a comment on the GitHub issue.\nFollow the repo to be notified of any responses and respond if you have further comment, or react with emoji.\n\n\n\nneeds patch\nOnce there is agreement from a member of R Core on how to fix a bug, you can implement the fix.\n\nCheck out the latest version of the source code for R\nMake changes to the code to implement your fix\nPrepare a patch\nTest your patch\nAdd a comment to the GitHub issue with your patch\nTag @r-devel/triagers\n\n???\nFor bugs labelled “needs patch” an R Core member has agreed how the bug should be fixed and you can implement the fix.\nThere are some tips on the bug-bbq repo README of how to go about the process of making changes to a copy of the source code and preparing a patch.\nOnce you have a patch you may add it as a comment on the GitHub issue, tagging @r-devel/triagers.\n\n\n\nneeds review\nOnce a patch is proposed, it can be helpful for others to review the patch.\n\nReview the bug report and any comments\nReview the proposed patch\nReport back on the GitHub issue:\n\nDoes the patch resolve the bug?\nDo you have any feedback that could improve the patch?\n\n\n???\nBugs labelled “needs review” have a code or documentation patch that is ready for review.\nStart by reviewing the bug report and any comments, before looking at the proposed patch.\nReport back on the GitHub issue, stating if the patch resolves the bug, and adding any feedback you have from your review.\n\n\n\nAdd new issues\nYou are welcome to review the open bugs on Bugzilla and add corresponding issues on the bug-bbq GitHub repo.\n\nFollow the standard format for the title\nAsk a member of the Triage team to add labels\n\n???\nYou are welcome to review the open bugs on Bugzilla and add corresponding issues on the bug-bbq GitHub repo for bugs that you would like to work on.\nFollow the standard format for the title.\nOnly members of the triage team can add labels. If you want to help out by labelling bugs ask to be added to the team!\n\n\n\nChoose how to work\nYou can work on bugs anytime during the 24 hour event\nThe #bug-bbq channel on the R-Devel Slack is available to - Discuss bugs in threads - Get help in main channel\nThere are 3 Zoom sessions of 4 hours - Join a breakout room & work together - Get help in the main room\n???\nYou can work on bugs anytime during the 24 hour event\nThe #bug-bbq channel on the R-Devel Slack is available all the time for you to discuss bugs in threads, or get help in main channel.\nIn the scheduled Zoom sessions you can join a breakout room to work with others, or you can join the main room to get help from facilitators or chat with experienced contributors.\n\n\n\nFurther help\nThe bug-bbq README contains help on: - Accessing different versions of R, including R-devel - Getting a copy of the R sources - Modifying an R function - Making and testing a patch - Applying a patch to your copy of the R sources\nFor further help, please ask on Zoom or in the Slack!\n???\nThe bug-bbq README contains help on: - Accessing different versions of R, including R-devel - Getting a copy of the R sources - Modifying an R function - Making and testing a patch - Applying a patch to your copy of the R sources\nFor further help, please ask on Zoom or in the Slack!\n\n.center[# Let’s go!\n\n\n\n\n\n\n\n\n\n]\n???\nSo, let’s go! We look forward to meeting you during the organized sessions and hope that together we are able to make progress on open bugs in R."
   },
   {
-    "objectID": "events/r-dev-days/index.html#upcoming-events",
-    "href": "events/r-dev-days/index.html#upcoming-events",
-    "title": "R Dev Days",
-    "section": "Upcoming events",
-    "text": "Upcoming events\nThese are the planned events for 2025  Links to the registration/application page and the corresponding deadline will be added as soon as these details are available.\n\nSatellite events\n\n\n\nSatellite to\nWhere\nDate\nDeadline\n\n\n\n\nuseR! 2025 (8-10 Aug)\nDurham, NC, USA\nMon 11 Aug\nTue 15 Apr\n\n\nRSECon25 (9-11 Sep)\nWarwick, UK\nFri 12 Sep\nWed 23 Apr\n\n\nShiny in Production (8-9 Oct)\nNewcastle, UK\n7-8 Oct\nWed 24 Sep\n\n\n\n\n\nStandalone events\n\n\n\nWhere\nDate\nDeadline\n\n\n\n\nMelbourne, Australia / Virtual\nFri 21 Nov\nSun 16 Nov\n\n\nAuckland, New Zealand\nTue 16 Dec - Wed 17 Dec\nTBC\n\n\n\nNote that OceaniaR Hackathon 2025 is on Sunday 23 November prior to Biometrics in the Bush Capital on 24-28th November 2025, both in Canberra - people may wish to combine one or both of these events with the R Dev Day in Melbourne!"
+    "objectID": "events/collaboration-campfires/index.html",
+    "href": "events/collaboration-campfires/index.html",
+    "title": "Collaboration Campfires",
+    "section": "",
+    "text": "Learn how to contribute to R!\nThe Collaboration Campfires are online collaborative events to open pathways for members of groups currently underrepresented in the R project. The goal is to demystify the R development process and highlight ways that R programmers can contribute, with a focus on low-level contributions in terms of time commitment and prerequisite knowledge.\nThe current series is planned in the run-up to the useR! 2022 online conference, where we plan to hold a satellite global contribution event: the Bug Barbecue!"
   },
   {
-    "objectID": "events/r-dev-days/index.html#what-happens-at-an-r-dev-day",
-    "href": "events/r-dev-days/index.html#what-happens-at-an-r-dev-day",
-    "title": "R Dev Days",
-    "section": "What happens at an R Dev Day?",
-    "text": "What happens at an R Dev Day?\nTasks are prepared in the run-up to the event, but commonly include:\n\nReviewing, analysing and fixing code or documentation bugs reported on R’s Bugzilla.\nContributing to message translations via Weblate.\n\nTasks may also relate to contributor infrastructure, such as the R Dev Guide and the R Dev Container."
+    "objectID": "events/collaboration-campfires/index.html#schedule",
+    "href": "events/collaboration-campfires/index.html#schedule",
+    "title": "Collaboration Campfires",
+    "section": "Schedule",
+    "text": "Schedule\nThe Collaboration Campfires will be on the 4th Tuesday of every month from February to May 2022. The 90 minute Zoom sessions will start at 15:30 UTC. Note: many countries switch to daylight savings time either before the March meeting or before the April meeting.\n\nFebruary 22: Explore R’s Bug-tracking Process [local time]\nMarch 22: How to Help Review R Bug Reports [local time]\nApril 26: Explore R’s Process for Localization (Translation) [local time]\nMay 24: How to Contribute to a Translation Team [local time]\n\nIf you are a member of the R-Ladies, MiR, ArabR, AfricaR, AsiaR, or LatinR communities, or otherwise identify as part of an underrepresented group among R contributors, then we especially encourage you to participate! Anyone from the general R community that respects and supports the aims of these events is also welcome to attend.\nRegistration is free. Click the button to register for individual or multiple events and receive a calendar invite.\n[Zoom Registration Form]\nIf you have a friend or colleague who might be interested in attending the Collaboration Campfires, then why not invite them along!"
   },
   {
-    "objectID": "events/r-dev-days/index.html#who-can-take-part",
-    "href": "events/r-dev-days/index.html#who-can-take-part",
-    "title": "R Dev Days",
-    "section": "Who can take part?",
-    "text": "Who can take part?\nSome events have open registration, whilst others have an application process to ensure a balance of experience levels over limited places.\nR Dev Days are usually run as satellite events to a conference, with registration/application open to people outside the conference.\nThe main criteria for participation is a good knowledge of R programming and a keen interest in contributing, as we hope participants continue to contribute after the event."
+    "objectID": "events/collaboration-campfires/index.html#campfire-hosts",
+    "href": "events/collaboration-campfires/index.html#campfire-hosts",
+    "title": "Collaboration Campfires",
+    "section": "Campfire Hosts",
+    "text": "Campfire Hosts\n\n\n&lt;img src=\"saranjeet-kaur.jpg\" alt=\"Saranjeet Kaur Bhogal\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Saranjeet Kaur &lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/qwertyquesting\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://saranjeetkaur.github.io/About-Me/\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\n&lt;img src=\"heather-turner.jpg\" alt=\"Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt.\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Heather Turner&lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/heathrturnr\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\nIf you have any questions about the events, please contact heather@r-project.org or find us on the R Contributors Slack."
   },
   {
-    "objectID": "events/r-dev-days/index.html#how-much-does-it-cost",
-    "href": "events/r-dev-days/index.html#how-much-does-it-cost",
-    "title": "R Dev Days",
-    "section": "How much does it cost?",
-    "text": "How much does it cost?\nR Dev Days are free to attend and we are usually able to provide lunch and refreshments to particpants. We will advertise when additional support is available (e.g. through scholarships to the associated conference).\nEach event will have a ticket site or web page with more information - see the Upcoming events section or the R Contributor Events Page."
+    "objectID": "events/collaboration-campfires/index.html#organizers-and-partners",
+    "href": "events/collaboration-campfires/index.html#organizers-and-partners",
+    "title": "Collaboration Campfires",
+    "section": "Organizers and partners",
+    "text": "Organizers and partners\nThe Collaboration Campfires are part of the project Building Community around the R Development Guide, supported by the Digital Infrastructure Incubator at Code for Science & Society (CS&S). The project is led by Saranjeet Kaur Bhogal and Heather Turner, and mentored by Rayya El Zein. Members of partner communities and the R Contribution Working Group have contributed to the organisation, and will provide expert and peer support during the sessions."
   },
   {
-    "objectID": "events/r-dev-days/index.html#past-r-dev-days",
-    "href": "events/r-dev-days/index.html#past-r-dev-days",
-    "title": "R Dev Days",
-    "section": "Past R Dev Days",
-    "text": "Past R Dev Days\n2024\nImperial 2024 (satellite to London satRday) (report)\nPLUS 2024 (satellite to useR! 2024) (report)\nHutch 2024 (satllite to posit::conf(2024)) (report)\nSIP 2024 (report)\nRSECon 2024 (report)\nLatinR 2024 (report)"
+    "objectID": "events/collaboration-campfires/index.html#code-of-conduct",
+    "href": "events/collaboration-campfires/index.html#code-of-conduct",
+    "title": "Collaboration Campfires",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nAs CS&S events, their code of conduct(Guidelines for community participation & Code of Conduct: (https://eventfund.codeforscience.org/code-of-conduct/) will apply to these sessions."
+  },
+  {
+    "objectID": "events/c-study-group-2025/index.html",
+    "href": "events/c-study-group-2025/index.html",
+    "title": "C Study Group for R Contributors 2025",
+    "section": "",
+    "text": "This is a study group meeting once a month for existing/aspiring R contributors who want to gain/refresh basic skills in C programming.\nIt will run from February to July 2025."
+  },
+  {
+    "objectID": "events/c-study-group-2025/index.html#study-materials",
+    "href": "events/c-study-group-2025/index.html#study-materials",
+    "title": "C Study Group for R Contributors 2025",
+    "section": "Study materials",
+    "text": "Study materials\nThe main study materials are from the C sessions of CS50, Harvard’s Introduction to Computer Science. This will be supplemented with a chapter from Deep R Programming on R’s C API."
+  },
+  {
+    "objectID": "events/c-study-group-2025/index.html#schedule",
+    "href": "events/c-study-group-2025/index.html#schedule",
+    "title": "C Study Group for R Contributors 2025",
+    "section": "Schedule",
+    "text": "Schedule\nThe study group will typically meet in the last week of the month.\n\n\n\nSession\nMonth\nResource\nMaterial\n\n\n\n\n1\nFeb\nCS50\nC\n\n\n2\nMar\nCS50\nArrays\n\n\n3\nApr\nCS50\nAlgorithms\n\n\n4\nMay\nCS50\nMemory\n\n\n5\nJun\nCS50\nData Structures\n\n\n6\nJul\nDeep R\nInterfacing compiled code [in R]"
+  },
+  {
+    "objectID": "events/c-study-group-2025/index.html#commitment",
+    "href": "events/c-study-group-2025/index.html#commitment",
+    "title": "C Study Group for R Contributors 2025",
+    "section": "Commitment",
+    "text": "Commitment\nParticipants should study the material and attempt the corresponding exercises before each study group meeting.\nA suggested weekly schedule for each month for the CS50 material is:\n\nWeek 1: Watch “Lecture” video (2.5 hr)\nWeek 2: Watch “Shorts” (~6 x 10-15 min videos that expand on topics in the lecture) and do one or more of the additional practice problems for the corresponding week\nWeek 3: Watch “Section” (~1hr video going beyond the lecture) and do one or more of the remaining additional practice problems\nWeek 4: Meet to share solutions to the practice problems. Optional: Do “Problem Set” and submit if doing course for credit, or if you want to receive an automatic grade to check your progress\n\nThe additional practice problems are often harder than the problem set, however we suggest leaving the problem set till after the meetup and attempting this independently (this is expected if you are doing the course for credit).\nThere is the option to do further study towards a free certificate from Harvard or a verified certificate from edX (~200 USD, financial assistance program available on edX). See the CS50 website for details.\nAt study group meetings, participants should be prepared to share and discuss their work on the exercises."
+  },
+  {
+    "objectID": "events/c-study-group-2025/index.html#sessions",
+    "href": "events/c-study-group-2025/index.html#sessions",
+    "title": "C Study Group for R Contributors 2025",
+    "section": "Sessions",
+    "text": "Sessions\nThe study group will meet once a month. To accommodate participants in a wide range of time-zones, the C Study Group will run in three cohorts.\n\nCohort 1: 20:00-21:00 (London) / 12:00-13:00 (San Francisco), last Tuesday of the month (Feb 25th, Mar 25th, Apr 29th, May 27th, Jun 24th, Jul 29th)\nCohort 2: 11:00-12:00 AEST (Sydney), last Thursday of the month (May 29th, Jun 26th, Jul 31st, Aug 28th, Sep 25th, Oct 30th)\nCohort 3: 15:00-16:00 (London) / 10:00-11:00 (New York), last Friday for the month (Feb 28th, Mar 28th, Apr 25th, May 30th, Jun 27th, Jul 25th). UPDATE: Cohort 3 dispanded after May meet-up, with participants joining either Cohort 1 or 2.\n\nNote that the London times are GMT/UTC in winter and BST in summer, so please take care if/when the clocks change in your time zone. The events page shows actual times in your time zone, along with Google calendar and iCalendar links (the time zone on the calendar can be selected in its bottom-right corner).\nSign up to attend the sessions on the R Contributors Meetup.\nSee also the #c-study-group channel in the R Contributors Slack for up-to-date information, and to communicate with other participants."
+  },
+  {
+    "objectID": "events/c-study-group-2025/index.html#further-help",
+    "href": "events/c-study-group-2025/index.html#further-help",
+    "title": "C Study Group for R Contributors 2025",
+    "section": "Further help",
+    "text": "Further help\nParticipants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has communities on multiple platforms that you can connect to."
+  },
+  {
+    "objectID": "slack.html",
+    "href": "slack.html",
+    "title": "R Contributors Slack",
+    "section": "",
+    "text": "The R Contributors Slack is a supportive space to foster the community of contributors to R core development:\nBy “R core” we refer to the base packages, which R users outside of the R Core Team may contribute to through discussion of bugs/new features, reviewing bug reports and proposing patches. The Slack is a space to discuss related coding issues, the wider development process and outreach initiatives.\nFor questions that are off-topic, e.g. general Q&A about using R or R packages, installation issues, or package development, please post on an alternative forum for help."
+  },
+  {
+    "objectID": "slack.html#posting-guide",
+    "href": "slack.html#posting-guide",
+    "title": "R Contributors Slack",
+    "section": "Posting Guide",
+    "text": "Posting Guide\nTo create a welcoming and supportive workspace, we ask members to:\n\nBe welcoming, friendly and patient.\nAvoid sarcasm or belittling language.\nRespect people’s technology choices.\nProvide direct links vs “RTFM”/“Just Google it” responses.\nUse gender inclusive language (see e.g. this factsheet on gender inclusive language). In particular,\n\nuse “they” when talking about a hypothetical person\navoid using “guys”\navoid using terms such as “manpower”\n\n\nThe administrators will remind people of the posting guide if necessary and reserve the right to deactivate the membership of anyone persistently acting against the ethos of the workspace.\nMessages on public channels of the Slack may be put in a public archive or shared outside the Slack. Use DMs/private channels for private messages, which should not be shared without consent.\nBy joining the Slack, members also agree to the general code of conduct below. The administrators will enforce this code of conduct and expect cooperation in ensuring a safe environment for all.\nJoin/Go to R Contributors Slack"
+  },
+  {
+    "objectID": "slack.html#code-of-conduct",
+    "href": "slack.html#code-of-conduct",
+    "title": "R Contributors Slack",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nThe administrators of R Contributors Slack are dedicated to providing a harassment-free workspace for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof).\n\nExpected Behaviour\nAll members agree to:\n\nBe considerate in language and actions, and respect the boundaries of fellow members.\nRefrain from demeaning, discriminatory, or harassing behaviour and language. Please refer to Unacceptable Behaviour for more details.\nAlert one of the administrators if you observe violations of this code of conduct, even if they seem inconsequential.\n\n\n\nUnacceptable Behaviour\nBehaviour that is unacceptable includes, but is not limited to:\n\nStalking, e.g. persistent unwanted DMs, logging online activity for harassment purposes.\nDeliberate intimidation.\nSustained or willful disruption of discussion.\nUse of sexual or discriminatory imagery, comments, or jokes.\nOffensive comments related to age, gender, sexual orientation, disability, race or religion.\nInappropriate simulated physical contact, e.g. textual descriptions like “hug” or “backrub” or custom emoji representing such contact, used without consent.\nUnwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favours or repeatedly asking for dates or contact information.\n\nIf you are asked to stop harassing behaviour you should stop immediately, even if your behaviour was meant to be friendly or a joke, it was clearly not taken that way and for the comfort of all members you should stop.\nMembers who behave in a manner deemed inappropriate are subject to actions listed under Procedure for Code of Conduct Violations.\n\n\nProcedure for Code of Conduct Violations\nThe administrators reserves the right to determine the appropriate response for all code of conduct violations. Potential responses include:\n\na formal warning to stop harassing behaviour\ntemporarily/permanently deactivating membership of the workspace\n\n\n\nWhat To Do If You Witness or Are Subject To Unacceptable Behaviour\nTake screenshots of offending posts (deleted posts cannot be seen even by admins).\nView the Admins & Owners in the workspace settings (only available to members). Email or message one or more administrators listed to report the behaviour.\nIf the admins are unable to respond in a timely manner, you may flag the issue by responding to the offending post with a brief comment, e.g.\n\nThis comment is inappropriate, please delete it.\nThis goes against the code of conduct, I have reported it.\n\nThere is no obligation to respond if you don’t feel comfortable. Don’t get drawn into an argument or pile on an offender, a brief comment is enough to signal the issue and give the offender a chance to make it right.\n\n\nAcknowledgements\nThe CoC is adapted from the useR! Code of Conduct.\nParts of the above text are licensed CC BY-SA 4.0. Credit to SRCCON. This code of conduct was based on that developed for useR! 2018 which was a revision of the code of conduct used at previous useR!s and also drew from rOpenSci’s code of conduct."
   },
   {
     "objectID": "working-group.html",
@@ -427,10 +406,31 @@
     "text": "Get Involved\nAnyone from the R community that supports the group’s objectives and would like to contribute is welcome to get involved. This can range from commenting on GitHub issues to actively working on initiatives.\nTo communicate with the group: - Attend an RCWG meeting (details below) or add an item to the collaborative agenda. - Open an issue on the r-devel/rcwg repository. - Post a message on the #core-outreach channel of the R Contributors Slack (preferred) or email the group chair, Heather Turner.\nThe RCWG meet (on Zoom) every 1-2 months, usually alternating between the third Friday of the month, 15:00 UTC and the third Tuesday of the month, 19:30 UTC (-1hr during Daylight Savings Time in Europe). Stay up-to-date with meeting announcements in one of the following ways: - Go to the Events page and add the event series to your calendar. - Join the R Contribution Working Group mailing list to stay up-to-date with working group activities."
   },
   {
-    "objectID": "demos/how-to-make-a-contribution-to-base-r/index.html",
-    "href": "demos/how-to-make-a-contribution-to-base-r/index.html",
-    "title": "How to Make a Contribution to Base R",
+    "objectID": "tutorials/index.html",
+    "href": "tutorials/index.html",
+    "title": "Tutorials & Demos",
     "section": "",
-    "text": "The presentation slides are available in HTML format - press S to view with speaker notes (the video text).\nNote: This demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. Refer to the R Development Guide for more information on building R from source and the lifecycle of a patch."
+    "text": "These tutorials and demos are designed to help new contributors get started."
+  },
+  {
+    "objectID": "tutorials/index.html#tutorials",
+    "href": "tutorials/index.html#tutorials",
+    "title": "Tutorials & Demos",
+    "section": "Tutorials",
+    "text": "Tutorials\nVideo tutorials with integrated/additional exercises.\n\n\nContributing to R, Gabriel Becker and Martin Maechler, useR! 2021.\n2h15 video (or 1h30 abridged version), with accompanying slides and exercises.\n\n\nAbstract\n\nDid you always want to contribute to (base) R but don’t know how?\nThis tutorial shows cases where and how users have contributed actively to (base) R, by submitting bug reports with minimal reproducible examples, how testing, reading source code, and providing patches to the R source code has helped making R better.\nA selection of past bug reports are provided for you to practice debugging. For bugs that have been resolved you can check what happened after the bug was reported.\n\n\n\nTranslating R to your Language, Michael Chirico and Michael Lawrence, useR! 2021.\n1h30 video with accompanying slides.\n\n\nAbstract\n\nR users are a global bunch. Providing error messages in languages besides English can greatly improve the user experience (and debugging experience) of those using R who may not be English natives.\nThe standard tools for providing translations can be somewhat esoteric; this tutorial goes over some of the challenges presented by translations, the process for providing and/or updating translations to R itself, and finally introduces a package (potools) that will remove some of the frictions potential translators may face."
+  },
+  {
+    "objectID": "tutorials/index.html#demos",
+    "href": "tutorials/index.html#demos",
+    "title": "Tutorials & Demos",
+    "section": "Demos",
+    "text": "Demos\nShort videos to give people a quick start on the basics.\n\n\nHow to Make a Contribution to Base R, Heather Turner and Ella Kaye, Collaborations Workshop 2023. 10 min video.\n\n\nAbstract\n\nMaking a contribution to a large open source software project like the R project can seem very daunting. This walkthrough aims to demonstrate how R users can contribute simple fixes to the code or documentation in base R, helping to maintain this fundamental software for data science. We will briefly look at: 1) How to find a good bug to work on, 2) Getting to the the root of the issue, and 3) How to propose a fix.\n\n\n\nR translatón / Hackaton de tradução do R, Beatriz Milz, Ángela Sanzo, and Macarena Quiroga, LatinR 2022. 40 min video (mainly in Spanish)\n\n\nAbstract\n\nThis is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server."
+  },
+  {
+    "objectID": "demos/latinr-hackathon/index.html",
+    "href": "demos/latinr-hackathon/index.html",
+    "title": "R translatón / Hackaton de tradução do R",
+    "section": "",
+    "text": "This is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server.\n\n\nThe presentation slides are available in PDF format."
   }
 ]
