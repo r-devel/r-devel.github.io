@@ -76,7 +76,7 @@ website:
 
 format:
   html:
-    #css: styles.css
+    css: assets/css/styles.css
     link-external-newwindow: true
     toc: true  
     email-obfuscation: references
