@@ -53,11 +53,3 @@ defaults:
     defaults:
         dropdown-link-hover-bg: $brand-blue
         dropdown-link-hover-color: $brand-white
-    rules: |
-      .navbar-logo {
-        max-height: 50px;
-      } 
-
-      .description {
-        display: none;
-      }
