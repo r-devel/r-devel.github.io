@@ -17,9 +17,15 @@ color:
     pink: "#C024B9"
     green: "#24C02B"
     orange: "#C07924"
+    dark: "#030911"
     light-blue: "#96B8E1"
+    dark-blue: "#103054"
+    white: "#FFFFFF"
   primary: blue
-
+  background: 
+    dark: dark
+  foreground: 
+    dark: white
 
 typography:
   fonts:
@@ -35,7 +41,9 @@ typography:
     family: Outfit
     weight: normal
   link:
-    color: blue
+    color: 
+      light: blue
+      dark: light-blue
   monospace:
     family: Fira Mono
     size: 1em
@@ -43,7 +51,8 @@ typography:
 defaults:
   bootstrap:
     defaults:
-      dropdown-link-hover-bg: $brand-light-blue
+        dropdown-link-hover-bg: $brand-blue
+        dropdown-link-hover-color: $brand-white
     rules: |
       .navbar-logo {
         max-height: 50px;
