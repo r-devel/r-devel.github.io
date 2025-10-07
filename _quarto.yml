@@ -80,5 +80,5 @@ format:
     link-external-newwindow: true
     toc: true  
     email-obfuscation: references
-    #include-in-header: analytics.html
+    include-in-header: _includes/analytics.html
     
