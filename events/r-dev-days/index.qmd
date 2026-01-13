@@ -14,29 +14,20 @@ the R Core Team and some will have R Core Developers participating directly.
 
 ## Upcoming events
 
-These are the planned events for 2025
-<!-- - events that are tentative are shown in italics -->
+These are the planned events for 2026 - events that are tentative are shown in italics.
+
 Links to the registration/application page and the corresponding deadline will be added as soon as these details are available.
 
 ### Satellite events
 
-|          Satellite to         |       Where      | Date |   Deadline  |
-|:-----------------------------:|:----------------:|:-------------:|:---------:|
-| [Shiny in Production (8-9 Oct)](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) | Newcastle, UK    | 7-8 Oct       | Wed 24 Sep |
+| Satellite to                                                                    | Where            | Date            | Deadline   |
+|---------------------------------------------------------------------------------|------------------|-----------------|------------|
+| [Rencontres R (16-18 June)](https://pretix.eu/r-contributors/r-dev-day-rr2026/) | Nantes, France   | Fri 19 June     | Fri 29 May |
+| *useR! 2026 (6-9 July)*                                                         | *Warsaw, Poland* | *Fri 10 July*   |            |
+| *R Project Sprint 2026*                                                         | *Birmingham, UK* | *2-4 September* |            |
 
-### Standalone events
 
-| Where                | Date     |   Deadline  |
-|:--------------------:|:--------:|:-----------:|
-| [Melbourne, Australia / Virtual](https://pretix.eu/r-contributors/r-dev-day-oz-25/) | Fri 21 Nov   | Sun 16 Nov |
-| [Auckland, New Zealand / Virtual](https://pretix.eu/r-contributors/r-dev-day-nz-25/) | Tue 16 Dec - Wed 17 Dec | Sun 7 Dec |
-
-Note that [OceaniaR Hackathon 2025](https://statsocaus.github.io/oceaniar-hack-2025/)
-is on Sunday 23 November prior to 
-[Biometrics in the Bush Capital](https://biometricsociety.org.au/conference2025/) 
-on 24-28th November 2025, both in Canberra - people may wish to combine one or 
-both of these events with the R Dev Day in Melbourne!
-
+<!-- | *CascadiaR (19-20 June)*                                                        | Portland, USA    | 18/19 June      |            | -->
 ## What happens at an R Dev Day?
 
 Tasks are prepared in the run-up to the event, but commonly include:
@@ -71,6 +62,15 @@ Each event will have a ticket site or web page with more information - see the
 
 ## Past R Dev Days
 
+2025
+
+[RencontresR 2025](https://pretix.eu/r-contributors/r-dev-day-rr2025/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-05-22_RencontresR2025.md))  
+[useR 2025](https://user2025.r-project.org/additional/r-dev-day)   ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-08-11_useR2025.md))  
+[RSECon25](https://warwick.ac.uk/fac/sci/statistics/news/r-dev-day-rsecon25/)   ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-09-12_RSECon25.md))  
+[SIP2025](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-10-07_SIP2025.md))  
+[Australia 2025 (Melbourne / Perth / Brisbane / Virtual)](https://pretix.eu/r-contributors/r-dev-day-oz-25/)  
+[New Zealand 2025 (Auckland / Virtual](https://pretix.eu/r-contributors/r-dev-day-nz-25/)
+
 2024
 
 [Imperial 2024](https://pretix.eu/r-contributors/r-dev-day-imperial-2024/) (satellite to London satRday) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-04_imperial2024.md))  
@@ -78,5 +78,5 @@ Each event will have a ticket site or web page with more information - see the
 [Hutch 2024](https://pretix.eu/r-contributors/r-dev-day-hutch-2024/) (satllite to posit::conf(2024)) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-08_hutch2024.md))  
 [SIP 2024](https://pretix.eu/r-contributors/r-dev-day-sip-2024/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-10_sip2024/sip2024.md))  
 [RSECon 2024](https://virtual.oxfordabstracts.com/event/49081/submission/168) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-09_RSECon24.md))  
-[LatinR 2024](https://pretix.eu/r-contributors/r-dev-day-latinr2024/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-11-18_LatinR2025.md))
+[LatinR 2024 (virtual)](https://pretix.eu/r-contributors/r-dev-day-latinr2024/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2024-11-18_LatinR2025.md))
 
