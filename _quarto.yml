@@ -74,15 +74,11 @@ website:
             url: https://github.com/r-devel/r-devel.github.io/issues
     search: true
 
-brand:
-  light: brand-light.yml
-  dark: brand-dark.yml
-
 format:
   html:
-    #css: styles.css
+    css: assets/css/styles.css
     link-external-newwindow: true
     toc: true  
     email-obfuscation: references
-    #include-in-header: analytics.html
+    include-in-header: _includes/analytics.html
     
