@@ -88,7 +88,7 @@
     "href": "events/r-dev-days/index.html#upcoming-events",
     "title": "R Dev Days",
     "section": "Upcoming events",
-    "text": "Upcoming events\nThese are the planned events for 2025  Links to the registration/application page and the corresponding deadline will be added as soon as these details are available.\n\nSatellite events\n\n\n\nSatellite to\nWhere\nDate\nDeadline\n\n\n\n\nShiny in Production (8-9 Oct)\nNewcastle, UK\n7-8 Oct\nWed 24 Sep\n\n\n\n\n\nStandalone events\n\n\n\nWhere\nDate\nDeadline\n\n\n\n\nMelbourne, Australia / Virtual\nFri 21 Nov\nSun 16 Nov\n\n\nAuckland, New Zealand / Virtual\nTue 16 Dec - Wed 17 Dec\nSun 7 Dec\n\n\n\nNote that OceaniaR Hackathon 2025 is on Sunday 23 November prior to Biometrics in the Bush Capital on 24-28th November 2025, both in Canberra - people may wish to combine one or both of these events with the R Dev Day in Melbourne!"
+    "text": "Upcoming events\nThese are the planned events for 2026 - events that are tentative are shown in italics.\nLinks to the registration/application page and the corresponding deadline will be added as soon as these details are available.\n\nSatellite events\n\n\n\nSatellite to\nWhere\nDate\nDeadline\n\n\n\n\nRencontres R (16-18 June)\nNantes, France\nFri 19 June\nFri 29 May\n\n\nuseR! 2026 (6-9 July)\nWarsaw, Poland\nFri 10 July\n\n\n\nR Project Sprint 2026\nBirmingham, UK\n2-4 September"
   },
   {
     "objectID": "events/r-dev-days/index.html#what-happens-at-an-r-dev-day",
@@ -116,7 +116,7 @@
     "href": "events/r-dev-days/index.html#past-r-dev-days",
     "title": "R Dev Days",
     "section": "Past R Dev Days",
-    "text": "Past R Dev Days\n2024\nImperial 2024 (satellite to London satRday) (report)\nPLUS 2024 (satellite to useR! 2024) (report)\nHutch 2024 (satllite to posit::conf(2024)) (report)\nSIP 2024 (report)\nRSECon 2024 (report)\nLatinR 2024 (report)"
+    "text": "Past R Dev Days\n2025\nRencontresR 2025 (report)\nuseR 2025 (report)\nRSECon25 (report)\nSIP2025 (report)\nAustralia 2025 (Melbourne / Perth / Brisbane / Virtual)\nNew Zealand 2025 (Auckland / Virtual\n2024\nImperial 2024 (satellite to London satRday) (report)\nPLUS 2024 (satellite to useR! 2024) (report)\nHutch 2024 (satllite to posit::conf(2024)) (report)\nSIP 2024 (report)\nRSECon 2024 (report)\nLatinR 2024 (virtual) (report)"
   },
   {
     "objectID": "events/office-hours/index.html",
