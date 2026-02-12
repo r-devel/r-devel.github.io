@@ -35,6 +35,9 @@ website:
           - text: Translations Community Page
             href: https://contributor.r-project.org/translations/
             target: _blank
+          - text: R Dev Container
+            href: https://contributor.r-project.org/r-dev-env/
+            target: _blank
           - text: The CRAN Cookbook
             href: https://contributor.r-project.org/cran-cookbook/
             target: _blank
