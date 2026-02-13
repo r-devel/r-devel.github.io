@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://contributor.r-project.org/demos/how-to-make-a-contribution-to-base-r/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.907Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/tutorials/translating-r-to-your-language/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/tutorials/contributing-to-r/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
     <loc>https://contributor.r-project.org/r-help.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/r-dev-days/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/office-hours/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/bug-bbq/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.912Z</lastmod>
+    <lastmod>2026-02-13T14:57:43.293Z</lastmod>
   </url>
   <url>
     <loc>https://contributor.r-project.org/events/c-book-club-2023/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.913Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.916Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/c-study-group-2024/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/bug-bbq/welcome.html</loc>
-    <lastmod>2026-02-12T10:50:20.913Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/events/collaboration-campfires/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.916Z</lastmod>
+    <lastmod>2026-02-13T14:57:43.287Z</lastmod>
   </url>
   <url>
     <loc>https://contributor.r-project.org/events/c-study-group-2025/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.914Z</lastmod>
+    <lastmod>2026-02-13T14:57:43.289Z</lastmod>
   </url>
   <url>
-    <loc>https://contributor.r-project.org/slack.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
+    <loc>https://contributor.r-project.org/events/bug-bbq/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.285Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/events/collaboration-campfires/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.291Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/events/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.292Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/tutorials/translating-r-to-your-language/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.295Z</lastmod>
   </url>
   <url>
     <loc>https://contributor.r-project.org/working-group.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://contributor.r-project.org/tutorials/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.917Z</lastmod>
+    <lastmod>2026-02-13T14:57:43.295Z</lastmod>
   </url>
   <url>
     <loc>https://contributor.r-project.org/demos/latinr-hackathon/index.html</loc>
-    <lastmod>2026-02-12T10:50:20.907Z</lastmod>
+    <lastmod>2026-02-13T14:57:43.281Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/demos/how-to-make-a-contribution-to-base-r/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.281Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/tutorials/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/tutorials/contributing-to-r/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.295Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/events/c-study-group-2024/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/events/office-hours/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/events/bug-bbq/welcome.html</loc>
+    <lastmod>2026-02-13T14:57:43.287Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/events/r-dev-days/index.html</loc>
+    <lastmod>2026-02-13T14:57:43.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://contributor.r-project.org/slack.html</loc>
+    <lastmod>2026-02-13T14:57:43.293Z</lastmod>
   </url>
 </urlset>
