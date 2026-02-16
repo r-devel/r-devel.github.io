@@ -24,7 +24,7 @@ Links to the registration/application page and the corresponding deadline will b
 |-------------------------------------------------------------------------------------|------------------|-----------------|-------------|
 | [Rencontres R (16-18 June)](https://pretix.eu/r-contributors/r-dev-day-rr2026/)     | Nantes, France   | Fri 19 June     | Fri 29 May  |]
 | [CascadiaR (26-27 June)](https://pretix.eu/r-contributors/r-dev-day-cascadiar-2026) | Portland, USA    | Fri 26 June     | Fri 12 June | -->
-| *useR! 2026 (6-9 July)*                                                             | *Warsaw, Poland* | *Fri 10 July*   |             |
+| useR! 2026 (6-9 July)                                                             | Warsaw, Poland | Fri 10 July   |             |
 | *R Project Sprint 2026*                                                             | *Birmingham, UK* | *2-4 September* |             |
 
 
