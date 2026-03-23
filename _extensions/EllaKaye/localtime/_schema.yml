@@ -1,0 +1,33 @@
+$schema: https://m.canouil.dev/quarto-wizard/assets/schema/v1/extension-schema.json
+
+shortcodes:
+  localtime:
+    description: Display a source date and time converted to the reader's local timezone using Luxon.
+    arguments:
+      - name: date
+        type: string
+        required: true
+        pattern: \d{4}-\d{2}-\d{2}
+        pattern-exact: true
+        description: Source date in YYYY-MM-DD format.
+      - name: time
+        type: string
+        required: true
+        pattern: \d{1,2}:\d{2}([AaPp][Mm])?
+        pattern-exact: true
+        description: Source time in 24-hour H:MM or HH:MM format, or 12-hour format with am/pm suffix (e.g. 1:00pm, 1:00 PM); a space before am/pm is optional.
+      - name: timezone
+        type: string
+        default: UTC
+        description: Source timezone as an abbreviation (e.g. UTC, EST, CET), IANA name (e.g. America/New_York, Europe/Paris), or UTC offset (e.g. +05:30, UTC+8, -08:00); DST is handled automatically in the browser.
+        completion:
+          type: freeform
+          placeholder: UTC | EST | America/New_York | +05:30
+    attributes:
+      format:
+        type: string
+        default: datetime
+        description: Output format preset or a custom strftime-like token string; supported tokens are %Y, %m, %-m, %d, %-d, %H, %-H, %I, %-I, %M, %-M, %p, %P, %A, %a, %B, %b, and %Z.
+        completion:
+          type: enum
+          values: [datetime, date, time, time12, datetime12, full, full12]

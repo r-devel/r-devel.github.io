@@ -22,12 +22,12 @@ We welcome people that are entirely new to contributing as well as seasoned cont
 
 ## When are the office hours?
 
-The Office Hours are typically held on the **2nd Thursday of the month**, at two times to cater for different world regions (click to find the corresponding time in your local time zone):
+The Office Hours are typically held on the **2nd Tuesday of the month**, at two times to cater for different world regions. The times below use the [localtime](https://github.com/EllaKaye/localtime) extension to show the times in your local timezone. Please check the [Events Calendar](../index.qmd) to confirm the exact dates and times each month:
 
-| Region                                              | November - March                                                                                 | April - October                                                                                  |
+| Region                                              | November - March            | April - October                                                                                  |
 |--------------|-----------------------------|-----------------------------|
-| Europe, Middle East, Asia, Asia-Pacific (EMEA/APAC) | [10:00 UTC](www.timebie.com/std/utc.php?q=10)                                                    | [09:00 UTC](www.timebie.com/std/utc.php?q=9.5)                                                   |
-| Americas (AMER)                                     | [09:30 PST](www.timebie.com/std/pst.php?q=9.5) / [12:30 EST](www.timebie.com/std/est.php?q=12.5) | [09:30 PDT](www.timebie.com/std/pdt.php?q=9.5) / [12:30 EDT](www.timebie.com/std/est.php?q=12.5) |
+| Europe, Middle East, Asia, Asia-Pacific (EMEA/APAC) | {{< localtime 2026-01-01 09:00 GMT format= "%H:%M %Z" >}} | {{< localtime 2026-07-01 09:00 BST format= "%H:%M %Z" >}}                                                 |
+| Americas (AMER)                                     | {{< localtime 2026-01-01 17:00 GMT format= "%H:%M %Z" >}} | {{< localtime 2026-07-01 17:00 BST format= "%H:%M %Z" >}} |
 
 You can attend either or both office hour, wherever you are based - the country groupings just indicate the world regions that are in working/waking hours at that time.
 
