@@ -354,7 +354,7 @@
     "href": "events/office-hours/index.html#when-are-the-office-hours",
     "title": "R Contributor Office Hours",
     "section": "When are the office hours?",
-    "text": "When are the office hours?\nThe Office Hours are typically held on the 2nd Thursday of the month, at two times to cater for different world regions (click to find the corresponding time in your local time zone):\n\n\n\nRegion\nNovember - March\nApril - October\n\n\n\n\nEurope, Middle East, Asia, Asia-Pacific (EMEA/APAC)\n10:00 UTC\n09:00 UTC\n\n\nAmericas (AMER)\n09:30 PST / 12:30 EST\n09:30 PDT / 12:30 EDT\n\n\n\nYou can attend either or both office hour, wherever you are based - the country groupings just indicate the world regions that are in working/waking hours at that time."
+    "text": "When are the office hours?\nThe Office Hours are typically held on the 2nd Tuesday of the month, at two times to cater for different world regions. The times below use the localtime extension to show the times in your local timezone. Please check the Events Calendar to confirm the exact dates and times each month:\n\n\n\n\n\n\n\n\nRegion\nNovember - March\nApril - October\n\n\n\n\nEurope, Middle East, Asia, Asia-Pacific (EMEA/APAC)\n2026-01-01 09:00 GMT\n2026-07-01 09:00 BST\n\n\nAmericas (AMER)\n2026-01-01 17:00 GMT\n2026-07-01 17:00 BST\n\n\n\nYou can attend either or both office hour, wherever you are based - the country groupings just indicate the world regions that are in working/waking hours at that time."
   },
   {
     "objectID": "events/office-hours/index.html#how-to-join-an-office-hour",

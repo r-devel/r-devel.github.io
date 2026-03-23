@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>R Contributor Office Hours – R Contributor</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -34,19 +37,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="../..//assets/img/favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-57fcc954d6c88566827f23c674430e95.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-1dc13342a78a52a08fed5c1b4a9e7ff3.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-57fcc954d6c88566827f23c674430e95.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d600bb7ef3ca413fd4342c450494d517.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-717024a59cbbee3c0f1398803476321f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d600bb7ef3ca413fd4342c450494d517.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d58cdeabde6f5eb39301aa2ed6fad92a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-eaa3b03e55fcdc63483c7424e1e78bbf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-d58cdeabde6f5eb39301aa2ed6fad92a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b8e59a9f05e103ca24abf220a3be489c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0f226ac00ab1b86a35d26a90ad340798.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-b8e59a9f05e103ca24abf220a3be489c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -435,8 +437,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="when-are-the-office-hours" class="level2">
 <h2 class="anchored" data-anchor-id="when-are-the-office-hours">When are the office hours?</h2>
-<p>The Office Hours are typically held on the <strong>2nd Thursday of the month</strong>, at two times to cater for different world regions (click to find the corresponding time in your local time zone):</p>
+<p>The Office Hours are typically held on the <strong>2nd Tuesday of the month</strong>, at two times to cater for different world regions. The times below use the <a href="https://github.com/EllaKaye/localtime">localtime</a> extension to show the times in your local timezone. Please check the <a href="../../events/index.html">Events Calendar</a> to confirm the exact dates and times each month:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Region</th>
@@ -447,13 +454,97 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Europe, Middle East, Asia, Asia-Pacific (EMEA/APAC)</td>
-<td><a href="www.timebie.com/std/utc.php?q=10">10:00 UTC</a></td>
-<td><a href="www.timebie.com/std/utc.php?q=9.5">09:00 UTC</a></td>
+<td><p><script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script><span id="localtime-1" class="localtime" data-datetime="2026-01-01T09:00" data-tz="UTC" data-format="%H:%M %Z">2026-01-01 09:00 GMT</span><script>(function(){var el=document.getElementById('localtime-1');
+if(typeof luxon==='undefined'){return;}
+var tz=el.getAttribute('data-tz');
+var zone=isNaN(Number(tz))?tz:Number(tz);
+var dt=luxon.DateTime.fromISO(el.getAttribute('data-datetime'),{zone:zone}).toLocal();
+if(!dt.isValid){return;}
+var fmt=el.getAttribute('data-format')||'%Y-%m-%d %H:%M';
+var P={datetime:'%Y-%m-%d %H:%M',date:'%Y-%m-%d',time:'%H:%M',time12:'%-I:%M%P',datetime12:'%Y-%m-%d %-I:%M%P',full:'%A, %-d %B %Y at %H:%M %Z',full12:'%A, %-d %B %Y at %-I:%M%P %Z'};
+if(P[fmt])fmt=P[fmt];
+var pad=function(n){return String(n).padStart(2,'0');};
+var h=dt.hour,mi=dt.minute;
+el.textContent=fmt
+  .replace(/%Y/g,String(dt.year))
+  .replace(/%-m/g,String(dt.month)).replace(/%m/g,pad(dt.month))
+  .replace(/%-d/g,String(dt.day)).replace(/%d/g,pad(dt.day))
+  .replace(/%-H/g,String(h)).replace(/%H/g,pad(h))
+  .replace(/%-I/g,String(h%12||12)).replace(/%I/g,pad(h%12||12))
+  .replace(/%-M/g,String(mi)).replace(/%M/g,pad(mi))
+  .replace(/%P/g,h<12?'am':'pm').replace(/%p/g,h<12?'AM':'PM')
+  .replace(/%A/g,dt.toFormat('EEEE')).replace(/%a/g,dt.toFormat('EEE'))
+  .replace(/%B/g,dt.toFormat('MMMM')).replace(/%b/g,dt.toFormat('MMM'))
+  .replace(/%Z/g,(Intl.DateTimeFormat(undefined,{timeZoneName:'short'}).formatToParts(dt.toJSDate()).find(function(p){return p.type==='timeZoneName';})||{value:''}).value);})();</script></p></td>
+<td><p><span id="localtime-2" class="localtime" data-datetime="2026-07-01T09:00" data-tz="Europe/London" data-format="%H:%M %Z">2026-07-01 09:00 BST</span><script>(function(){var el=document.getElementById('localtime-2');
+if(typeof luxon==='undefined'){return;}
+var tz=el.getAttribute('data-tz');
+var zone=isNaN(Number(tz))?tz:Number(tz);
+var dt=luxon.DateTime.fromISO(el.getAttribute('data-datetime'),{zone:zone}).toLocal();
+if(!dt.isValid){return;}
+var fmt=el.getAttribute('data-format')||'%Y-%m-%d %H:%M';
+var P={datetime:'%Y-%m-%d %H:%M',date:'%Y-%m-%d',time:'%H:%M',time12:'%-I:%M%P',datetime12:'%Y-%m-%d %-I:%M%P',full:'%A, %-d %B %Y at %H:%M %Z',full12:'%A, %-d %B %Y at %-I:%M%P %Z'};
+if(P[fmt])fmt=P[fmt];
+var pad=function(n){return String(n).padStart(2,'0');};
+var h=dt.hour,mi=dt.minute;
+el.textContent=fmt
+  .replace(/%Y/g,String(dt.year))
+  .replace(/%-m/g,String(dt.month)).replace(/%m/g,pad(dt.month))
+  .replace(/%-d/g,String(dt.day)).replace(/%d/g,pad(dt.day))
+  .replace(/%-H/g,String(h)).replace(/%H/g,pad(h))
+  .replace(/%-I/g,String(h%12||12)).replace(/%I/g,pad(h%12||12))
+  .replace(/%-M/g,String(mi)).replace(/%M/g,pad(mi))
+  .replace(/%P/g,h<12?'am':'pm').replace(/%p/g,h<12?'AM':'PM')
+  .replace(/%A/g,dt.toFormat('EEEE')).replace(/%a/g,dt.toFormat('EEE'))
+  .replace(/%B/g,dt.toFormat('MMMM')).replace(/%b/g,dt.toFormat('MMM'))
+  .replace(/%Z/g,(Intl.DateTimeFormat(undefined,{timeZoneName:'short'}).formatToParts(dt.toJSDate()).find(function(p){return p.type==='timeZoneName';})||{value:''}).value);})();</script></p></td>
 </tr>
 <tr class="even">
 <td>Americas (AMER)</td>
-<td><a href="www.timebie.com/std/pst.php?q=9.5">09:30 PST</a> / <a href="www.timebie.com/std/est.php?q=12.5">12:30 EST</a></td>
-<td><a href="www.timebie.com/std/pdt.php?q=9.5">09:30 PDT</a> / <a href="www.timebie.com/std/est.php?q=12.5">12:30 EDT</a></td>
+<td><p><span id="localtime-3" class="localtime" data-datetime="2026-01-01T17:00" data-tz="UTC" data-format="%H:%M %Z">2026-01-01 17:00 GMT</span><script>(function(){var el=document.getElementById('localtime-3');
+if(typeof luxon==='undefined'){return;}
+var tz=el.getAttribute('data-tz');
+var zone=isNaN(Number(tz))?tz:Number(tz);
+var dt=luxon.DateTime.fromISO(el.getAttribute('data-datetime'),{zone:zone}).toLocal();
+if(!dt.isValid){return;}
+var fmt=el.getAttribute('data-format')||'%Y-%m-%d %H:%M';
+var P={datetime:'%Y-%m-%d %H:%M',date:'%Y-%m-%d',time:'%H:%M',time12:'%-I:%M%P',datetime12:'%Y-%m-%d %-I:%M%P',full:'%A, %-d %B %Y at %H:%M %Z',full12:'%A, %-d %B %Y at %-I:%M%P %Z'};
+if(P[fmt])fmt=P[fmt];
+var pad=function(n){return String(n).padStart(2,'0');};
+var h=dt.hour,mi=dt.minute;
+el.textContent=fmt
+  .replace(/%Y/g,String(dt.year))
+  .replace(/%-m/g,String(dt.month)).replace(/%m/g,pad(dt.month))
+  .replace(/%-d/g,String(dt.day)).replace(/%d/g,pad(dt.day))
+  .replace(/%-H/g,String(h)).replace(/%H/g,pad(h))
+  .replace(/%-I/g,String(h%12||12)).replace(/%I/g,pad(h%12||12))
+  .replace(/%-M/g,String(mi)).replace(/%M/g,pad(mi))
+  .replace(/%P/g,h<12?'am':'pm').replace(/%p/g,h<12?'AM':'PM')
+  .replace(/%A/g,dt.toFormat('EEEE')).replace(/%a/g,dt.toFormat('EEE'))
+  .replace(/%B/g,dt.toFormat('MMMM')).replace(/%b/g,dt.toFormat('MMM'))
+  .replace(/%Z/g,(Intl.DateTimeFormat(undefined,{timeZoneName:'short'}).formatToParts(dt.toJSDate()).find(function(p){return p.type==='timeZoneName';})||{value:''}).value);})();</script></p></td>
+<td><p><span id="localtime-4" class="localtime" data-datetime="2026-07-01T17:00" data-tz="Europe/London" data-format="%H:%M %Z">2026-07-01 17:00 BST</span><script>(function(){var el=document.getElementById('localtime-4');
+if(typeof luxon==='undefined'){return;}
+var tz=el.getAttribute('data-tz');
+var zone=isNaN(Number(tz))?tz:Number(tz);
+var dt=luxon.DateTime.fromISO(el.getAttribute('data-datetime'),{zone:zone}).toLocal();
+if(!dt.isValid){return;}
+var fmt=el.getAttribute('data-format')||'%Y-%m-%d %H:%M';
+var P={datetime:'%Y-%m-%d %H:%M',date:'%Y-%m-%d',time:'%H:%M',time12:'%-I:%M%P',datetime12:'%Y-%m-%d %-I:%M%P',full:'%A, %-d %B %Y at %H:%M %Z',full12:'%A, %-d %B %Y at %-I:%M%P %Z'};
+if(P[fmt])fmt=P[fmt];
+var pad=function(n){return String(n).padStart(2,'0');};
+var h=dt.hour,mi=dt.minute;
+el.textContent=fmt
+  .replace(/%Y/g,String(dt.year))
+  .replace(/%-m/g,String(dt.month)).replace(/%m/g,pad(dt.month))
+  .replace(/%-d/g,String(dt.day)).replace(/%d/g,pad(dt.day))
+  .replace(/%-H/g,String(h)).replace(/%H/g,pad(h))
+  .replace(/%-I/g,String(h%12||12)).replace(/%I/g,pad(h%12||12))
+  .replace(/%-M/g,String(mi)).replace(/%M/g,pad(mi))
+  .replace(/%P/g,h<12?'am':'pm').replace(/%p/g,h<12?'AM':'PM')
+  .replace(/%A/g,dt.toFormat('EEEE')).replace(/%a/g,dt.toFormat('EEE'))
+  .replace(/%B/g,dt.toFormat('MMMM')).replace(/%b/g,dt.toFormat('MMM'))
+  .replace(/%Z/g,(Intl.DateTimeFormat(undefined,{timeZoneName:'short'}).formatToParts(dt.toJSDate()).find(function(p){return p.type==='timeZoneName';})||{value:''}).value);})();</script></p></td>
 </tr>
 </tbody>
 </table>
