@@ -1,35 +1,49 @@
 ---
-title: R Dev Days
-description: Day-length events for new and experienced contributors to work collaboratively on contributions to base R
+title: R Dev Days/Sprints
+description: Events for new and experienced contributors to work collaboratively on contributions to base R
 image: dev_day1.jpg
 image-alt: R Core developer Martin Maechler working with Ella Kaye and Kelly Bodwin at an R Dev Day
 ---
 
-R Dev Days are short events - usually over one day, or linked sessions over 
+R Dev Days are short hybrid events - usually over one day, or linked sessions over 
 consecutive days - for novice and experienced contributors to work 
-collaboratively on contributions to base R. These events have the support of 
-the R Core Team and some will have R Core Developers participating directly.
+collaboratively on contributions to base R. They are usually held as 
+satellites to R conferences.
+
+R Project Sprints are longer in-person events - usually three days, that allow 
+time to work on more substantial tasks and explore ideas through group 
+discussions. Remote participants may be accommodated in exceptional 
+circumstances.
+
+These events have the support of the R Core Team and will have R Core Developers participating directly.
 
 <center><img src="dev_day1.png" alt="R Core developer Martin Maechler working with Ella Kaye and Kelly Bodwin at an R Dev Day" width="50%"/></center>
 
 ## Upcoming events
 
-These are the planned events for 2026 - events that are tentative are shown in italics.
+These are the planned events for 2026.
 
-Links to the registration/application page and the corresponding deadline will be added as soon as these details are available.
+<!-- - events that are tentative are shown in italics. -->
+
+Links go to the registration/application page.
+<!-- Links to the registration/application page and the corresponding deadline will be added as soon as these details are available. -->
 
 ### Satellite events
 
-| Satellite to                                                                        | Where            | Date            | Deadline    |
-|-------------------------------------------------------------------------------------|------------------|-----------------|-------------|
-| [Rencontres R (16-18 June)](https://pretix.eu/r-contributors/r-dev-day-rr2026/)     | Nantes, France   | Fri 19 June     | Fri 29 May  |]
-| [CascadiaR (26-27 June)](https://pretix.eu/r-contributors/r-dev-day-cascadiar-2026) | Portland, USA    | Fri 26 June     | Fri 12 June | -->
-| useR! 2026 (6-9 July)                                                             | Warsaw, Poland | Fri 10 July   |             |
-| *R Project Sprint 2026*                                                             | *Birmingham, UK* | *2-4 September* |             |
+| Satellite to                                                                        | Where            | Date            | Deadline     |
+|-------------------------------------------------------------------------------------|------------------|-----------------|--------------|
+| [Rencontres R (16-18 June)](https://pretix.eu/r-contributors/r-dev-day-rr2026/)     | Nantes, France   | Fri 19 June     | Fri 29 May   |
+| [CascadiaR (26-27 June)](https://pretix.eu/r-contributors/r-dev-day-cascadiar-2026) | Portland, USA    | Fri 26 June     | Fri 12 June  |
+| [useR! 2026 (6-9 July)]()                                                           | Warsaw, Poland   | Fri 10 July     | Fri 24 April |
+
+### Stand-alone events
+
+| Event                                                                               | Where          | Date          | Deadline    |
+|-------------------------------------------------------------------------------------|----------------|---------------|-------------|
+| [R Project Sprint 2026](https://contributor.r-project.org/r-project-sprint-2026/)   | Birmingham, UK | 1-3 September | Fri 8 May   |
 
 
-
-## What happens at an R Dev Day?
+## What happens at an R Dev Day/Sprint?
 
 Tasks are prepared in the run-up to the event, but commonly include:
 
@@ -38,6 +52,9 @@ Tasks are prepared in the run-up to the event, but commonly include:
 
 Tasks may also relate to contributor infrastructure, such as the 
 [R Dev Guide](../rdevguide) and the [R Dev Container](../r-dev-container).
+
+Sprint tasks require deeper work and there is more scope for working on 
+wishlist items on Bugzilla or other enhancements to R.
 
 ## Who can take part?
 
@@ -53,12 +70,12 @@ after the event.
 
 ## How much does it cost?
 
-R Dev Days are free to attend and we are usually able to provide lunch and 
-refreshments to particpants. We will advertise when additional support is 
+R Dev Days/Sprints are free to attend and we are often able to provide catering 
+to participants. We will advertise when additional support is 
 available (e.g. through scholarships to the associated conference).
 
 Each event will have a ticket site or web page with more information - see the 
-[Upcoming events](#upcoming-events) section or the 
+[Upcoming events](#upcoming-events) section or the calendar on the 
 [R Contributor Events Page](..).
 
 ## Past R Dev Days
