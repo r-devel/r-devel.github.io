@@ -86,8 +86,9 @@ Each event will have a ticket site or web page with more information - see the
 [useR 2025](https://user2025.r-project.org/additional/r-dev-day)   ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-08-11_useR2025.md))  
 [RSECon25](https://warwick.ac.uk/fac/sci/statistics/news/r-dev-day-rsecon25/)   ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-09-12_RSECon25.md))  
 [SIP2025](https://pretix.eu/r-contributors/r-dev-day-sip-2025/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-10-07_SIP2025.md))  
-[Australia 2025 (Melbourne / Perth / Brisbane / Virtual)](https://pretix.eu/r-contributors/r-dev-day-oz-25/)  
+[Australia 2025 (Melbourne / Perth / Brisbane / Virtual)](https://pretix.eu/r-contributors/r-dev-day-oz-25/) ([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-11-21_Australia2025.md))  
 [New Zealand 2025 (Auckland / Virtual](https://pretix.eu/r-contributors/r-dev-day-nz-25/)
+([report](https://github.com/r-devel/r-dev-day/blob/main/reports/2025-12-16_NewZealand2025.md.md))  
 
 2024
 
