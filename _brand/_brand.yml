@@ -7,7 +7,7 @@ meta:
 logo: 
   images:
     icon:
-      path: assets/img/Rlogo-hex.png
+      path: img/Rlogo-hex.png
       alt: "Hex with R Project logo"
   medium: icon
 
@@ -53,3 +53,7 @@ defaults:
     defaults:
         dropdown-link-hover-bg: $brand-blue
         dropdown-link-hover-color: $brand-white
+    rules: |
+      .navbar-logo {
+        max-height: 50px;
+      }
