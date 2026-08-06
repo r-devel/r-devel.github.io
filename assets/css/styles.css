@@ -1,7 +1,5 @@
-.navbar-logo {
-  max-height: 50px;
-} 
-
-.description {
+/* Hide the description shown in the title block; 
+description is intended for meta tags / listings, not inline display */
+#title-block-header .description {
   display: none;
 }
