@@ -1,6 +1,6 @@
 project:
   type: website
-  
+
 execute:
   freeze: auto
 
@@ -17,6 +17,7 @@ website:
       © 2025 R Contributor, under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) license.<br>
       
   navbar:
+    aria-label: "Primary site navigation"
     left: 
       # - menu: 
       - text: "Slack Group"
@@ -70,6 +71,7 @@ website:
         href: https://blog.r-project.org/index.xml
     tools:
       - icon: github
+        aria-label: github
         menu:
           - text: Source Code
             url: https://github.com/r-devel/r-devel.github.io
@@ -83,5 +85,7 @@ format:
     link-external-newwindow: true
     toc: true  
     email-obfuscation: references
+    axe: 
+      output: document
     include-in-header: _includes/analytics.html
     
