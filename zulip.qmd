@@ -1,0 +1,397 @@
+---
+title: "The R Project Zulip Guide"
+editor: visual
+---
+
+# Welcome
+
+The R Project Zulip is a supportive space to chat about developing, maintaining, and supporting [The R Project](https://r-project.org), e.g.
+
+- Contributing to base R
+- Developing and maintaining supporting infrastructure (e.g. CRAN
+  Cookbook, Weblate)
+- R Foundation activities (e.g. useR! organisation)
+
+It is *not* intended as a general discussion forum about using R, or for
+"grass-roots" communities related to R. Please use the [alternative R forums](https://www.r-project.org/mail.html) for such chat.
+
+
+::: {.callout-note}
+By joining the R Project Zulip, members also agree to the general [Code of Conduct](#code-of-conduct) below. The administrators will enforce this code of conduct and expect cooperation in ensuring a safe environment for all.
+:::
+
+[[Join/Go to R Project Zulip]{.btn
+.btn-primary role="button" style="font-size: 1.5em;"}](https://r-project.zulipchat.com)
+
+# Getting started with Zulip
+
+We recommend reading Zulip's official [getting started guide](https://zulip.com/help/getting-started-with-zulip). Although there are many similarities between Zulip and other chat platforms like Slack, there is much that is specific to Zulip that could seem unintuitive, and reading that doc is a great place to start. For more detail, see [Zulip's user documentation](https://zulip.com/help/).
+
+When you join, the **Welcome Bot🤖** will send you a short message with your first steps inside the platform. You can return to this message at any time to review the instructions.
+
+
+### Set up your profile
+
+In the Zulip web app, go to ⚙️ → Personal settings → Profile.
+
+Adding a few details to your profile can help other contributors recognise you and understand how you are involved in the R Project. You can add a profile photo, your name, pronouns, job or community role, location, links to GitHub or GitLab, social media, and a personal or professional website.
+
+You can also check your time zone, which can be useful when collaborating with contributors in different parts of the world.
+
+You do not need to complete every field. Add the information you are comfortable sharing and that is useful for others.
+
+
+
+### Desktop and mobile apps
+
+You can use Zulip in a browser, but you may prefer the desktop or mobile app for quicker access.
+
+Download the apps here: https://zulip.com/apps/.
+
+### Choose your channels
+
+You’ll likely want to configure the channels that you’re subscribed to when getting started. The default set is quite limited, and there are many other channels you can subscribe to depending on your interests and how you contribute to the R Project.
+
+See the [Channels](#channels) section for more information about how channels are organised and which channels are available.
+
+### Notifications
+
+By default, you should get email notifications for direct messages, @mentions, and topics you follow.
+
+To adjust your notification settings in the Zulip web app, go to ⚙️ → Personal settings → Notifications.
+
+### Introduce yourself
+
+It’s not necessary to introduce yourself, but feel free to say hello in the #introductions channel.
+
+
+# Participating in the R Project
+
+## Posting guide
+
+To create a welcoming and supportive chat space, we ask members to:
+
+- Be welcoming, friendly and patient.
+- Avoid sarcasm or belittling language.
+- Respect people's technology choices.
+- Provide direct links vs "RTFM"/"Just Google it" responses.
+- Use gender inclusive language (see e.g. this [factsheet on gender
+  inclusive
+  language](https://services.anu.edu.au/human-resources/diversity-inclusion/gender-inclusive-language)).
+  In particular,
+  - use "they" when talking about a hypothetical person
+  - avoid using "guys"
+  - avoid using terms such as "manpower"
+
+## Etiquette and best practices
+
+- Use `@mentions` thoughtfully - only tag someone if their input is really
+  needed
+- Don't worry about posting in the wrong place - messages can be moved
+- You can edit your own messages for up to 1 day, and delete them within
+  10 minutes—these limits are set by the admins. If you need to clarify
+  something later, it's usually better to post a follow-up message.
+  Admins can delete a message at any time.
+
+## Code of conduct {#code-of-conduct}
+
+The administrators of R Project Zulip are dedicated to providing a
+harassment-free chat space for everyone regardless of age, gender,
+sexual orientation, disability, physical appearance, race, or religion
+(or lack thereof).
+
+### Expected Behaviour
+
+All members agree to:
+
+- Be considerate in language and actions, and respect the boundaries of
+  fellow members.
+- Refrain from demeaning, discriminatory, or harassing behaviour and
+  language. Please refer to [Unacceptable
+  Behaviour](#unacceptable-behaviour) for more details.
+- [Alert one of the
+  administrators](#what-to-do-if-you-witness-or-are-subject-to-unacceptable-behaviour)
+  if you observe violations of this code of conduct, even if they seem
+  inconsequential.
+
+### Unacceptable behaviour {#unacceptable-behaviour}
+
+Behaviour that is unacceptable includes, but is not limited to:
+
+- Deliberate intimidation.
+- Sustained or willful disruption of discussion.
+- Stalking, e.g. persistent unwanted DMs, logging online activity for
+  harassment purposes.
+- Use of sexual or discriminatory imagery, comments, or jokes.
+- Offensive comments related to age, gender, sexual orientation,
+  disability, race or religion.
+- Inappropriate simulated physical contact, e.g. textual descriptions
+  like "hug" or "backrub" or custom emoji representing such contact,
+  used without consent.
+- Unwelcome sexual attention, which can include inappropriate questions
+  of a sexual nature, asking for sexual favours or repeatedly asking for
+  dates or contact information.
+
+If you are asked to stop harassing behaviour you should stop
+immediately, even if your behaviour was meant to be friendly or a joke,
+it was clearly not taken that way and for the comfort of all members you
+should stop.
+
+Members who behave in a manner deemed inappropriate are subject to
+actions listed under [Procedure for code of conduct
+violations](#procedure-for-code-of-conduct-violations).
+
+### Procedure for code of conduct violations {#procedure-for-code-of-conduct-violations}
+
+The administrators reserves the right to determine the appropriate
+response for all code of conduct violations. Potential responses
+include:
+
+- a formal warning to stop harassing behaviour
+- temporarily/permanently deactivating membership of the chat space
+
+### What to do if you witness or are subject to unacceptable behaviour {#what-to-do-if-you-witness-or-are-subject-to-unacceptable-behaviour}
+
+In the case of an offending message, follow the Zulip guidance to
+[Report a message](https://zulip.com/help/report-a-message). This will
+send a message to the private moderators channel. You can view the
+current
+[moderators](https://r-project.zulipchat.com/#groups/1729199/moderators/members)
+if you want to check who has access to this channel.
+
+If reporting a message is not possible, for example, an offending
+message has been deleted but you have a screenshot to share, send a
+direct message to the `moderators` group (type `moderators` in the "Add
+users" dialog box to add users to direct message - this will expand to
+show everyone in the moderators group, so you can exclude individuals if
+necessary).
+
+If the moderators are unable to respond in a timely manner, you may flag
+the issue by responding to the offending post with a brief comment, e.g.
+
+- This comment is inappropriate, please delete it.
+- This goes against the code of conduct, I have reported it.
+
+There is no obligation to respond if you don't feel comfortable. Don't
+get drawn into an argument or pile on an offender, a brief comment is
+enough to signal the issue and give the offender a chance to make it
+right.
+
+Individuals users can also [mute abusive
+users](https://r-project.zulipchat.com/help/mute-a-user) to stop
+harassment that moderators have not yet addressed, or [collapse
+individual
+messages](https://r-project.zulipchat.com/help/collapse-a-message) that
+they don’t want to see.
+
+### Acknowledgements
+
+The CoC is adapted from the [useR! Code of
+Conduct](https://www.r-project.org/coc.html).
+
+Parts of the above text are licensed [CC BY-SA
+4.0](http://creativecommons.org/licenses/by-sa/4.0/). Credit to
+[SRCCON](https://srccon.org/conduct/). This code of conduct was based on
+that developed for [useR!
+2018](https://user2018.r-project.org/code_of_conduct/) which was a
+revision of the code of conduct used at previous useR!s and also drew
+from [rOpenSci's code of conduct](https://ropensci.org/coc/).
+
+
+The administrators will remind people of the posting guide if necessary
+and reserve the right to deactivate the membership of anyone
+persistently acting against the ethos of the chat space.
+
+**Messages on public channels of the Zulip may be put in a public
+archive or shared outside the Zulip**. Use direct messages/private
+channels for private messages, which should not be shared without
+consent.
+
+By joining the Zulip, members also agree to the general [code of
+conduct](#code-of-conduct) below. The administrators will enforce this
+code of conduct and expect cooperation in ensuring a safe environment
+for all.
+  
+# Understanding Conversations
+  
+## Channels {#channels}
+
+Channels organise conversations based on who needs to see them.
+Discussions in a channel should stick to the channel purpose.
+
+You choose which channels you subscribe to. We have organized the
+channels into folders - you can filter available channels by folder to
+find channels related to each other.
+
+Note that channels used to be called 'streams' in Zulip, so if you look
+at older documentation, you may see that terminology.
+
+### Current folders
+
+- GENERAL: Channels of general interest to those contributing to The R Project
+- R CONTRIBUTION: Channels related to contributing to the code and documentation of base R
+- TRANSLATION: Channels related to translation of materials in base R/recommended packages
+- CRAN: Channels related to CRAN <https://cran.r-project.org>
+- ZULIP: Channels related to using Zulip
+
+### Default channels
+
+The current set of default channels is:
+
+- GENERAL \> announce: Announcements from the admins
+- GENERAL \> events: Virtual/in-person meet-ups, study groups, book clubs, etc**\***
+- GENERAL \> general: Chat of general interest across the R project (use
+  sparingly!)
+- GENERAL \> introductions: Say hello and a little bit about yourself
+- GENERAL \> random: Informal conversation and other events/projects not directly related to R contribution.
+- GENERAL \> paid-work: Job opportunties in open source development**\***
+- GENERAL \> volunteer-work: Unpaid opportunities in open source development**\***
+- ZULIP \> sandbox: Experiment with Zulip here
+- ZULIP \> zulip: Questions and discussion about using Zulip
+
+::: {.callout-note}
+Channels with an **\*** have moderated topics. 
+Only admins can start a topic but anyone can reply. 
+DM the admins to suggest a new topic.
+:::
+
+## Topics
+
+Zulip is designed around conversations that are labeled with
+[**topics**](https://zulip.com/help/introduction-to-topics), to make
+communication organized and efficient. It’s easy to get an overview of
+what conversations are happening, and to read one conversation at a
+time.
+
+Topics are a foundational idea in Zulip, and central to the chat
+experience. They are conceptually similar to threads in Slack, but much
+more important in Zulip, with the official docs describing them as "one
+of the most wonderful aspects of using Zulip". They enable lots of
+conversations to happen in the same channel at the same time, and
+conversations can last hours or days without messages getting lost.
+Topics appear in the left sidebar.
+
+Topics form subdivisions within channels, and every message *must* be
+part of a topic. Topics are generally transient, and live for as long as
+there is active discussion on a topic. Thinking of topics like email
+subjects is helpful.
+
+### Tips for using topics effectively
+
+- Topic names should be short, descriptive and clear, ideally no more
+  than three or four words
+- Keep replies in the same topic to help others follow the discussion
+- A new conversation should start in a new topic
+- Keep topics to their original subject - start a new topic if switching
+  subjects
+- If you post a message in an unrelated topic and realise it would be
+  more helpful elsewhere, you can [move it to a more relevant
+  topic](https://zulip.com/help/move-content-to-another-topic) or
+  [channel](https://zulip.com/help/move-content-to-another-channel).
+  This ability to easily move messages is an excellent feature of Zulip.
+  It helps keeps things organised and allows others to find and follow
+  conversations more easily. Users can move their own messages up to a
+  week after posting. Admins can move them anytime.
+- When in doubt, post in `#general` and we can help move it later 
+  (though please use sparingly!)
+  
+  
+  
+# Useful Features
+
+## Hidden gems / power-user tips
+
+- Star messages to bookmark them. Click the three dots ⋯ next to any
+  message → “Star message”. You can find your starred messages under
+  Views → Starred messages in the left-hand panel.
+- Use keyboard shortcuts (web/desktop app only). Press ? to open the
+  full list—things like r to reply, n to move to the next unread
+  message, or m to mute a topic.
+- Use /poll for quick topic polls. Just type /poll the fill in the
+  question. Answer options go on the following lines (one line per
+  option). The poll must be the whole message.
+- To manage multiple platforms, some users route updates from Zulip,
+  Slack, GitHub, etc. into email as a central place to catch up. You can
+  customise Zulip’s email notifications (e.g. digest timing) in ⚙️ →
+  Personal settings → Notifications. Others use apps like
+  [Ferdium](https://ferdium.org) (open source) or
+  [Rambox](https://rambox.app) to manage multiple apps in one interface. 
+  Check their websites and their privacy policies to see if they suit your setup.
+  
+## Interact with Zulip via email
+
+It is possible to interact with Zulip via email, but there is a bit of
+set up.
+
+
+### Set up to receive posts by email
+
+1.  Log in to Zulip and go to ⚙️ → Personal settings → Notifications. 
+    Check `Email` for `Channels` (it is checked by default for DMs, mentions,  alerts and followed topics).
+2.  Subscribe to any channels you want to receive messages about. We
+    suggest unsubscribing from the default channels #sandbox and #zulip.
+    Emails will have subject line of the form `#channel-name > topic` so
+    you can create rules in you email client to file emails by channel
+    name (unfortunately the folder name is not included, so it up to you
+    to group channels together in a meaningful way).
+3.  Close the Zulip app or logout. Email notifications are only sent when you are not "active", i.e. you do not have the app open and in focus (within the last 140s).
+
+### Reply to emails
+
+When you receive a notification, the full message is included in the email and you can reply by email - no need to open Zulip!
+
+Tips: 
+
+* Reply with the body of your message only - do not include a salutation 
+(e.g. "Hi Heather!") or sign off (e.g. "Best wishes, Ella").
+* Write in plain text, using markdown formatting for lists, code, math, tables, etc. This will then be converted to nicely formatted HTML for people using the browser or app. (This works even for HTML email, as long as you have only used plain text/markdown in the message).
+
+### Start new topics in a channel
+
+This requires some initial set up per channel.
+
+1. Log in to Zulip. Find the name of the channel you want to send a message to,  click `...` and select `Channel settings`. 
+2. Under `Email address`, click the `Generate email address` button. 
+3. For `Who should be the sender of the Zulip messages for this email address?` select `You`.
+4. Uncheck all the remaining boxes and click the `Generate email address` 
+   button. 
+5. Copy the email address and save in your contacts with a useful alias, e.g. the channel name.
+   
+Once you have the email address for a channel you can start new topics by 
+emailing the channel with a subject line of your choice. Remember the general tips (no salutation or sign-off, use markdown). If your subject line matches an existing topic, it will appear as a new post in that thread.
+
+## Linkifiers
+
+Our Zulip supports linkifiers for GitHub.
+
+Generally, `github-org/repo#123` works for linking to an issue or PR. 
+The below list gives a few more “special cased” repositories. 
+Markdown syntax for links also works.
+
+We support linking to issues or pull requests on repositories inside the
+`r-devel` GitHub organisation without requiring the `r-devel/` prefix.
+For example:
+
+- r-svn#273 links to <https://github.com/r-devel/r-svn/pull/273>
+- rcwg#63 links to <https://github.com/r-devel/rcwg/issues/63>
+- rsmf#25 <https://github.com/r-devel/rsmf/issues/25>
+
+Pasting a link to a GitHub issue or PR will convert it to the short
+linkifier (though typing directly does not).
+
+If you would like to propose further linkifiers, see [the
+documentation](https://zulip.com/help/add-a-custom-linkifier) of the
+format, and propose one in the `#zulip` channel.
+
+
+# Acknowledgements
+
+- This work was supported by the Research Software Maintenance Fund,
+  managed by the Software Sustainability Institute and funded by UKRI
+  grant reference AH/Z000114/1.
+- This Zulip-specific guidance above is adapted from [Rust's Zulip
+  Guidance](https://forge.rust-lang.org/platforms/zulip.html) and [Zulip
+  tips and tricks for
+  Bioconductor](https://docs.google.com/document/d/1BY_eWPRE4jvUcw1Uzem_obn6ryN7tmApWfEU0lxP63o/edit?tab=t.0#heading=h.gwhrk04d0svl).
+  Thanks to our friends in those communities for their materials and
+  advice on setting up The R Project Zulip.

@@ -19,8 +19,8 @@ website:
   navbar:
     left: 
       # - menu: 
-      - text: "Slack Group"
-        file: slack.qmd
+      - text: "R Zulip Guide"
+        file: zulip.qmd
       - text: "Events"
         file: events/index.qmd
       - text: "Tutorials & demos"
