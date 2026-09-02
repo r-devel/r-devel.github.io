@@ -10,3 +10,6 @@ Gemfile.lock
 /.quarto/
 
 **/*.quarto_ipynb
+
+node_modules/
+a11y/reports/
