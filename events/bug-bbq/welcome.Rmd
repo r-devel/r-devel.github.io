@@ -285,11 +285,9 @@ For further help, please ask on Zoom or in the Slack!
 
 ---
 
-.center[# Let's go!
-```{r, fig.alt = "Cartoon of a rocket launching", out.width = "40%", echo = FALSE}
-knitr::include_graphics("reshot-icon-rocket-ZQTKM9NG32.svg")
-```
-]
+# Let's go!
+![Cartoon of a rocket launching](reshot-icon-rocket-ZQTKM9NG32.svg){width="40%"}\
+
 
 ???
 
