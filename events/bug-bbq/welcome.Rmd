@@ -38,7 +38,7 @@ For all participants, it will be a chance to chat with experienced contributors,
 
 # bugs.r-project.org
 
-![Screenshot of R's Bugzilla showing an HTML table with the results of a search for open bugs, in order of the most recent change, with the newest at the top.](bug_list.png)
+![Screenshot of R's Bugzilla showing an HTML table with the results of a search for open bugs, in order of the most recent change, with the newest at the top.](bug_list.png)\
 
 ???
 
@@ -48,7 +48,7 @@ Bugs in R are tracked in R's Bugzilla, which can be found at bugs.r-project.org.
 
 # Bug report
 
-![Screenshot of a bug report. We just see the start of the report here, with the metadata. In this case the bug was reported by Martin Maechler.](bug_report.png)
+![Screenshot of a bug report. We just see the start of the report here, with the metadata. In this case the bug was reported by Martin Maechler.](bug_report.png)\
 ???
 
 Here is an example bug report on Bugzilla. We just see the start of the report here, with the metadata. In this case the bug was reported by Martin Maechler.
@@ -57,7 +57,7 @@ Here is an example bug report on Bugzilla. We just see the start of the report h
 
 # Bug report comments
 
-![Screenshot of a bug report comments. The first comment is the bug report itself, from Martin Maechler. This is followed by a further comment in reply, from Colin Fay.](bug_report_comments.png)
+![Screenshot of a bug report comments. The first comment is the bug report itself, from Martin Maechler. This is followed by a further comment in reply, from Colin Fay.](bug_report_comments.png)\
 ???
 
 If we scroll down, we can see the comments. The first comment is the bug report itself. There maybe be further comments in reply, discussing the bug and potentially how to fix it.
@@ -66,7 +66,7 @@ If we scroll down, we can see the comments. The first comment is the bug report 
 
 # Proposed patch
 
-![Screenshot of a bug report with the attachments section circled in red.](bug_report_patch.png)
+![Screenshot of a bug report with the attachments section circled in red.](bug_report_patch.png)\
 ???
 
 Sometimes there will be a proposed patch attached to the bug report. This can be found in the attachments section under the metadata.
@@ -77,7 +77,7 @@ The patch is a diff between the proposed changes and the current source code. Cl
 
 # Patch contents
 
-![Screenshot of the diff for an attached patch displayed in the browser. On the left is the original source code from an R file. On the right is the proposed update to that code. The lines of code that have been modified are coloured to highlight where changes have been made. ](bug_report_diff.png)
+![Screenshot of the diff for an attached patch displayed in the browser. On the left is the original source code from an R file. On the right is the proposed update to that code. The lines of code that have been modified are coloured to highlight where changes have been made. ](bug_report_diff.png)\
 ???
 
 In this Diff viewer, the original source code is on the left and the proposed update is on the right. The lines of code that have been modified are highlighted.
@@ -86,7 +86,7 @@ In this Diff viewer, the original source code is on the left and the proposed up
 
 # github.com/r-devel/bug-bbq
 
-![Screenshot of the r-devel/bug-bbq GitHub repository. The repository contains a few code files and a README.md](bug-bbq_GitHub.png)
+![Screenshot of the r-devel/bug-bbq GitHub repository. The repository contains a few code files and a README.md](bug-bbq_GitHub.png)\
 
 ???
 
@@ -96,7 +96,7 @@ For the Bug BBQ, we will be treating R's Bugzilla as read only. We have set up a
 
 # Work on issues 
 
-![Screenshot of the Issues page of the bug-bbq repo. ](issues.png)
+![Screenshot of the Issues page of the bug-bbq repo. ](issues.png)\
 ???
 
 On the issues page of the bug-bbq repo, issues have been created that correspond to one or more bugs on Bugzilla. The issues have been labelled to help you find bugs to work on. The labels that start with capital letters, e.g. Models or Documentation, describe the general topic of the bug. The labels in lower case describe required actions. We'll go through these action labels in more detail.
