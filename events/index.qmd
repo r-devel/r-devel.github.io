@@ -20,7 +20,7 @@ Join the [R Contribution Working Group mailing list](https://stat.ethz.ch/mailma
 
 Note: you can set the calendar below to show your time zone by clicking the time zone link (showing UTC by default) in the footer of the calendar window and selecting your time zone from the dialog.
 
-<iframe src="https://teamup.com/kskqth1ysymh61tiyv?view=a&showProfileAndInfo=0&showSidepanel=1&showAgendaDateRange=year&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" style="width: 100%; height: 500px; border: 1px solid #cccccc" loading="lazy" frameborder="0"></iframe>
+<iframe src="https://teamup.com/kskqth1ysymh61tiyv?view=a&showProfileAndInfo=0&showSidepanel=1&showAgendaDateRange=year&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" title="R Contributor events calendar" style="width: 100%; height: 500px; border: 1px solid #cccccc" loading="lazy" frameborder="0"></iframe>
 
 <br>
 
