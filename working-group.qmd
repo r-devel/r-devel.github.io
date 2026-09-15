@@ -16,7 +16,7 @@ To communicate with the group:
 
  - Attend an RCWG meeting (details below) or add an item to the [collaborative agenda](https://hackmd.io/@hturner/HyISuE97D/edit).
  - Open an issue on the [r-devel/rcwg](https://github.com/r-devel/rcwg) repository.
- - Post a message on the #core-outreach channel of the [R Contributors Slack](slack) (preferred) or email the group chair, [Heather Turner](mailto:heather.turner@r-project.org). 
+ - Post a message on the #getting-started channel of the [R Contributors Zulip](zulip.com) (preferred) or email the group chair, [Heather Turner](mailto:heather.turner@r-project.org). 
  
 The RCWG meet (on Zoom) every 1-2 months, usually alternating between the third Friday of the month, 15:00 UTC and the third Tuesday of the month, 19:30 UTC (-1hr during Daylight Savings Time in Europe). Stay up-to-date with meeting announcements in one of the following ways:
 

@@ -19,7 +19,7 @@ website:
   navbar:
     left: 
       # - menu: 
-      - text: "R Zulip Guide"
+      - text: "Zulip Chat"
         file: zulip.qmd
       - text: "Events"
         file: events/index.qmd

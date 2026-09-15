@@ -9,7 +9,7 @@ The top-level pages linked in the menu are in correspondingly named .qmd files, 
 | Menu item   | Markdown file | Relative URL |
 |-------------|---------------|--------------|
 | Home        | `index.qmd`    | `/`          |
-| Slack Group | `slack.qmd`    | `/slack`     |
+| Zulip Chat  | `zulip.qmd`    | `/zulip`     |
 
 You can create sub-pages by creating a folder with an `index.qmd` file. 
 Any further markdown pages within that folder will be sub-pages under that, e.g.
@@ -73,8 +73,8 @@ To edit the menu you need to edit the `navbar` field of `_quarto.yml`.
 To add a new page, add a new element with the title and URL of the page. Use the relative URL for pages in this repo, e.g.
 
 ```
-  - text: Slack Group
-    file: slack.qmd
+  - text: Zulip Chat
+    file: zulip.qmd
 ```
 
 Use the full URL for external pages, e.g. 

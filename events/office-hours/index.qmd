@@ -38,6 +38,6 @@ To join, sign up on the [R Contributors Meetup](https://www.meetup.com/r-contrib
 Other ways to find out about upcoming Office Hours:
 
  - The [Events Calendar](/events), where you can add the Office Hour series to your calendar
- - The [R Contributors Slack](/slack) - the Zoom link will typically be shared just before the office hour.
+ - The [R Contributors Zulip](/zulip) - the Zoom link will typically be shared just before the office hour.
  
 The office hours are also advertised on our social media channels and various community Slack groups.
