@@ -1,5 +1,5 @@
 ---
-title: "Resources for General Help with R"
+title: "Resources for general help with R"
 ---
 
 ## Dedicated channels for R help
