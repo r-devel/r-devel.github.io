@@ -52,9 +52,7 @@ To adjust your notification settings go to ⚙️ → Personal settings → Noti
 
 It’s not necessary to introduce yourself, but feel free to say hello in the #introductions channel.
 
-## Participating in The R Project Zulip
-
-### Posting guide
+## Posting on The R Project Zulip
 
 To create a welcoming and supportive chat space, we ask members to:
 
@@ -67,7 +65,7 @@ To create a welcoming and supportive chat space, we ask members to:
   - avoid using "guys"
   - avoid using terms such as "manpower"
 
-### Etiquette and best practices
+We recommend the following best practices:
 
 - Use `@mentions` thoughtfully - only tag someone if their input is really needed
 - Don't worry about posting in the wrong place - messages can be moved
@@ -83,25 +81,27 @@ You choose which channels you subscribe to. We have organized the channels into 
 
 Note that channels used to be called 'streams' in Zulip, so if you look at older documentation, you may see that terminology.
 
-### Current folders
+#### Folders
+
+Channels are arranged in the following folders:
 
 - GENERAL: Channels of general interest to those contributing to The R Project
 - R CONTRIBUTION: Channels related to contributing to the code and documentation of base R
-- MODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. These are used for posting about events and jobs. Please DM the admins if you would like to propose a new topic in one of these channel.[^1]
 - TRANSLATION: Channels related to translation of materials in base R/recommended packages
+- MODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. Please DM the admins if you would like to propose a new topic in one of these channels.[^1]
 - CRAN: Channels related to [CRAN](https://cran.r-project.org)
 - ZULIP: Channels related to using Zulip
 
-[^1]: To be absolutely clear, all channels on The R Project Zulip are moderated in the sense that admins ensure that posts adhere to the [Code of Conduct](#code-of-conduct). In addition, we use the term "moderated topics" as described here. 
+[^1]: All channels on The R Project Zulip are moderated in the broader sense that admins ensure that posts adhere to the [Code of Conduct](#code-of-conduct). 
 
-### Default channels
+#### Default channels
 
 The current set of default channels is:
 
-- GENERAL \> announce: Announcements from the admins
 - GENERAL \> general: Chat of general interest across the R project (use sparingly!)
 - GENERAL \> introductions: Say hello and a little bit about yourself
 - GENERAL \> random: Informal conversation and other events/projects not directly related to R contribution
+- MODERATED TOPICS \> announce: Announcements from the admins
 - MODERATED TOPICS \> events: Virtual/in-person meet-ups, study groups, book clubs, etc
 - MODERATED TOPICS \> paid-work: Job opportunties in open source development
 - MODERATED TOPICS \> volunteer-work: Unpaid opportunities in open source development
