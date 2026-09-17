@@ -29,6 +29,8 @@ website:
         file: working-group.qmd
       - text: Resources
         menu:
+          - text: Resources for R help
+            file: r-help.qmd
           - text: R Development Guide
             href: https://contributor.r-project.org/rdevguide/
             target: _blank
