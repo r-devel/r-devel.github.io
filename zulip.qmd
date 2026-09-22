@@ -34,11 +34,11 @@ You can use Zulip in a browser, but you may prefer the desktop or mobile app for
 
 Go to ⚙️ → Personal settings → Profile.
 
-Adding a few details to your profile can help other contributors recognise you and understand how you are involved in The R Project. You can add a profile photo, your name, pronouns, job or community role, location, links to GitHub or GitLab, social media, and a personal or professional website.
+Adding a few details to your profile can help other contributors recognise you and understand how you are involved in the R Project. You can add a profile photo, your name, pronouns, job or community role, location, links to GitHub or GitLab, social media, and a personal or professional website.
 
 ### Choose your channels
 
-You’ll likely want to configure the channels that you’re subscribed to when getting started. The default set is quite limited, and there are many other channels you can subscribe to depending on your interests and how you contribute to The R Project.
+You’ll likely want to configure the channels that you’re subscribed to when getting started. The default set is quite limited, and there are many other channels you can subscribe to depending on your interests and how you contribute to the R Project.
 
 See the [Channels](#channels) section for more information about how channels are organised and which channels are available.
 
@@ -85,11 +85,11 @@ Note that channels used to be called 'streams' in Zulip, so if you look at older
 
 Channels are arranged in the following folders:
 
-- GENERAL: Channels of general interest to those contributing to The R Project
+- GENERAL: Channels of general interest to those contributing to the R Project
 - R CONTRIBUTION: Channels related to contributing to the code and documentation of base R
 - TRANSLATION: Channels related to translation of materials in base R/recommended packages
-- MODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. Please DM the admins if you would like to propose a new topic in one of these channels.[^1]
 - CRAN: Channels related to [CRAN](https://cran.r-project.org)
+- MODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. Please DM the admins if you would like to propose a new topic in one of these channels.[^1]
 - ZULIP: Channels related to using Zulip
 
 [^1]: All channels on The R Project Zulip are moderated in the broader sense that admins ensure that posts adhere to the [Code of Conduct](#code-of-conduct). 
@@ -98,15 +98,23 @@ Channels are arranged in the following folders:
 
 The current set of default channels is:
 
-- GENERAL \> general: Chat of general interest across the R project (use sparingly!)
-- GENERAL \> introductions: Say hello and a little bit about yourself
-- GENERAL \> random: Informal conversation and other events/projects not directly related to R contribution
-- MODERATED TOPICS \> announce: Announcements from the admins
-- MODERATED TOPICS \> events: Virtual/in-person meet-ups, study groups, book clubs, etc
-- MODERATED TOPICS \> paid-work: Job opportunties in open source development
-- MODERATED TOPICS \> volunteer-work: Unpaid opportunities in open source development
-- ZULIP \> sandbox: Experiment with Zulip here
-- ZULIP \> zulip: Questions and discussion about using Zulip
+GENERAL 
+
+- general: Chat of general interest across the R project (use sparingly!)
+- introductions: Say hello and a little bit about yourself
+- random: Informal conversation and other events/projects not directly related to R contribution
+
+MODERATED TOPICS
+
+- announce: Announcements from the admins
+- events: Virtual/in-person meet-ups, study groups, book clubs, etc
+- paid-work: Job opportunities in open source development
+- volunteer-work: Unpaid opportunities in open source development
+
+ZULIP
+
+- sandbox: Experiment with Zulip here
+- zulip: Questions and discussion about using Zulip
 
 ### Topics
 
