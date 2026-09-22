@@ -19,8 +19,8 @@ website:
   navbar:
     left: 
       # - menu: 
-      - text: "Slack Group"
-        file: slack.qmd
+      - text: "Zulip Chat"
+        file: zulip.qmd
       - text: "Events"
         file: events/index.qmd
       - text: "Tutorials & demos"
@@ -29,6 +29,8 @@ website:
         file: working-group.qmd
       - text: Resources
         menu:
+          - text: Resources for general help with R
+            file: r-help.qmd
           - text: R Development Guide
             href: https://contributor.r-project.org/rdevguide/
             target: _blank

@@ -56,8 +56,8 @@ The meeting will be on the **5th Tuesday** in January and times will move when U
 
 Sign up to attend the sessions on the [R Contributors Meetup](https://www.meetup.com/r-contributors/events/).
 
-Sessions will be recorded and shared on on the [R Contributors Slack](/slack) for people that can't make the meetings.
+Sessions will be recorded and shared on on the R Contributors Slack for people that can't make the meetings.
 
 ## Further help
 
-Participants are encouraged to join the #c-study-group channel on the [R Contributors Slack](/slack) to discuss with others as they work through the material. CS50 also has [communities](https://cs50.harvard.edu/x/2024/communities/) on multiple platforms that you can connect to.
+Participants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has [communities](https://cs50.harvard.edu/x/2024/communities/) on multiple platforms that you can connect to.

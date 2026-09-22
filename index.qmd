@@ -4,7 +4,7 @@ title: "R Contributor Site"
 
 This is a community-maintained site for people interested in contributing to core R codebase - the code and documentation that gets [distributed as base R](https://cloud.r-project.org).
 
-Join our [Slack Group](slack.qmd) to chat with current and aspiring R contributors. Everyone interested is welcome!
+Join our [Zulip](zulip.qmd) to chat with current and aspiring R contributors. Everyone interested is welcome!
 
 Read the [R Development Guide](https://contributor.r-project.org/rdevguide){target="_blank"}, follow a [Tutorial](tutorials/index.qmd), or attend an [Event](events/index.qmd) to learn more about contributing to R.
 

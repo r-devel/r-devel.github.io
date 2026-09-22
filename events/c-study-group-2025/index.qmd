@@ -63,8 +63,8 @@ Note that the London times are GMT/UTC in winter and BST in summer, so please ta
 
 Sign up to attend the sessions on the [R Contributors Meetup](https://www.meetup.com/r-contributors/events/).
 
-See also the #c-study-group channel in the [R Contributors Slack](/slack) for up-to-date information, and to communicate with other participants. 
+See also the #c-study-group channel in the R Contributors Slack for up-to-date information, and to communicate with other participants. 
 
 ## Further help
 
-Participants are encouraged to join the #c-study-group channel on the [R Contributors Slack](/slack) to discuss with others as they work through the material. CS50 also has [communities](https://cs50.harvard.edu/x/2025/communities/) on multiple platforms that you can connect to.
+Participants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has [communities](https://cs50.harvard.edu/x/2025/communities/) on multiple platforms that you can connect to.
