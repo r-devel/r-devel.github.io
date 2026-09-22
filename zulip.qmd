@@ -10,7 +10,7 @@ The R Project Zulip is a supportive space to chat about developing, maintaining,
 - Developing and maintaining supporting infrastructure (e.g. CRAN Cookbook, Weblate)
 - R Foundation activities (e.g. useR! organisation)
 
-It is *not* intended as a general discussion forum about using R ir R packages, installation issues, package development, or for "grass-roots" communities related to R. For chat or questions that are **off-topic**, please use an [alternative forum for help](r-help.qmd).
+It is *not* intended as a general discussion forum about using R or R packages, installation issues, package development, or for "grass-roots" communities related to R. For chat or questions that are **off-topic**, please use an [alternative forum for help](r-help.qmd).
 
 ::: {.callout-note} 
 By joining The R Project Zulip, members also agree to the [Code of Conduct](#code-of-conduct) below. The administrators will enforce this code of conduct and expect cooperation in ensuring a safe environment for all.
@@ -77,7 +77,7 @@ We recommend the following best practices:
 
 Channels organise conversations based on who needs to see them. Discussions in a channel should stick to the channel purpose.
 
-You choose which channels you subscribe to. We have organized the channels into folders. You can filter available channels by folder to find channels related to each other.
+You choose which channels you subscribe to. We have organised the channels into folders. You can filter available channels by folder to find channels related to each other.
 
 Note that channels used to be called 'streams' in Zulip, so if you look at older documentation, you may see that terminology.
 
@@ -110,7 +110,7 @@ The current set of default channels is:
 
 ### Topics
 
-Zulip is designed around conversations that are labeled with [**topics**](https://zulip.com/help/introduction-to-topics), to make communication organized and efficient. It’s easy to get an overview of what conversations are happening, and to read one conversation at a time.
+Zulip is designed around conversations that are labeled with [**topics**](https://zulip.com/help/introduction-to-topics), to make communication organised and efficient. It’s easy to get an overview of what conversations are happening, and to read one conversation at a time.
 
 Topics are a foundational idea in Zulip, and central to the chat experience. They are conceptually similar to threads in Slack, but much more important in Zulip, with the official docs describing them as "one of the most wonderful aspects of using Zulip". They enable lots of conversations to happen in the same channel at the same time, and conversations can last hours or days without messages getting lost. Topics appear in the left sidebar.
 
