@@ -89,6 +89,7 @@ Channels are arranged in the following folders:
 - R CONTRIBUTION: Channels related to contributing to the code and documentation of base R
 - TRANSLATION: Channels related to translation of materials in base R/recommended packages
 - CRAN: Channels related to [CRAN](https://cran.r-project.org)
+- R FOUNDATION: Channels related to R Foundation work
 - MODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. Please DM the admins if you would like to propose a new topic in one of these channels.[^1]
 - ZULIP: Channels related to using Zulip
 
