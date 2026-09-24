@@ -1,66 +1,52 @@
 [
   {
-    "objectID": "working-group.html",
-    "href": "working-group.html",
-    "title": "R Contribution Working Group",
+    "objectID": "r-help.html",
+    "href": "r-help.html",
+    "title": "Resources for general help with R",
     "section": "",
-    "text": "The R Contribution Working Group is a collaboration between R Core, R community groups (including Forwards, the R Community Diversity and Inclusion Working Group, R-Ladies, MiR) and members of the wider R community. Its aim is to encourage new contributors to R core, with a focus on diversity and inclusion."
+    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nData Science Learning Community (DSLC) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
   },
   {
-    "objectID": "working-group.html#current-work",
-    "href": "working-group.html#current-work",
-    "title": "R Contribution Working Group",
-    "section": "Current Work",
-    "text": "Current Work\nThe group maintains the r-devel/rcwg repository, with issues relating to current initiatives and related documents, such as minutes of meetings."
-  },
-  {
-    "objectID": "working-group.html#get-involved",
-    "href": "working-group.html#get-involved",
-    "title": "R Contribution Working Group",
-    "section": "Get Involved",
-    "text": "Get Involved\nAnyone from the R community that supports the group’s objectives and would like to contribute is welcome to get involved. This can range from commenting on GitHub issues to actively working on initiatives.\nTo communicate with the group:\n\nAttend an RCWG meeting (details below) or add an item to the collaborative agenda.\nOpen an issue on the r-devel/rcwg repository.\nPost a message on the #getting-started channel of the R Contributors Zulip (preferred) or email the group chair, Heather Turner.\n\nThe RCWG meet (on Zoom) every 1-2 months, usually alternating between the third Friday of the month, 15:00 UTC and the third Tuesday of the month, 19:30 UTC (-1hr during Daylight Savings Time in Europe). Stay up-to-date with meeting announcements in one of the following ways:\n\nGo to the Events page and add the event series to your calendar.\nJoin the R Contribution Working Group mailing list to stay up-to-date with working group activities."
-  },
-  {
-    "objectID": "notes/axe-navbar-landmark-bug.html",
-    "href": "notes/axe-navbar-landmark-bug.html",
-    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "objectID": "r-help.html#dedicated-channels-for-r-help",
+    "href": "r-help.html#dedicated-channels-for-r-help",
+    "title": "Resources for general help with R",
     "section": "",
-    "text": "On a Quarto website, axe-core reports:\n\nModerate · Best Practice: Ensure landmarks are unique Landmarks should have a unique role or role/label/title (i.e. accessible name) combination .navbar\n\nThis happens when both the navbar and the page TOC are enabled.\n\n\n\n_quarto.yml:\nproject:\n  type: website\n\nwebsite:\n  title: \"Test site\"\n  navbar:\n    aria-label: \"Primary site navigation\"\n    search: true\n\nformat:\n  html:\n    toc: true\n    axe:\n      output: document\nIndex page (index.qmd):\n---\ntitle: \"Home\"\n---\n\n## Section 1\n\nText.\n\n## Section 2\n\nText.\n\n\n\nHeader/navbar:\n&lt;header id=\"quarto-header\" class=\"headroom fixed-top\"&gt;\n  &lt;nav class=\"navbar navbar-expand-lg\" data-bs-theme=\"dark\" aria-label=\"Primary site navigation\"&gt;\n    ...\n  &lt;/nav&gt;\n&lt;/header&gt;\nMargin TOC:\n&lt;div id=\"quarto-margin-sidebar\" class=\"sidebar margin-sidebar\"&gt;\n  &lt;nav id=\"TOC\" role=\"doc-toc\" class=\"toc-active\"&gt;\n    &lt;h2 id=\"toc-title\"&gt;On this page&lt;/h2&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"#section-1\" class=\"nav-link\" data-scroll-target=\"#section-1\"&gt;Section 1&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#section-2\" class=\"nav-link\" data-scroll-target=\"#section-2\"&gt;Section 2&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/div&gt;\n\n\n\n\nWith format.html.toc: true, axe-core reports the non-unique landmark warning on .navbar.\nSetting format.html.toc: false removes the warning.\nAdding navbar.aria-label: \"Primary site navigation\" does not remove the warning.\n\n\n\n\nIt appears that the combination of:\n\n&lt;nav class=\"navbar ...\"&gt; (main navigation landmark), and\n&lt;nav id=\"TOC\" role=\"doc-toc\" ...&gt; (TOC landmark)\n\nis causing axe-core’s “Ensure landmarks are unique” rule to fire.\nQuestion for Quarto:\n\nIs this landmark structure (navbar + role=\"doc-toc\" TOC) intended to satisfy axe-core’s uniqueness rule, or is there an adjustment needed (e.g. roles/labels) so that axe-core no longer flags .navbar when toc: true is used on websites?"
+    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nData Science Learning Community (DSLC) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
   },
   {
-    "objectID": "notes/axe-navbar-landmark-bug.html#summary",
-    "href": "notes/axe-navbar-landmark-bug.html#summary",
-    "title": "Axe-core navbar landmark warning with Quarto TOC",
-    "section": "",
-    "text": "On a Quarto website, axe-core reports:\n\nModerate · Best Practice: Ensure landmarks are unique Landmarks should have a unique role or role/label/title (i.e. accessible name) combination .navbar\n\nThis happens when both the navbar and the page TOC are enabled."
+    "objectID": "r-help.html#general-r-communities",
+    "href": "r-help.html#general-r-communities",
+    "title": "Resources for general help with R",
+    "section": "General R communities",
+    "text": "General R communities\nPosts about R can be found with the #RStats tag on social media such as Mastodon, X, etc. Sometimes posting about an issue can be an effective way to find help.\n\nThe R Project for Statistical Computing LinkedIn Group - a community-run private discussion group for R users\ndiscoRd - a Discord server for text or voice chat with other R users. Many specialized channels (e.g. finance, R markdown, machine learning) as well as general R and non-R chat.\ngrrr - French-speaking R Users Slack."
   },
   {
-    "objectID": "notes/axe-navbar-landmark-bug.html#minimal-reproducible-setup",
-    "href": "notes/axe-navbar-landmark-bug.html#minimal-reproducible-setup",
-    "title": "Axe-core navbar landmark warning with Quarto TOC",
-    "section": "",
-    "text": "_quarto.yml:\nproject:\n  type: website\n\nwebsite:\n  title: \"Test site\"\n  navbar:\n    aria-label: \"Primary site navigation\"\n    search: true\n\nformat:\n  html:\n    toc: true\n    axe:\n      output: document\nIndex page (index.qmd):\n---\ntitle: \"Home\"\n---\n\n## Section 1\n\nText.\n\n## Section 2\n\nText."
+    "objectID": "r-help.html#r-communities-for-members-of-underrepresented-groups",
+    "href": "r-help.html#r-communities-for-members-of-underrepresented-groups",
+    "title": "Resources for general help with R",
+    "section": "R communities for members of underrepresented groups",
+    "text": "R communities for members of underrepresented groups\nThere are several communities for members of groups that are underrepresented in the global R community. Many have Slack groups, sometimes with specific channels to ask for help with R.\n\nRLadies+ community Slack - general help with R on #r-help channel, Slack group is for women and gender minorities only.\nrainbowR community Slack - supporting LGBTQ+ people who code in the R language."
   },
   {
-    "objectID": "notes/axe-navbar-landmark-bug.html#rendered-landmarks-relevant-parts",
-    "href": "notes/axe-navbar-landmark-bug.html#rendered-landmarks-relevant-parts",
-    "title": "Axe-core navbar landmark warning with Quarto TOC",
-    "section": "",
-    "text": "Header/navbar:\n&lt;header id=\"quarto-header\" class=\"headroom fixed-top\"&gt;\n  &lt;nav class=\"navbar navbar-expand-lg\" data-bs-theme=\"dark\" aria-label=\"Primary site navigation\"&gt;\n    ...\n  &lt;/nav&gt;\n&lt;/header&gt;\nMargin TOC:\n&lt;div id=\"quarto-margin-sidebar\" class=\"sidebar margin-sidebar\"&gt;\n  &lt;nav id=\"TOC\" role=\"doc-toc\" class=\"toc-active\"&gt;\n    &lt;h2 id=\"toc-title\"&gt;On this page&lt;/h2&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"#section-1\" class=\"nav-link\" data-scroll-target=\"#section-1\"&gt;Section 1&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#section-2\" class=\"nav-link\" data-scroll-target=\"#section-2\"&gt;Section 2&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/div&gt;"
+    "objectID": "r-help.html#regional-r-communities",
+    "href": "r-help.html#regional-r-communities",
+    "title": "Resources for general help with R",
+    "section": "Regional R communities",
+    "text": "Regional R communities\n\nLatinR Slack - supporting R users from or living in Latin America. Use the #r-ajuda-r-ayuda channel to get help in Spanish, (Brazilian) Portuguese or English."
   },
   {
-    "objectID": "notes/axe-navbar-landmark-bug.html#behaviour",
-    "href": "notes/axe-navbar-landmark-bug.html#behaviour",
-    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "objectID": "demos/how-to-make-a-contribution-to-base-r/index.html",
+    "href": "demos/how-to-make-a-contribution-to-base-r/index.html",
+    "title": "How to Make a Contribution to Base R",
     "section": "",
-    "text": "With format.html.toc: true, axe-core reports the non-unique landmark warning on .navbar.\nSetting format.html.toc: false removes the warning.\nAdding navbar.aria-label: \"Primary site navigation\" does not remove the warning."
+    "text": "The presentation slides are available in HTML format - press S to view with speaker notes (the video text).\nNote: This demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. Refer to the R Development Guide for more information on building R from source and the lifecycle of a patch."
   },
   {
-    "objectID": "notes/axe-navbar-landmark-bug.html#interpretation-question",
-    "href": "notes/axe-navbar-landmark-bug.html#interpretation-question",
-    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "objectID": "tutorials/translating-r-to-your-language/index.html",
+    "href": "tutorials/translating-r-to-your-language/index.html",
+    "title": "Translating R to your language",
     "section": "",
-    "text": "It appears that the combination of:\n\n&lt;nav class=\"navbar ...\"&gt; (main navigation landmark), and\n&lt;nav id=\"TOC\" role=\"doc-toc\" ...&gt; (TOC landmark)\n\nis causing axe-core’s “Ensure landmarks are unique” rule to fire.\nQuestion for Quarto:\n\nIs this landmark structure (navbar + role=\"doc-toc\" TOC) intended to satisfy axe-core’s uniqueness rule, or is there an adjustment needed (e.g. roles/labels) so that axe-core no longer flags .navbar when toc: true is used on websites?"
+    "text": "In this video tutorial recorded at useR! 2021, Michael Chirico and Michael Lawrence aim to get package developers and other R community members started implementing foreign-language translations of R’s messages (errors, warnings, verbose output, etc.) into a language of their choosing.\nOur real-time participants were focused on Spanish, Bahasa Indonesia, and Hungarian.\n\n\n The tutorial presentation slides are publicly available in Google Slides format.\nNote: This video describes the gettext infrastructure that R uses to internationalize messages. This background information and the tips for translation (first 1h15 of video) are still relevant, but we now recommend translations are added/updated via the R Project Weblate server."
   },
   {
     "objectID": "tutorials/index.html",
@@ -84,13 +70,6 @@
     "text": "Demos\nShort videos to give people a quick start on the basics.\n\n\nHow to Make a Contribution to Base R, Heather Turner and Ella Kaye, Collaborations Workshop 2023. 10 min video.\n\n\nAbstract\n\nMaking a contribution to a large open source software project like the R project can seem very daunting. This walkthrough aims to demonstrate how R users can contribute simple fixes to the code or documentation in base R, helping to maintain this fundamental software for data science. We will briefly look at: 1) How to find a good bug to work on, 2) Getting to the the root of the issue, and 3) How to propose a fix.\n\n\n\nR translatón / Hackaton de tradução do R, Beatriz Milz, Ángela Sanzo, and Macarena Quiroga, LatinR 2022. 40 min video (mainly in Spanish)\n\n\nAbstract\n\nThis is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server."
   },
   {
-    "objectID": "demos/latinr-hackathon/index.html",
-    "href": "demos/latinr-hackathon/index.html",
-    "title": "R translatón / Hackaton de tradução do R",
-    "section": "",
-    "text": "This is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server.\n\n\nThe presentation slides are available in PDF format."
-  },
-  {
     "objectID": "slack.html",
     "href": "slack.html",
     "title": "R Contributors Slack",
@@ -112,46 +91,60 @@
     "text": "Code of Conduct\nThe administrators of R Contributors Slack are dedicated to providing a harassment-free workspace for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof).\n\nExpected Behaviour\nAll members agree to:\n\nBe considerate in language and actions, and respect the boundaries of fellow members.\nRefrain from demeaning, discriminatory, or harassing behaviour and language. Please refer to Unacceptable Behaviour for more details.\nAlert one of the administrators if you observe violations of this code of conduct, even if they seem inconsequential.\n\n\n\nUnacceptable Behaviour\nBehaviour that is unacceptable includes, but is not limited to:\n\nStalking, e.g. persistent unwanted DMs, logging online activity for harassment purposes.\nDeliberate intimidation.\nSustained or willful disruption of discussion.\nUse of sexual or discriminatory imagery, comments, or jokes.\nOffensive comments related to age, gender, sexual orientation, disability, race or religion.\nInappropriate simulated physical contact, e.g. textual descriptions like “hug” or “backrub” or custom emoji representing such contact, used without consent.\nUnwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favours or repeatedly asking for dates or contact information.\n\nIf you are asked to stop harassing behaviour you should stop immediately, even if your behaviour was meant to be friendly or a joke, it was clearly not taken that way and for the comfort of all members you should stop.\nMembers who behave in a manner deemed inappropriate are subject to actions listed under Procedure for Code of Conduct Violations.\n\n\nProcedure for Code of Conduct Violations\nThe administrators reserves the right to determine the appropriate response for all code of conduct violations. Potential responses include:\n\na formal warning to stop harassing behaviour\ntemporarily/permanently deactivating membership of the workspace\n\n\n\nWhat To Do If You Witness or Are Subject To Unacceptable Behaviour\nTake screenshots of offending posts (deleted posts cannot be seen even by admins).\nView the Admins & Owners in the workspace settings (only available to members). Email or message one or more administrators listed to report the behaviour.\nIf the admins are unable to respond in a timely manner, you may flag the issue by responding to the offending post with a brief comment, e.g.\n\nThis comment is inappropriate, please delete it.\nThis goes against the code of conduct, I have reported it.\n\nThere is no obligation to respond if you don’t feel comfortable. Don’t get drawn into an argument or pile on an offender, a brief comment is enough to signal the issue and give the offender a chance to make it right.\n\n\nAcknowledgements\nThe CoC is adapted from the useR! Code of Conduct.\nParts of the above text are licensed CC BY-SA 4.0. Credit to SRCCON. This code of conduct was based on that developed for useR! 2018 which was a revision of the code of conduct used at previous useR!s and also drew from rOpenSci’s code of conduct."
   },
   {
-    "objectID": "events/c-study-group-2024/index.html",
-    "href": "events/c-study-group-2024/index.html",
-    "title": "C Study Group for R Contributors 2024",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "R Contributor Site",
     "section": "",
-    "text": "This is a study group meeting once a month for existing/aspiring R contributors that want to gain/refresh basic skills in C programming.\nIt will run from January to June 2024."
+    "text": "This is a community-maintained site for people interested in contributing to core R codebase - the code and documentation that gets distributed as base R.\nJoin our Zulip to chat with current and aspiring R contributors. Everyone interested is welcome!\nRead the R Development Guide, follow a Tutorial, or attend an Event to learn more about contributing to R."
   },
   {
-    "objectID": "events/c-study-group-2024/index.html#study-materials",
-    "href": "events/c-study-group-2024/index.html#study-materials",
-    "title": "C Study Group for R Contributors 2024",
-    "section": "Study materials",
-    "text": "Study materials\nThe main study materials are from the C sessions of CS50, Harvard’s Introduction to Computer Science. This will be supplemented with a chapter from Deep R Programming on R’s C API."
+    "objectID": "index.html#quick-start",
+    "href": "index.html#quick-start",
+    "title": "R Contributor Site",
+    "section": "Quick Start",
+    "text": "Quick Start\nWatch the following demo for a 10-minute introduction making a contribution:\n\n\n The presentation slides are available in HTML format - press S to view with speaker notes (the video text).\nThe demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. The R Development Guide provides more information on building R from source and the lifecycle of a patch."
   },
   {
-    "objectID": "events/c-study-group-2024/index.html#schedule",
-    "href": "events/c-study-group-2024/index.html#schedule",
-    "title": "C Study Group for R Contributors 2024",
-    "section": "Schedule",
-    "text": "Schedule\n\n\n\nSession\nDate\nResource\nMaterial\n\n\n\n\n1\nJan 30\nCS50\nC\n\n\n2\nFeb 27\nCS50\nArrays\n\n\n3\nMar 26\nCS50\nAlgorithms\n\n\n4\nApr 23\nCS50\nMemory\n\n\n5\nMay 28\nCS50\nData Structures\n\n\n6\nJun 25\nDeep R\nInterfacing compiled code [in R]"
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "R Contributor Site",
+    "section": "About",
+    "text": "About\nThis site is maintained by the R Contribution Working Group, which is working on initiatives to encourage wider contribution to R core. The working group is open to new members (more information). You can report issues about this website on the r-devel.github.io repository."
   },
   {
-    "objectID": "events/c-study-group-2024/index.html#commitment",
-    "href": "events/c-study-group-2024/index.html#commitment",
-    "title": "C Study Group for R Contributors 2024",
+    "objectID": "events/c-book-club-2023/index.html",
+    "href": "events/c-book-club-2023/index.html",
+    "title": "C book club for R contributors",
+    "section": "",
+    "text": "This is a book club meeting every two weeks for existing/aspiring R contributors that want to learn/refresh their C programming skills.\nIt will run from May to August 2023, so that people attending R Project Sprint 2023 have at least a basic understanding of C and how it interfaces with R. However, you do not have to be a sprint participant to join the book club!"
+  },
+  {
+    "objectID": "events/c-book-club-2023/index.html#readings",
+    "href": "events/c-book-club-2023/index.html#readings",
+    "title": "C book club for R contributors",
+    "section": "Readings",
+    "text": "Readings\nOur main reading will be Modern C by Jens Gustedt. A PDF is available for free download, or there is a 35% discount code for a print or eBook copy (see the Modern C website). This book is organized in levels:\n\n0 - Encounter: summarizes the very basics of programming with C.\n1 - Acquaintance: details most principal concepts and features such as control structures, data types, operators, and functions.\n2 - Cognition: goes to the heart of the C language, covering pointers, C’s memory model, and most of C’s library interface.\n3 - Experience: goes into detail about specific topics, such as performance, reentrancy, atomicity, threads, and type-generic programming.\n\nThis book club will cover levels 0 to 2 (about 200 pages).\nThe reading will be supplemented with:\n\nSelected exercises from C Programming: A Modern Approach by K. N. King (shared under fair use).\nThe chapter on R’s C interface from Advanced R (1st ed.) by Hadley Wickham (free online)."
+  },
+  {
+    "objectID": "events/c-book-club-2023/index.html#commitment",
+    "href": "events/c-book-club-2023/index.html#commitment",
+    "title": "C book club for R contributors",
     "section": "Commitment",
-    "text": "Commitment\nParticipants should study the material and attempt the corresponding exercise before each book club meeting.\nA suggested weekly schedule for the CS50 material is\n\nWeek 1: Watch “Lecture” video (2.5 hr).\nWeek 2: Watch “Shorts” (~6 x 10-15 min videos that expand on topics in the lecture). Do the “Lab” from the corresponding session in CS50 2023.\nWeek 3: Watch “Section” (~1hr video going beyond the lecture). Try one or more Additional Practice Problems.\nWeek 4: Meet to share solutions to the Lab/Practice Problems. Optional: Do “Problem Set” and submit if doing course for credit, or if you want to receive an automatic grade to check your progress.\n\nThe labs from CS50 2023 are designed as learning problems and include hints. The additional practice problems are often harder than the problem set, however we suggest leaving the problem set till after the meetup and attempting this independently (this is expected if you are doing the course for credit).\nThere is the option to do further study towards a free certificate from Harvard or a verified certificate from edX (~200 USD, financial assistance program available on edX). See the CS50 website for details.\nAt book club meetings, participants should be prepared to share and discuss their work on the exercises."
+    "text": "Commitment\nThere are three levels of commitment:\n\nLow (1-2 hrs/wk): Read the assigned readings, work through the examples in the main text and participate in the online meetings every two weeks.\nMedium (2-3 hrs/wk, recommended): Same as Low, but also try (some of) the selected exercises.\nHigh (~1 day/wk): Same as Medium, but also try (some of) the challenges in Modern C.\n\nAt the online meetings, one book club member will present a summary of the chapter (~10 minutes), reviewing the main points and highlighting any quotes/examples they found particularly helpful/important. This will be followed by discussion, sharing exercise solutions, etc. Book club members are encouraged to sign up to present at one session to spread the load among the group."
   },
   {
-    "objectID": "events/c-study-group-2024/index.html#timing",
-    "href": "events/c-study-group-2024/index.html#timing",
-    "title": "C Study Group for R Contributors 2024",
+    "objectID": "events/c-book-club-2023/index.html#timing",
+    "href": "events/c-book-club-2023/index.html#timing",
+    "title": "C book club for R contributors",
     "section": "Timing",
-    "text": "Timing\nThe book club will typically meet on the 4th Tuesday of the month, from January to June 2024, in two cohorts:\n\nCohort 1: 12 noon - 1 pm London.\nCohort 2: 9 am - 10 am San Francisco.\n\nThe meeting will be on the 5th Tuesday in January and times will move when UK/USA daylight saving times end. Check the events page for actual times in your time zone, along with Google calendar and iCalendar links.\nSign up to attend the sessions on the R Contributors Meetup.\nSessions will be recorded and shared on on the R Contributors Slack for people that can’t make the meetings."
+    "text": "Timing\nThe book club will meet in two cohorts:\n\nCohort 1: 12 noon - 1 pm UTC (find 12 noon UTC in your local time).\nCohort 2: 10 am - 11 am PDT (find 10 am PDT in your local time).\n\nSign-up to attend the sessions on the R Contributors Meetup."
   },
   {
-    "objectID": "events/c-study-group-2024/index.html#further-help",
-    "href": "events/c-study-group-2024/index.html#further-help",
-    "title": "C Study Group for R Contributors 2024",
-    "section": "Further help",
-    "text": "Further help\nParticipants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has communities on multiple platforms that you can connect to."
+    "objectID": "events/c-book-club-2023/index.html#schedule-and-further-details",
+    "href": "events/c-book-club-2023/index.html#schedule-and-further-details",
+    "title": "C book club for R contributors",
+    "section": "Schedule and further details",
+    "text": "Schedule and further details\nFor the reading schedule and shared materials, see the C book club GitHub repo."
   },
   {
     "objectID": "events/bug-bbq/welcome.html",
@@ -203,6 +196,132 @@
     "text": "Further help\nParticipants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has communities on multiple platforms that you can connect to."
   },
   {
+    "objectID": "events/collaboration-campfires/index.html",
+    "href": "events/collaboration-campfires/index.html",
+    "title": "Collaboration Campfires",
+    "section": "",
+    "text": "Learn how to contribute to R!\nThe Collaboration Campfires are online collaborative events to open pathways for members of groups currently underrepresented in the R project. The goal is to demystify the R development process and highlight ways that R programmers can contribute, with a focus on low-level contributions in terms of time commitment and prerequisite knowledge.\nThe current series is planned in the run-up to the useR! 2022 online conference, where we plan to hold a satellite global contribution event: the Bug Barbecue!"
+  },
+  {
+    "objectID": "events/collaboration-campfires/index.html#schedule",
+    "href": "events/collaboration-campfires/index.html#schedule",
+    "title": "Collaboration Campfires",
+    "section": "Schedule",
+    "text": "Schedule\nThe Collaboration Campfires will be on the 4th Tuesday of every month from February to May 2022. The 90 minute Zoom sessions will start at 15:30 UTC. Note: many countries switch to daylight savings time either before the March meeting or before the April meeting.\n\nFebruary 22: Explore R’s Bug-tracking Process [local time]\nMarch 22: How to Help Review R Bug Reports [local time]\nApril 26: Explore R’s Process for Localization (Translation) [local time]\nMay 24: How to Contribute to a Translation Team [local time]\n\nIf you are a member of the R-Ladies, MiR, ArabR, AfricaR, AsiaR, or LatinR communities, or otherwise identify as part of an underrepresented group among R contributors, then we especially encourage you to participate! Anyone from the general R community that respects and supports the aims of these events is also welcome to attend.\nRegistration is free. Click the button to register for individual or multiple events and receive a calendar invite.\n[Zoom Registration Form]\nIf you have a friend or colleague who might be interested in attending the Collaboration Campfires, then why not invite them along!"
+  },
+  {
+    "objectID": "events/collaboration-campfires/index.html#campfire-hosts",
+    "href": "events/collaboration-campfires/index.html#campfire-hosts",
+    "title": "Collaboration Campfires",
+    "section": "Campfire Hosts",
+    "text": "Campfire Hosts\n\n\n&lt;img src=\"saranjeet-kaur.jpg\" alt=\"Saranjeet Kaur Bhogal\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Saranjeet Kaur &lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/qwertyquesting\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://saranjeetkaur.github.io/About-Me/\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\n&lt;img src=\"heather-turner.jpg\" alt=\"Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt.\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Heather Turner&lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/heathrturnr\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\nIf you have any questions about the events, please contact heather@r-project.org or find us on the R Contributors Slack."
+  },
+  {
+    "objectID": "events/collaboration-campfires/index.html#organizers-and-partners",
+    "href": "events/collaboration-campfires/index.html#organizers-and-partners",
+    "title": "Collaboration Campfires",
+    "section": "Organizers and partners",
+    "text": "Organizers and partners\nThe Collaboration Campfires are part of the project Building Community around the R Development Guide, supported by the Digital Infrastructure Incubator at Code for Science & Society (CS&S). The project is led by Saranjeet Kaur Bhogal and Heather Turner, and mentored by Rayya El Zein. Members of partner communities and the R Contribution Working Group have contributed to the organisation, and will provide expert and peer support during the sessions."
+  },
+  {
+    "objectID": "events/collaboration-campfires/index.html#code-of-conduct",
+    "href": "events/collaboration-campfires/index.html#code-of-conduct",
+    "title": "Collaboration Campfires",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nAs CS&S events, their code of conduct(Guidelines for community participation & Code of Conduct: (https://eventfund.codeforscience.org/code-of-conduct/) will apply to these sessions."
+  },
+  {
+    "objectID": "events/c-study-group-2024/index.html",
+    "href": "events/c-study-group-2024/index.html",
+    "title": "C Study Group for R Contributors 2024",
+    "section": "",
+    "text": "This is a study group meeting once a month for existing/aspiring R contributors that want to gain/refresh basic skills in C programming.\nIt will run from January to June 2024."
+  },
+  {
+    "objectID": "events/c-study-group-2024/index.html#study-materials",
+    "href": "events/c-study-group-2024/index.html#study-materials",
+    "title": "C Study Group for R Contributors 2024",
+    "section": "Study materials",
+    "text": "Study materials\nThe main study materials are from the C sessions of CS50, Harvard’s Introduction to Computer Science. This will be supplemented with a chapter from Deep R Programming on R’s C API."
+  },
+  {
+    "objectID": "events/c-study-group-2024/index.html#schedule",
+    "href": "events/c-study-group-2024/index.html#schedule",
+    "title": "C Study Group for R Contributors 2024",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\nSession\nDate\nResource\nMaterial\n\n\n\n\n1\nJan 30\nCS50\nC\n\n\n2\nFeb 27\nCS50\nArrays\n\n\n3\nMar 26\nCS50\nAlgorithms\n\n\n4\nApr 23\nCS50\nMemory\n\n\n5\nMay 28\nCS50\nData Structures\n\n\n6\nJun 25\nDeep R\nInterfacing compiled code [in R]"
+  },
+  {
+    "objectID": "events/c-study-group-2024/index.html#commitment",
+    "href": "events/c-study-group-2024/index.html#commitment",
+    "title": "C Study Group for R Contributors 2024",
+    "section": "Commitment",
+    "text": "Commitment\nParticipants should study the material and attempt the corresponding exercise before each book club meeting.\nA suggested weekly schedule for the CS50 material is\n\nWeek 1: Watch “Lecture” video (2.5 hr).\nWeek 2: Watch “Shorts” (~6 x 10-15 min videos that expand on topics in the lecture). Do the “Lab” from the corresponding session in CS50 2023.\nWeek 3: Watch “Section” (~1hr video going beyond the lecture). Try one or more Additional Practice Problems.\nWeek 4: Meet to share solutions to the Lab/Practice Problems. Optional: Do “Problem Set” and submit if doing course for credit, or if you want to receive an automatic grade to check your progress.\n\nThe labs from CS50 2023 are designed as learning problems and include hints. The additional practice problems are often harder than the problem set, however we suggest leaving the problem set till after the meetup and attempting this independently (this is expected if you are doing the course for credit).\nThere is the option to do further study towards a free certificate from Harvard or a verified certificate from edX (~200 USD, financial assistance program available on edX). See the CS50 website for details.\nAt book club meetings, participants should be prepared to share and discuss their work on the exercises."
+  },
+  {
+    "objectID": "events/c-study-group-2024/index.html#timing",
+    "href": "events/c-study-group-2024/index.html#timing",
+    "title": "C Study Group for R Contributors 2024",
+    "section": "Timing",
+    "text": "Timing\nThe book club will typically meet on the 4th Tuesday of the month, from January to June 2024, in two cohorts:\n\nCohort 1: 12 noon - 1 pm London.\nCohort 2: 9 am - 10 am San Francisco.\n\nThe meeting will be on the 5th Tuesday in January and times will move when UK/USA daylight saving times end. Check the events page for actual times in your time zone, along with Google calendar and iCalendar links.\nSign up to attend the sessions on the R Contributors Meetup.\nSessions will be recorded and shared on on the R Contributors Slack for people that can’t make the meetings."
+  },
+  {
+    "objectID": "events/c-study-group-2024/index.html#further-help",
+    "href": "events/c-study-group-2024/index.html#further-help",
+    "title": "C Study Group for R Contributors 2024",
+    "section": "Further help",
+    "text": "Further help\nParticipants are encouraged to join the #c-study-group channel on the R Contributors Slack to discuss with others as they work through the material. CS50 also has communities on multiple platforms that you can connect to."
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Event calendar",
+    "section": "",
+    "text": "Meetings and events for existing/aspiring R contributors."
+  },
+  {
+    "objectID": "events/index.html#current-events",
+    "href": "events/index.html#current-events",
+    "title": "Event calendar",
+    "section": "Current events",
+    "text": "Current events\n\nR Dev Days/Sprints: Collaborative events to work on contributions to R or infrastructure that supports such contribution. Google Calendar / iCal.\n\nR Contributor Office Hours: monthly drop-in sessions to help people get started with contributing to R. Discuss work in progress or work together on open bugs/missing translations. Google Calendar / iCal.\n\nC Study Group (February-July 2025): study group designed for R contributors to develop skills in C programming. Google Calendar / iCal.\nR Contribution Working Group: meetings to organize events and work on other infrastructure supporting contributors. Google Calendar / iCal.\n\nNote: iCalendar (iCal/.ics) format is supported by most calendar software, including Outlook, Thunderbird.\nJoin the R Contributors Meetup group to stay up-to-date with contributor events.\nJoin the R Contribution Working Group mailing list to stay up-to-date with working group activities.\nNote: you can set the calendar below to show your time zone by clicking the time zone link (showing UTC by default) in the footer of the calendar window and selecting your time zone from the dialog."
+  },
+  {
+    "objectID": "events/index.html#past-events",
+    "href": "events/index.html#past-events",
+    "title": "Event calendar",
+    "section": "Past events",
+    "text": "Past events\n\nC Study Group 2024: study group designed for R contributors to develop skills in C programming.\nC Book Club 2023: book club designed for R contributors to develop skills in C programming. \nCollaboration Campfires: sessions for newcomers to learn more about contributing to R and to work collaboratively on activities to build knowledge and skills in this area. \nBug BBQ: a global, online event over 24 hours for both new and experienced contributors to address open bugs on R’s bug tracker. \nR Project Sprint 2023 and translatathons."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html",
+    "href": "events/bug-bbq/index.html",
+    "title": "Bug BBQ",
+    "section": "",
+    "text": "Help squash bugs in R!\nThe Bug Barbecue (Bug BBQ) is a global, online event spread over 24 hours, in which new and experienced contributors can help to address open bugs in R. It will take place Thursday, June 23 - Friday, June 24.\nIt is a satellite event to useR! 2022, however you do not need to register for useR! to attend the Bug BBQ."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html#schedule",
+    "href": "events/bug-bbq/index.html#schedule",
+    "title": "Bug BBQ",
+    "section": "Schedule",
+    "text": "Schedule\nThere will be three organized sessions during the event and people are welcome to attend one or more session. The three sessions are suited to different regions of the globe, as detailed below.\nSession 1 (APAC), Friday, June 24, 01:00 - 05:00 UTC (your local time, note this starts on Thursday evening, June 23 in AMER region). [Register for Session 1]\nSession 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC (your local time). [Register for Session 2]\nSession 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC (your local time). [Register for Session 3]\nThere is no cost to attend. Registration can be done any time up to the end of each session and allows you to join the Zoom meeting to chat with facilitators and other participants."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html#session-format",
+    "href": "events/bug-bbq/index.html#session-format",
+    "title": "Bug BBQ",
+    "section": "Session format",
+    "text": "Session format\nEach session is self-guided, to allow people to get started whenever they can join.\nWhen you join:\n\n[Optional, for new contributors] Watch the abridged version of the Contributing to R tutorial from useR! 2021 (~1.5 hours). At least one of the tutors, Gabriel Becker and Martin Mächler, will be available for questions in each of the sessions.\nWatch the Welcome to the Bug BBQ video to get orientated. Corresponding HTML slides - press P to see the transcript.\nUse the remaining time to work independently or in small groups on open bugs.\n\n\nZoom breakout rooms will be available for people that want to work together.\nThe #bug-bbq channel on the R Contributors Slack will be used for people that want to chat.\nThe bug-bbq GitHub repo will be used to track progress.\n\nNote: we will be treating the R Bugzilla as read only during the event. Please do not post there, but rather use the Zoom, Slack or GitHub repo mentioned above."
+  },
+  {
+    "objectID": "events/bug-bbq/index.html#code-of-conduct",
+    "href": "events/bug-bbq/index.html#code-of-conduct",
+    "title": "Bug BBQ",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nAs a satellite event, the Bug BBQ will follow the useR! code of conduct."
+  },
+  {
     "objectID": "events/r-dev-days/index.html",
     "href": "events/r-dev-days/index.html",
     "title": "R Dev Days/Sprints",
@@ -245,181 +364,6 @@
     "text": "Past R Dev Days\n2025\nRencontresR 2025 (report)\nuseR 2025 (report)\nRSECon25 (report)\nSIP2025 (report)\nAustralia 2025 (Melbourne / Perth / Brisbane / Virtual) (report)\nNew Zealand 2025 (Auckland / Virtual (report)\n2024\nImperial 2024 (satellite to London satRday) (report)\nPLUS 2024 (satellite to useR! 2024) (report)\nHutch 2024 (satllite to posit::conf(2024)) (report)\nSIP 2024 (report)\nRSECon 2024 (report)\nLatinR 2024 (virtual) (report)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "R Contributor Site",
-    "section": "",
-    "text": "This is a community-maintained site for people interested in contributing to core R codebase - the code and documentation that gets distributed as base R.\nJoin our Zulip to chat with current and aspiring R contributors. Everyone interested is welcome!\nRead the R Development Guide, follow a Tutorial, or attend an Event to learn more about contributing to R."
-  },
-  {
-    "objectID": "index.html#quick-start",
-    "href": "index.html#quick-start",
-    "title": "R Contributor Site",
-    "section": "Quick Start",
-    "text": "Quick Start\nWatch the following demo for a 10-minute introduction making a contribution:\n\n\n The presentation slides are available in HTML format - press S to view with speaker notes (the video text).\nThe demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. The R Development Guide provides more information on building R from source and the lifecycle of a patch."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "R Contributor Site",
-    "section": "About",
-    "text": "About\nThis site is maintained by the R Contribution Working Group, which is working on initiatives to encourage wider contribution to R core. The working group is open to new members (more information). You can report issues about this website on the r-devel.github.io repository."
-  },
-  {
-    "objectID": "r-help.html",
-    "href": "r-help.html",
-    "title": "Resources for general help with R",
-    "section": "",
-    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nData Science Learning Community (DSLC) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
-  },
-  {
-    "objectID": "r-help.html#dedicated-channels-for-r-help",
-    "href": "r-help.html#dedicated-channels-for-r-help",
-    "title": "Resources for general help with R",
-    "section": "",
-    "text": "For help on topics that are not related to contributing to R, please post on one of the following:\n\nR-help - general Q&A about using R\nR-pkg-devel - Q&A about developing R packages\nSpecial Interest Groups - Q&A related to specific topics (and R), e.g. mixed models, high-performance computing, Debian.\nBioconductor support form - Q&A related to using/developing Bioconductor packages\nPosit community forum - Q&A related to the RStudio IDE and packages maintained by Posit, e.g. tidyverse, Shiny.\nrOpenSci forum - Q&A related to rOpenSci packages and projects (e.g. r-universe).\nData Science Learning Community (DSLC) Slack - help with topics from the R4DS book, but also using R/programming in R more generally.\nStackoverflow - help with very specific queries, use the [r] tag."
-  },
-  {
-    "objectID": "r-help.html#general-r-communities",
-    "href": "r-help.html#general-r-communities",
-    "title": "Resources for general help with R",
-    "section": "General R communities",
-    "text": "General R communities\nPosts about R can be found with the #RStats tag on social media such as Mastodon, X, etc. Sometimes posting about an issue can be an effective way to find help.\n\nThe R Project for Statistical Computing LinkedIn Group - a community-run private discussion group for R users\ndiscoRd - a Discord server for text or voice chat with other R users. Many specialized channels (e.g. finance, R markdown, machine learning) as well as general R and non-R chat.\ngrrr - French-speaking R Users Slack."
-  },
-  {
-    "objectID": "r-help.html#r-communities-for-members-of-underrepresented-groups",
-    "href": "r-help.html#r-communities-for-members-of-underrepresented-groups",
-    "title": "Resources for general help with R",
-    "section": "R communities for members of underrepresented groups",
-    "text": "R communities for members of underrepresented groups\nThere are several communities for members of groups that are underrepresented in the global R community. Many have Slack groups, sometimes with specific channels to ask for help with R.\n\nRLadies+ community Slack - general help with R on #r-help channel, Slack group is for women and gender minorities only.\nrainbowR community Slack - supporting LGBTQ+ people who code in the R language."
-  },
-  {
-    "objectID": "r-help.html#regional-r-communities",
-    "href": "r-help.html#regional-r-communities",
-    "title": "Resources for general help with R",
-    "section": "Regional R communities",
-    "text": "Regional R communities\n\nLatinR Slack - supporting R users from or living in Latin America. Use the #r-ajuda-r-ayuda channel to get help in Spanish, (Brazilian) Portuguese or English."
-  },
-  {
-    "objectID": "events/index.html",
-    "href": "events/index.html",
-    "title": "Event calendar",
-    "section": "",
-    "text": "Meetings and events for existing/aspiring R contributors."
-  },
-  {
-    "objectID": "events/index.html#current-events",
-    "href": "events/index.html#current-events",
-    "title": "Event calendar",
-    "section": "Current events",
-    "text": "Current events\n\nR Dev Days/Sprints: Collaborative events to work on contributions to R or infrastructure that supports such contribution. Google Calendar / iCal.\n\nR Contributor Office Hours: monthly drop-in sessions to help people get started with contributing to R. Discuss work in progress or work together on open bugs/missing translations. Google Calendar / iCal.\n\nC Study Group (February-July 2025): study group designed for R contributors to develop skills in C programming. Google Calendar / iCal.\nR Contribution Working Group: meetings to organize events and work on other infrastructure supporting contributors. Google Calendar / iCal.\n\nNote: iCalendar (iCal/.ics) format is supported by most calendar software, including Outlook, Thunderbird.\nJoin the R Contributors Meetup group to stay up-to-date with contributor events.\nJoin the R Contribution Working Group mailing list to stay up-to-date with working group activities.\nNote: you can set the calendar below to show your time zone by clicking the time zone link (showing UTC by default) in the footer of the calendar window and selecting your time zone from the dialog."
-  },
-  {
-    "objectID": "events/index.html#past-events",
-    "href": "events/index.html#past-events",
-    "title": "Event calendar",
-    "section": "Past events",
-    "text": "Past events\n\nC Study Group 2024: study group designed for R contributors to develop skills in C programming.\nC Book Club 2023: book club designed for R contributors to develop skills in C programming. \nCollaboration Campfires: sessions for newcomers to learn more about contributing to R and to work collaboratively on activities to build knowledge and skills in this area. \nBug BBQ: a global, online event over 24 hours for both new and experienced contributors to address open bugs on R’s bug tracker. \nR Project Sprint 2023 and translatathons."
-  },
-  {
-    "objectID": "events/c-book-club-2023/index.html",
-    "href": "events/c-book-club-2023/index.html",
-    "title": "C book club for R contributors",
-    "section": "",
-    "text": "This is a book club meeting every two weeks for existing/aspiring R contributors that want to learn/refresh their C programming skills.\nIt will run from May to August 2023, so that people attending R Project Sprint 2023 have at least a basic understanding of C and how it interfaces with R. However, you do not have to be a sprint participant to join the book club!"
-  },
-  {
-    "objectID": "events/c-book-club-2023/index.html#readings",
-    "href": "events/c-book-club-2023/index.html#readings",
-    "title": "C book club for R contributors",
-    "section": "Readings",
-    "text": "Readings\nOur main reading will be Modern C by Jens Gustedt. A PDF is available for free download, or there is a 35% discount code for a print or eBook copy (see the Modern C website). This book is organized in levels:\n\n0 - Encounter: summarizes the very basics of programming with C.\n1 - Acquaintance: details most principal concepts and features such as control structures, data types, operators, and functions.\n2 - Cognition: goes to the heart of the C language, covering pointers, C’s memory model, and most of C’s library interface.\n3 - Experience: goes into detail about specific topics, such as performance, reentrancy, atomicity, threads, and type-generic programming.\n\nThis book club will cover levels 0 to 2 (about 200 pages).\nThe reading will be supplemented with:\n\nSelected exercises from C Programming: A Modern Approach by K. N. King (shared under fair use).\nThe chapter on R’s C interface from Advanced R (1st ed.) by Hadley Wickham (free online)."
-  },
-  {
-    "objectID": "events/c-book-club-2023/index.html#commitment",
-    "href": "events/c-book-club-2023/index.html#commitment",
-    "title": "C book club for R contributors",
-    "section": "Commitment",
-    "text": "Commitment\nThere are three levels of commitment:\n\nLow (1-2 hrs/wk): Read the assigned readings, work through the examples in the main text and participate in the online meetings every two weeks.\nMedium (2-3 hrs/wk, recommended): Same as Low, but also try (some of) the selected exercises.\nHigh (~1 day/wk): Same as Medium, but also try (some of) the challenges in Modern C.\n\nAt the online meetings, one book club member will present a summary of the chapter (~10 minutes), reviewing the main points and highlighting any quotes/examples they found particularly helpful/important. This will be followed by discussion, sharing exercise solutions, etc. Book club members are encouraged to sign up to present at one session to spread the load among the group."
-  },
-  {
-    "objectID": "events/c-book-club-2023/index.html#timing",
-    "href": "events/c-book-club-2023/index.html#timing",
-    "title": "C book club for R contributors",
-    "section": "Timing",
-    "text": "Timing\nThe book club will meet in two cohorts:\n\nCohort 1: 12 noon - 1 pm UTC (find 12 noon UTC in your local time).\nCohort 2: 10 am - 11 am PDT (find 10 am PDT in your local time).\n\nSign-up to attend the sessions on the R Contributors Meetup."
-  },
-  {
-    "objectID": "events/c-book-club-2023/index.html#schedule-and-further-details",
-    "href": "events/c-book-club-2023/index.html#schedule-and-further-details",
-    "title": "C book club for R contributors",
-    "section": "Schedule and further details",
-    "text": "Schedule and further details\nFor the reading schedule and shared materials, see the C book club GitHub repo."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html",
-    "href": "events/bug-bbq/index.html",
-    "title": "Bug BBQ",
-    "section": "",
-    "text": "Help squash bugs in R!\nThe Bug Barbecue (Bug BBQ) is a global, online event spread over 24 hours, in which new and experienced contributors can help to address open bugs in R. It will take place Thursday, June 23 - Friday, June 24.\nIt is a satellite event to useR! 2022, however you do not need to register for useR! to attend the Bug BBQ."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html#schedule",
-    "href": "events/bug-bbq/index.html#schedule",
-    "title": "Bug BBQ",
-    "section": "Schedule",
-    "text": "Schedule\nThere will be three organized sessions during the event and people are welcome to attend one or more session. The three sessions are suited to different regions of the globe, as detailed below.\nSession 1 (APAC), Friday, June 24, 01:00 - 05:00 UTC (your local time, note this starts on Thursday evening, June 23 in AMER region). [Register for Session 1]\nSession 2 (EMEA), Friday, June 24, 09:00 - 13:00 UTC (your local time). [Register for Session 2]\nSession 3 (AMER), Friday, June 24, 16:00 - 20:00 UTC (your local time). [Register for Session 3]\nThere is no cost to attend. Registration can be done any time up to the end of each session and allows you to join the Zoom meeting to chat with facilitators and other participants."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html#session-format",
-    "href": "events/bug-bbq/index.html#session-format",
-    "title": "Bug BBQ",
-    "section": "Session format",
-    "text": "Session format\nEach session is self-guided, to allow people to get started whenever they can join.\nWhen you join:\n\n[Optional, for new contributors] Watch the abridged version of the Contributing to R tutorial from useR! 2021 (~1.5 hours). At least one of the tutors, Gabriel Becker and Martin Mächler, will be available for questions in each of the sessions.\nWatch the Welcome to the Bug BBQ video to get orientated. Corresponding HTML slides - press P to see the transcript.\nUse the remaining time to work independently or in small groups on open bugs.\n\n\nZoom breakout rooms will be available for people that want to work together.\nThe #bug-bbq channel on the R Contributors Slack will be used for people that want to chat.\nThe bug-bbq GitHub repo will be used to track progress.\n\nNote: we will be treating the R Bugzilla as read only during the event. Please do not post there, but rather use the Zoom, Slack or GitHub repo mentioned above."
-  },
-  {
-    "objectID": "events/bug-bbq/index.html#code-of-conduct",
-    "href": "events/bug-bbq/index.html#code-of-conduct",
-    "title": "Bug BBQ",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nAs a satellite event, the Bug BBQ will follow the useR! code of conduct."
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html",
-    "href": "events/collaboration-campfires/index.html",
-    "title": "Collaboration Campfires",
-    "section": "",
-    "text": "Learn how to contribute to R!\nThe Collaboration Campfires are online collaborative events to open pathways for members of groups currently underrepresented in the R project. The goal is to demystify the R development process and highlight ways that R programmers can contribute, with a focus on low-level contributions in terms of time commitment and prerequisite knowledge.\nThe current series is planned in the run-up to the useR! 2022 online conference, where we plan to hold a satellite global contribution event: the Bug Barbecue!"
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#schedule",
-    "href": "events/collaboration-campfires/index.html#schedule",
-    "title": "Collaboration Campfires",
-    "section": "Schedule",
-    "text": "Schedule\nThe Collaboration Campfires will be on the 4th Tuesday of every month from February to May 2022. The 90 minute Zoom sessions will start at 15:30 UTC. Note: many countries switch to daylight savings time either before the March meeting or before the April meeting.\n\nFebruary 22: Explore R’s Bug-tracking Process [local time]\nMarch 22: How to Help Review R Bug Reports [local time]\nApril 26: Explore R’s Process for Localization (Translation) [local time]\nMay 24: How to Contribute to a Translation Team [local time]\n\nIf you are a member of the R-Ladies, MiR, ArabR, AfricaR, AsiaR, or LatinR communities, or otherwise identify as part of an underrepresented group among R contributors, then we especially encourage you to participate! Anyone from the general R community that respects and supports the aims of these events is also welcome to attend.\nRegistration is free. Click the button to register for individual or multiple events and receive a calendar invite.\n[Zoom Registration Form]\nIf you have a friend or colleague who might be interested in attending the Collaboration Campfires, then why not invite them along!"
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#campfire-hosts",
-    "href": "events/collaboration-campfires/index.html#campfire-hosts",
-    "title": "Collaboration Campfires",
-    "section": "Campfire Hosts",
-    "text": "Campfire Hosts\n\n\n&lt;img src=\"saranjeet-kaur.jpg\" alt=\"Saranjeet Kaur Bhogal\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Saranjeet Kaur &lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/qwertyquesting\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://saranjeetkaur.github.io/About-Me/\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\n&lt;img src=\"heather-turner.jpg\" alt=\"Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt.\" style=\"width:100%\"&gt;\n&lt;big&gt;&lt;b&gt;Heather Turner&lt;/b&gt;&lt;/big&gt; &lt;br&gt;\n&lt;a href=\"https://twitter.com/heathrturnr\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/twitterlogo.png\" height=\"20\" style=\"vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n&lt;a href=\"https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner\" target=\"_blank\"&gt;&lt;img src=\"/assets/img/link.png\" height=\"20\" style=\"margin:10px; vertical-align:middle;\" border=\"0\"&gt;&lt;/a&gt;\n\n\nIf you have any questions about the events, please contact heather@r-project.org or find us on the R Contributors Slack."
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#organizers-and-partners",
-    "href": "events/collaboration-campfires/index.html#organizers-and-partners",
-    "title": "Collaboration Campfires",
-    "section": "Organizers and partners",
-    "text": "Organizers and partners\nThe Collaboration Campfires are part of the project Building Community around the R Development Guide, supported by the Digital Infrastructure Incubator at Code for Science & Society (CS&S). The project is led by Saranjeet Kaur Bhogal and Heather Turner, and mentored by Rayya El Zein. Members of partner communities and the R Contribution Working Group have contributed to the organisation, and will provide expert and peer support during the sessions."
-  },
-  {
-    "objectID": "events/collaboration-campfires/index.html#code-of-conduct",
-    "href": "events/collaboration-campfires/index.html#code-of-conduct",
-    "title": "Collaboration Campfires",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nAs CS&S events, their code of conduct(Guidelines for community participation & Code of Conduct: (https://eventfund.codeforscience.org/code-of-conduct/) will apply to these sessions."
-  },
-  {
     "objectID": "events/office-hours/index.html",
     "href": "events/office-hours/index.html",
     "title": "R Contributor Office Hours",
@@ -455,25 +399,25 @@
     "text": "How to join an office hour\nTo join, sign up on the R Contributors Meetup - you can do this any time until the office hour is over!\nOther ways to find out about upcoming Office Hours:\n\nThe Events Calendar, where you can add the Office Hour series to your calendar\nThe R Contributors Zulip - the Zoom link will typically be shared just before the office hour.\n\nThe office hours are also advertised on our social media channels and various community Slack groups."
   },
   {
-    "objectID": "demos/how-to-make-a-contribution-to-base-r/index.html",
-    "href": "demos/how-to-make-a-contribution-to-base-r/index.html",
-    "title": "How to Make a Contribution to Base R",
+    "objectID": "working-group.html",
+    "href": "working-group.html",
+    "title": "R Contribution Working Group",
     "section": "",
-    "text": "The presentation slides are available in HTML format - press S to view with speaker notes (the video text).\nNote: This demo introduces a basic workflow for simple fixes. For more complex work on internal R functions or compiled code (e.g. involving the C code underlying much of base R), it will be necessary to build R to develop and test your patch. Refer to the R Development Guide for more information on building R from source and the lifecycle of a patch."
+    "text": "The R Contribution Working Group is a collaboration between R Core, R community groups (including Forwards, the R Community Diversity and Inclusion Working Group, R-Ladies, MiR) and members of the wider R community. Its aim is to encourage new contributors to R core, with a focus on diversity and inclusion."
   },
   {
-    "objectID": "tutorials/translating-r-to-your-language/index.html",
-    "href": "tutorials/translating-r-to-your-language/index.html",
-    "title": "Translating R to your language",
-    "section": "",
-    "text": "In this video tutorial recorded at useR! 2021, Michael Chirico and Michael Lawrence aim to get package developers and other R community members started implementing foreign-language translations of R’s messages (errors, warnings, verbose output, etc.) into a language of their choosing.\nOur real-time participants were focused on Spanish, Bahasa Indonesia, and Hungarian.\n\n\n The tutorial presentation slides are publicly available in Google Slides format.\nNote: This video describes the gettext infrastructure that R uses to internationalize messages. This background information and the tips for translation (first 1h15 of video) are still relevant, but we now recommend translations are added/updated via the R Project Weblate server."
+    "objectID": "working-group.html#current-work",
+    "href": "working-group.html#current-work",
+    "title": "R Contribution Working Group",
+    "section": "Current Work",
+    "text": "Current Work\nThe group maintains the r-devel/rcwg repository, with issues relating to current initiatives and related documents, such as minutes of meetings."
   },
   {
-    "objectID": "tutorials/contributing-to-r/index.html",
-    "href": "tutorials/contributing-to-r/index.html",
-    "title": "Contributing to R",
-    "section": "",
-    "text": "In this video tutorial recorded at useR! 2021, Gabriel Becker and Martin Maechler explain how members of the R community can contribute to R.\nThe full video (2h15) includes Gabriel discussing his experiences as an external contributor: some of the projects he has worked on and lessons learned. This is recommended for all aspiring contributors as a window into the social dynamics of contribution.\n\n\n If you are short on time, the abridged video (1h30) focuses on the starting point for most contributors: helping address bugs in R.\n\n\n The tutorial presentation slides are available in PDF format (the abridged version skips slides 12-45).\nThe Contributing to R GitHub repository provides links to background reading and exercises based on real bugs in R 3.3.2. A docker image is provided, alternatively on Windows you can install the R 3.3.2 binary."
+    "objectID": "working-group.html#get-involved",
+    "href": "working-group.html#get-involved",
+    "title": "R Contribution Working Group",
+    "section": "Get Involved",
+    "text": "Get Involved\nAnyone from the R community that supports the group’s objectives and would like to contribute is welcome to get involved. This can range from commenting on GitHub issues to actively working on initiatives.\nTo communicate with the group:\n\nAttend an RCWG meeting (details below) or add an item to the collaborative agenda.\nOpen an issue on the r-devel/rcwg repository.\nPost a message on the #getting-started channel of the R Contributors Zulip (preferred) or email the group chair, Heather Turner.\n\nThe RCWG meet (on Zoom) every 1-2 months, usually alternating between the third Friday of the month, 15:00 UTC and the third Tuesday of the month, 19:30 UTC (-1hr during Daylight Savings Time in Europe). Stay up-to-date with meeting announcements in one of the following ways:\n\nGo to the Events page and add the event series to your calendar.\nJoin the R Contribution Working Group mailing list to stay up-to-date with working group activities."
   },
   {
     "objectID": "zulip.html",
@@ -508,7 +452,7 @@
     "href": "zulip.html#zulip-structure-and-conversations",
     "title": "The R Project Zulip Chat",
     "section": "Zulip structure and conversations",
-    "text": "Zulip structure and conversations\n\nChannels\nChannels organise conversations based on who needs to see them. Discussions in a channel should stick to the channel purpose.\nYou choose which channels you subscribe to. We have organised the channels into folders. You can filter available channels by folder to find channels related to each other.\nNote that channels used to be called ‘streams’ in Zulip, so if you look at older documentation, you may see that terminology.\n\nFolders\nChannels are arranged in the following folders:\n\nGENERAL: Channels of general interest to those contributing to the R Project\nR CONTRIBUTION: Channels related to contributing to the code and documentation of base R\nTRANSLATION: Channels related to translation of materials in base R/recommended packages\nCRAN: Channels related to CRAN\nMODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. Please DM the admins if you would like to propose a new topic in one of these channels.1\nZULIP: Channels related to using Zulip\n\n\n\nDefault channels\nThe current set of default channels is:\nGENERAL\n\ngeneral: Chat of general interest across the R project (use sparingly!)\nintroductions: Say hello and a little bit about yourself\nrandom: Informal conversation and other events/projects not directly related to R contribution\n\nMODERATED TOPICS\n\nannounce: Announcements from the admins\nevents: Virtual/in-person meet-ups, study groups, book clubs, etc\npaid-work: Job opportunities in open source development\nvolunteer-work: Unpaid opportunities in open source development\n\nZULIP\n\nsandbox: Experiment with Zulip here\nzulip: Questions and discussion about using Zulip\n\n\n\n\nTopics\nZulip is designed around conversations that are labeled with topics, to make communication organised and efficient. It’s easy to get an overview of what conversations are happening, and to read one conversation at a time.\nTopics are a foundational idea in Zulip, and central to the chat experience. They are conceptually similar to threads in Slack, but much more important in Zulip, with the official docs describing them as “one of the most wonderful aspects of using Zulip”. They enable lots of conversations to happen in the same channel at the same time, and conversations can last hours or days without messages getting lost. Topics appear in the left sidebar.\nTopics form subdivisions within channels, and every message must be part of a topic. Topics are generally transient, and live for as long as there is active discussion on a topic. Thinking of topics like email subjects is helpful.\n\nTips for using topics effectively\n\nTopic names should be short, descriptive and clear, ideally no more than three or four words\nKeep replies in the same topic to help others follow the discussion\nA new conversation should start in a new topic\nKeep topics to their original subject - start a new topic if switching subjects\nIf you post a message in an unrelated topic and realise it would be more helpful elsewhere, you can move it to a more relevant topic or channel. This ability to easily move messages is an excellent feature of Zulip. It helps keeps things organised and allows others to find and follow conversations more easily. Users can move their own messages up to a week after posting. Admins can move them anytime.\nWhen in doubt, post in #general and we can help move it later (though please use sparingly!)"
+    "text": "Zulip structure and conversations\n\nChannels\nChannels organise conversations based on who needs to see them. Discussions in a channel should stick to the channel purpose.\nYou choose which channels you subscribe to. We have organised the channels into folders. You can filter available channels by folder to find channels related to each other.\nNote that channels used to be called ‘streams’ in Zulip, so if you look at older documentation, you may see that terminology.\n\nFolders\nChannels are arranged in the following folders:\n\nGENERAL: Channels of general interest to those contributing to the R Project\nR CONTRIBUTION: Channels related to contributing to the code and documentation of base R\nTRANSLATION: Channels related to translation of materials in base R/recommended packages\nCRAN: Channels related to CRAN\nR FOUNDATION: Channels related to R Foundation work\nMODERATED TOPICS: Channels where only the admins can start a new topic, but anyone can reply to a topic. Please DM the admins if you would like to propose a new topic in one of these channels.1\nZULIP: Channels related to using Zulip\n\n\n\nDefault channels\nThe current set of default channels is:\nGENERAL\n\ngeneral: Chat of general interest across the R project (use sparingly!)\nintroductions: Say hello and a little bit about yourself\nrandom: Informal conversation and other events/projects not directly related to R contribution\n\nMODERATED TOPICS\n\nannounce: Announcements from the admins\nevents: Virtual/in-person meet-ups, study groups, book clubs, etc\npaid-work: Job opportunities in open source development\nvolunteer-work: Unpaid opportunities in open source development\n\nZULIP\n\nsandbox: Experiment with Zulip here\nzulip: Questions and discussion about using Zulip\n\n\n\n\nTopics\nZulip is designed around conversations that are labeled with topics, to make communication organised and efficient. It’s easy to get an overview of what conversations are happening, and to read one conversation at a time.\nTopics are a foundational idea in Zulip, and central to the chat experience. They are conceptually similar to threads in Slack, but much more important in Zulip, with the official docs describing them as “one of the most wonderful aspects of using Zulip”. They enable lots of conversations to happen in the same channel at the same time, and conversations can last hours or days without messages getting lost. Topics appear in the left sidebar.\nTopics form subdivisions within channels, and every message must be part of a topic. Topics are generally transient, and live for as long as there is active discussion on a topic. Thinking of topics like email subjects is helpful.\n\nTips for using topics effectively\n\nTopic names should be short, descriptive and clear, ideally no more than three or four words\nKeep replies in the same topic to help others follow the discussion\nA new conversation should start in a new topic\nKeep topics to their original subject - start a new topic if switching subjects\nIf you post a message in an unrelated topic and realise it would be more helpful elsewhere, you can move it to a more relevant topic or channel. This ability to easily move messages is an excellent feature of Zulip. It helps keeps things organised and allows others to find and follow conversations more easily. Users can move their own messages up to a week after posting. Admins can move them anytime.\nWhen in doubt, post in #general and we can help move it later (though please use sparingly!)"
   },
   {
     "objectID": "zulip.html#useful-features",
@@ -537,5 +481,61 @@
     "title": "The R Project Zulip Chat",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nAll channels on The R Project Zulip are moderated in the broader sense that admins ensure that posts adhere to the Code of Conduct.↩︎"
+  },
+  {
+    "objectID": "tutorials/contributing-to-r/index.html",
+    "href": "tutorials/contributing-to-r/index.html",
+    "title": "Contributing to R",
+    "section": "",
+    "text": "In this video tutorial recorded at useR! 2021, Gabriel Becker and Martin Maechler explain how members of the R community can contribute to R.\nThe full video (2h15) includes Gabriel discussing his experiences as an external contributor: some of the projects he has worked on and lessons learned. This is recommended for all aspiring contributors as a window into the social dynamics of contribution.\n\n\n If you are short on time, the abridged video (1h30) focuses on the starting point for most contributors: helping address bugs in R.\n\n\n The tutorial presentation slides are available in PDF format (the abridged version skips slides 12-45).\nThe Contributing to R GitHub repository provides links to background reading and exercises based on real bugs in R 3.3.2. A docker image is provided, alternatively on Windows you can install the R 3.3.2 binary."
+  },
+  {
+    "objectID": "demos/latinr-hackathon/index.html",
+    "href": "demos/latinr-hackathon/index.html",
+    "title": "R translatón / Hackaton de tradução do R",
+    "section": "",
+    "text": "This is a video recording of the start of the R translatón / Hackaton de tradução do R at LatinR 2022. There is a short presentation giving background on translating R’s messages, warnings and errors, followed by a demonstration of using the R Project Weblate server.\n\n\nThe presentation slides are available in PDF format."
+  },
+  {
+    "objectID": "notes/axe-navbar-landmark-bug.html",
+    "href": "notes/axe-navbar-landmark-bug.html",
+    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "section": "",
+    "text": "On a Quarto website, axe-core reports:\n\nModerate · Best Practice: Ensure landmarks are unique Landmarks should have a unique role or role/label/title (i.e. accessible name) combination .navbar\n\nThis happens when both the navbar and the page TOC are enabled.\n\n\n\n_quarto.yml:\nproject:\n  type: website\n\nwebsite:\n  title: \"Test site\"\n  navbar:\n    aria-label: \"Primary site navigation\"\n    search: true\n\nformat:\n  html:\n    toc: true\n    axe:\n      output: document\nIndex page (index.qmd):\n---\ntitle: \"Home\"\n---\n\n## Section 1\n\nText.\n\n## Section 2\n\nText.\n\n\n\nHeader/navbar:\n&lt;header id=\"quarto-header\" class=\"headroom fixed-top\"&gt;\n  &lt;nav class=\"navbar navbar-expand-lg\" data-bs-theme=\"dark\" aria-label=\"Primary site navigation\"&gt;\n    ...\n  &lt;/nav&gt;\n&lt;/header&gt;\nMargin TOC:\n&lt;div id=\"quarto-margin-sidebar\" class=\"sidebar margin-sidebar\"&gt;\n  &lt;nav id=\"TOC\" role=\"doc-toc\" class=\"toc-active\"&gt;\n    &lt;h2 id=\"toc-title\"&gt;On this page&lt;/h2&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"#section-1\" class=\"nav-link\" data-scroll-target=\"#section-1\"&gt;Section 1&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#section-2\" class=\"nav-link\" data-scroll-target=\"#section-2\"&gt;Section 2&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/div&gt;\n\n\n\n\nWith format.html.toc: true, axe-core reports the non-unique landmark warning on .navbar.\nSetting format.html.toc: false removes the warning.\nAdding navbar.aria-label: \"Primary site navigation\" does not remove the warning.\n\n\n\n\nIt appears that the combination of:\n\n&lt;nav class=\"navbar ...\"&gt; (main navigation landmark), and\n&lt;nav id=\"TOC\" role=\"doc-toc\" ...&gt; (TOC landmark)\n\nis causing axe-core’s “Ensure landmarks are unique” rule to fire.\nQuestion for Quarto:\n\nIs this landmark structure (navbar + role=\"doc-toc\" TOC) intended to satisfy axe-core’s uniqueness rule, or is there an adjustment needed (e.g. roles/labels) so that axe-core no longer flags .navbar when toc: true is used on websites?"
+  },
+  {
+    "objectID": "notes/axe-navbar-landmark-bug.html#summary",
+    "href": "notes/axe-navbar-landmark-bug.html#summary",
+    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "section": "",
+    "text": "On a Quarto website, axe-core reports:\n\nModerate · Best Practice: Ensure landmarks are unique Landmarks should have a unique role or role/label/title (i.e. accessible name) combination .navbar\n\nThis happens when both the navbar and the page TOC are enabled."
+  },
+  {
+    "objectID": "notes/axe-navbar-landmark-bug.html#minimal-reproducible-setup",
+    "href": "notes/axe-navbar-landmark-bug.html#minimal-reproducible-setup",
+    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "section": "",
+    "text": "_quarto.yml:\nproject:\n  type: website\n\nwebsite:\n  title: \"Test site\"\n  navbar:\n    aria-label: \"Primary site navigation\"\n    search: true\n\nformat:\n  html:\n    toc: true\n    axe:\n      output: document\nIndex page (index.qmd):\n---\ntitle: \"Home\"\n---\n\n## Section 1\n\nText.\n\n## Section 2\n\nText."
+  },
+  {
+    "objectID": "notes/axe-navbar-landmark-bug.html#rendered-landmarks-relevant-parts",
+    "href": "notes/axe-navbar-landmark-bug.html#rendered-landmarks-relevant-parts",
+    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "section": "",
+    "text": "Header/navbar:\n&lt;header id=\"quarto-header\" class=\"headroom fixed-top\"&gt;\n  &lt;nav class=\"navbar navbar-expand-lg\" data-bs-theme=\"dark\" aria-label=\"Primary site navigation\"&gt;\n    ...\n  &lt;/nav&gt;\n&lt;/header&gt;\nMargin TOC:\n&lt;div id=\"quarto-margin-sidebar\" class=\"sidebar margin-sidebar\"&gt;\n  &lt;nav id=\"TOC\" role=\"doc-toc\" class=\"toc-active\"&gt;\n    &lt;h2 id=\"toc-title\"&gt;On this page&lt;/h2&gt;\n    &lt;ul&gt;\n      &lt;li&gt;&lt;a href=\"#section-1\" class=\"nav-link\" data-scroll-target=\"#section-1\"&gt;Section 1&lt;/a&gt;&lt;/li&gt;\n      &lt;li&gt;&lt;a href=\"#section-2\" class=\"nav-link\" data-scroll-target=\"#section-2\"&gt;Section 2&lt;/a&gt;&lt;/li&gt;\n    &lt;/ul&gt;\n  &lt;/nav&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "notes/axe-navbar-landmark-bug.html#behaviour",
+    "href": "notes/axe-navbar-landmark-bug.html#behaviour",
+    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "section": "",
+    "text": "With format.html.toc: true, axe-core reports the non-unique landmark warning on .navbar.\nSetting format.html.toc: false removes the warning.\nAdding navbar.aria-label: \"Primary site navigation\" does not remove the warning."
+  },
+  {
+    "objectID": "notes/axe-navbar-landmark-bug.html#interpretation-question",
+    "href": "notes/axe-navbar-landmark-bug.html#interpretation-question",
+    "title": "Axe-core navbar landmark warning with Quarto TOC",
+    "section": "",
+    "text": "It appears that the combination of:\n\n&lt;nav class=\"navbar ...\"&gt; (main navigation landmark), and\n&lt;nav id=\"TOC\" role=\"doc-toc\" ...&gt; (TOC landmark)\n\nis causing axe-core’s “Ensure landmarks are unique” rule to fire.\nQuestion for Quarto:\n\nIs this landmark structure (navbar + role=\"doc-toc\" TOC) intended to satisfy axe-core’s uniqueness rule, or is there an adjustment needed (e.g. roles/labels) so that axe-core no longer flags .navbar when toc: true is used on websites?"
   }
 ]
