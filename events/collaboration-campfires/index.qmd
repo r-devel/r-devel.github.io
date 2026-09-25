@@ -34,20 +34,50 @@ If you have a friend or colleague who might be interested in attending the Colla
 
 ## Campfire Hosts
 
-<div class="row">
-  <div class="column-3">
-    <img src="saranjeet-kaur.jpg" alt="Saranjeet Kaur Bhogal" style="width:100%">
-    <big><b>Saranjeet Kaur </b></big> <br>
-    <a href="https://twitter.com/qwertyquesting" target="_blank"><img src="/assets/img/twitterlogo.png" height="20" style="vertical-align:middle;" border="0"></a>
-    <a href="https://saranjeetkaur.github.io/About-Me/" target="_blank"><img src="/assets/img/link.png" height="20" style="margin:10px; vertical-align:middle;" border="0"></a>
+```{=html}
+<div class="grid mb-4">
+  <div class="g-col-12 g-col-sm-6">
+    <div class="card">
+      <img src="saranjeet-kaur.jpg" class="card-img-top img-fluid border-bottom" alt="Saranjeet Kaur Bhogal">
+      <div class="card-body">
+        <h3 class="card-title h5">Saranjeet Kaur</h3>
+        <ul class="list-unstyled d-flex flex-wrap gap-4 mb-0">
+          <li>
+            <a href="https://twitter.com/qwertyquesting" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter-x" aria-hidden="true"></i> Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://saranjeetkaur.github.io/About-Me/" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-globe" aria-hidden="true"></i> Website
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="column-3">
-    <img src="heather-turner.jpg" alt="Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt." style="width:100%">
-    <big><b>Heather Turner</b></big> <br>
-    <a href="https://twitter.com/heathrturnr" target="_blank"><img src="/assets/img/twitterlogo.png" height="20" style="vertical-align:middle;" border="0"></a>
-    <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner" target="_blank"><img src="/assets/img/link.png" height="20" style="margin:10px; vertical-align:middle;" border="0"></a>
+  <div class="g-col-12 g-col-sm-6">
+    <div class="card">
+      <img src="heather-turner.jpg" class="card-img-top img-fluid border-bottom" alt="Heather Turner outside in the sun, smiling. She is a white woman in her 40s with dark straight hair tied back and wears glasses. She is dressed in a business casual shirt.">
+      <div class="card-body">
+        <h3 class="card-title h5">Heather Turner</h3>
+        <ul class="list-unstyled d-flex flex-wrap gap-4 mb-0">
+          <li>
+            <a href="https://twitter.com/heathrturnr" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-twitter-x" aria-hidden="true"></i> Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://warwick.ac.uk/fac/sci/statistics/staff/academic-research/turner" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-globe" aria-hidden="true"></i> Website
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
+```
 
 If you have any questions about the events, please contact [heather@r-project.org](mailto:heather@r-project.org) or find us on the R Contributors Slack.
 
