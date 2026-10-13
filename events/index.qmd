@@ -18,8 +18,6 @@ Join the [R Contributors Meetup group](https://www.meetup.com/r-contributors) to
 
 Join the [R Contribution Working Group mailing list](https://stat.ethz.ch/mailman/listinfo/r-contribution-wg) to stay up-to-date with working group activities.
 
-Note: you can set the calendar below to show your time zone by clicking the time zone link (showing UTC by default) in the footer of the calendar window and selecting your time zone from the dialog.
-
 <iframe src="https://teamup.com/kskqth1ysymh61tiyv?view=a&showProfileAndInfo=0&showSidepanel=1&showAgendaDateRange=year&showAgendaHeader=1&showAgendaDetails=0&showYearViewHeader=1" title="R Contributor events calendar" style="width: 100%; height: 500px; border: 1px solid #cccccc" loading="lazy" frameborder="0"></iframe>
 
 <br>

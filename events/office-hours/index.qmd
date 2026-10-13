@@ -33,11 +33,11 @@ You can attend either or both office hour, wherever you are based - the country 
 
 ## How to join an office hour
 
-To join, sign up on the [R Contributors Meetup](https://www.meetup.com/r-contributors) - you can do this any time until the office hour is over!
+To join, sign up by clicking on the relevant event in the [Teamup](https://teamup.com/kskqth1ysymh61tiyv?view=L&calendars=16103428) calendar - there is no deadline!
 
 Other ways to find out about upcoming Office Hours:
 
  - The [Events Calendar](/events), where you can add the Office Hour series to your calendar
- - The [R Contributors Zulip](/zulip) - the Zoom link will typically be shared just before the office hour.
+ - The [R Project Zulip #events channel](/zulip), Office Hours are announced about a week in advance.
  
-The office hours are also advertised on our social media channels and various community Slack groups.
+The office hours are also advertised on our social media channels.
