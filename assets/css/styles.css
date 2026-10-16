@@ -3,3 +3,9 @@ description is intended for meta tags / listings, not inline display */
 #title-block-header .description {
   display: none;
 }
+
+/* In dark mode the card background matches the page background and the default
+card border is near-black, so cards lose their outline. This lightens the border. */
+body.quarto-dark .card {
+  --bs-card-border-color: rgba(255, 255, 255, 0.25);
+}
