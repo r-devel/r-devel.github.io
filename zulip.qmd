@@ -118,6 +118,12 @@ ZULIP
 - sandbox: Experiment with Zulip here
 - zulip: Questions and discussion about using Zulip
 
+#### New channels
+
+Every can create private channels - this is to enable people to collaborate together on R-related projects.
+
+Have an idea for a new public channel (open to all members)? Tell the moderators in #**channel-requests** and we will consider if and where the channel fits.
+
 ### Topics
 
 Zulip is designed around conversations that are labeled with [**topics**](https://zulip.com/help/introduction-to-topics), to make communication organised and efficient. It’s easy to get an overview of what conversations are happening, and to read one conversation at a time.
